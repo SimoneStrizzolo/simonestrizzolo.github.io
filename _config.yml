@@ -1,3 +1,28 @@
 title: "Simone Strizzolo"
-description: "Data Platform Architect"
-theme: jekyll-theme-cayman
+email: ""
+description: "Data Platform Architect, Power BI & Fabric Specialist"
+baseurl: ""
+url: "https://simonestrizzolo.github.io"
+
+markdown: kramdown
+theme: null
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Talks"
+    url: /talks/
+  - title: "Blog"
+    url: /blog/

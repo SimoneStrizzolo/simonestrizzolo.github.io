@@ -1,0 +1,10 @@
+<header class="site-header">
+  <nav>
+    <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+    <ul>
+      {% for item in site.nav %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
