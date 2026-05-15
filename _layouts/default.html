@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  </head>
-
-  <body class="site-body">
-    {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+      {% include footer.html %}
+    </div>
   </body>
 </html>

@@ -1,19 +1,22 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
-  {{ content }}
+{% for post in paginator.posts %}
+  {% include featured-post.html %}
+{% endfor %}
 
-  <section class="posts">
-    <h2>Ultimi articoli</h2>
-    <ul>
-      {% for post in site.posts limit:5 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
 </div>
