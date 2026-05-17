@@ -1,269 +1,414 @@
-# Millennial
+# simonestrizzolo.github.io
 
-Millennial is a minimalist Jekyll theme for running a simple, clean, content-focused publishing platform for your publication site or blog through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Millennial/). For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
+Sito personale costruito con [Jekyll](https://jekyllrb.com/) e il tema [Millennial](https://github.com/LeNPaul/Millennial), pubblicato tramite [GitHub Pages](https://pages.github.com/).
 
-If you like my work then please consider supporting me with [Ko-fi](https://ko-fi.com/paulle).
+---
 
-![alt text](https://user-images.githubusercontent.com/8409329/32801138-33a72030-c94a-11e7-8a62-6184e6df5a8f.png "Millennial Demo Image")
+## Indice
 
-## Notable features
+1. [Come funziona](#come-funziona)
+2. [Struttura del progetto](#struttura-del-progetto)
+3. [Configurazione iniziale](#configurazione-iniziale)
+   - [_config.yml](#_configyml)
+   - [_data/settings.yml](#_datasettingsyml)
+4. [Scrivere contenuti](#scrivere-contenuti)
+   - [Post del blog](#post-del-blog)
+   - [Pagine statiche](#pagine-statiche)
+   - [Immagini](#immagini)
+5. [Front matter: la guida completa](#front-matter-la-guida-completa)
+6. [Layout disponibili](#layout-disponibili)
+7. [Funzionalità opzionali](#funzionalità-opzionali)
+   - [Commenti con Disqus](#commenti-con-disqus)
+   - [Google Analytics](#google-analytics)
+   - [Social media](#social-media)
+   - [Formule matematiche (MathJax)](#formule-matematiche-mathjax)
+   - [Syntax highlighting](#syntax-highlighting)
+8. [Anteprima locale](#anteprima-locale)
+9. [Flusso di lavoro](#flusso-di-lavoro)
+10. [Markdown: riferimento rapido](#markdown-riferimento-rapido)
 
-* Compatible with GitHub Pages.
+---
 
-* Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
+## Come funziona
 
-* [Google Analytics](https://www.google.com/analytics/) support.
+Jekyll è un generatore di siti statici: prende i tuoi file Markdown, li combina con i template HTML del tema, e produce un sito HTML puro. GitHub Pages esegue questa build automaticamente ogni volta che fai push su `main`.
 
-* Commenting support powered by [Disqus](https://disqus.com/).
+Nessun database, nessun server da gestire. Scrivi, fai push, il sito si aggiorna.
 
-* Optimized for search engines.
+---
 
-* LaTeX support through [MathJax](https://www.mathjax.org/).
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-   1. [What is Jekyll](#what-is-jekyll)
-   2. [Never Used Jeykll Before?](#never-used-jekyll-before)
-2. [Installation](#installation)
-   1. [GitHub Pages Installation](#github-pages-installation)
-   2. [Local Installation](#local-installation)
-   3. [Directory Structure](#directory-structure)
-   4. [Starting From Scratch](#starting-from-scratch)
-3. [Configuration](#configuration)
-   1. [Sample Posts](#sample-posts)
-   2. [Site Variables](#site-variables)
-   3. [Adding Menu Pages](#adding-menu-pages)
-   4. [Posts](#posts)
-   5. [Layouts](#layouts)
-   6. [YAML Front Block Matter](#yaml-front-block-matter)
-4. [Features](#features)
-   1. [Design Considerations](#design-considerations)
-   2. [Disqus](#disqus)
-   3. [Google Analytics](#google-analytics)
-   4. [RSS Feeds](#rss-feeds)
-   5. [Social Media Icons](#social-media-icons)
-   6. [MathJax](#mathjax)
-   7. [Syntax Highlighting](#syntax-highlighting)
-   8. [Markdown](#markdown)
-5. [Everything Else](#everything-else)
-6. [Contributing](#Contributing)
-7. [Questions?](#questions)
-8. [Credits](#credits)
-9. [License](#license)
-
-## Introduction
-
-Millennial is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
-
-### What is Jekyll?
-
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
-
-### Never Used Jekyll Before?
-
-The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
-
-## Installation
-
-### GitHub Pages Installation
-
-To start using Jekyll right away with GitHub Pages, [fork the Millennial repository on GitHub](https://github.com/LeNPaul/Millennial/fork). From there, you can rename your repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `settings.yml` file in the `_data` folder to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at 'http://USERNAME.github.io'. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
-
-Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
-
-### Local Installation
-
-For a full local installation of Millennial, [download your own copy of Millennial](https://github.com/LeNPaul/Millennial/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
-
-### Directory Structure
-
-If you are familiar with Jekyll, then the Millennial directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
-
-```bash
-Millennial/
-├── _data                      # Data files
-|  └── settings.yml            # Theme settings and custom text
-├── _includes                  # Theme includes
-├── _layouts                   # Theme layouts (see below for details)
-├── _posts                     # Where all your posts will go
-├── assets                     # Style sheets and images are found here
-|  ├── css                     # Style sheets go here
-|  |  └── _sass                # Folder containing SCSS files
-|  |  └── main.scss            # Main SCSS file
-|  |  └── syntax.css           # Style sheet for code syntax highlighting
-|  └── img                     # Images go here
-├── pages                      # Category pages
-├── _config.yml                # Site build settings
-├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
-├── index.md                   # Home page
-├── LICENSE.md                 # License for this theme
-├── README.md                  # Includes all of the documentation for this theme
-└── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
-```
-
-### Starting From Scratch
-
-To completely start from scratch, simply delete all the files in the `_posts`, `assets/img`, and `pages` folder, and add your own content. You may also replace the `README.md` file with your own README. Everything in the `_data` folder and `_config.yml` file can be edited to suit your needs. You may also change the `favicon.ico` file to your own favicon.
-
-## Configuration
-
-### Sample Posts
-
-Visit the [the demo site](https://lenpaul.github.io/Millennial/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
-
-### Site Variables
-
-To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/). This is also where you will be able to customize the title, description, and the author/owner of your site.
-
-If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
-
-In the `settings.yml` file found in the `_data` folder, you will be able to customize your site settings, such as setting Disqus comments, Google Analytics, what shows up in your menu, and social media information.
-
-### Adding Menu Pages
-
-The menu pages are found in the `menu` folder in the root directory, and can be added to your menu in the `settings.yml` file.
-
-### Posts
-
-You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Millennial.
-
-### Layouts
-
-There are two main layout options that are included with Millennial: post and page. Layouts are specified through the [YAML front block matter](https://jekyllrb.com/docs/frontmatter/). Any file that contains a YAML front block matter will be processed by Jekyll. For example:
+## Struttura del progetto
 
 ```
+simonestrizzolo.github.io/
+│
+├── _config.yml              # Impostazioni principali del sito (titolo, autore, plugin)
+├── _data/
+│   └── settings.yml         # Menu, social, commenti, analytics, testi personalizzabili
+│
+├── _posts/                  # I tuoi articoli del blog (qui scrivi i post)
+│   └── YYYY-MM-DD-titolo.md
+│
+├── pages/                   # Pagine statiche (Chi sono, Contatti, ecc.)
+│   ├── about.md
+│   ├── contact.md
+│   └── ...
+│
+├── _layouts/                # Template HTML per post e pagine (non modificare)
+├── _includes/               # Componenti riutilizzabili: header, footer, ecc. (non modificare)
+├── _sass/                   # Fogli di stile SCSS (modifica solo se sai quello che fai)
+│
+├── assets/
+│   ├── css/                 # CSS compilato
+│   └── img/                 # Immagini usate nei post e nelle pagine
+│
+├── index.html               # Homepage
+├── rss-feed.xml             # Feed RSS
+├── Gemfile                  # Dipendenze Ruby per Jekyll
+└── 404.md                   # Pagina di errore personalizzata
+```
+
+**Dove intervieni quasi sempre:**
+- `_posts/` — per i nuovi articoli
+- `pages/` — per le pagine statiche
+- `assets/img/` — per le immagini
+- `_config.yml` e `_data/settings.yml` — per la configurazione del sito
+
+---
+
+## Configurazione iniziale
+
+### `_config.yml`
+
+File di configurazione principale di Jekyll. Modificalo una volta all'inizio per personalizzare il sito.
+
+```yaml
+title:       "Il mio sito"
+description: "Articoli su tecnologia, design e altro"
+author:      "Simone Strizzolo"
+
+paginate: 5          # Quanti post mostrare per pagina in homepage
+permalink: /:title   # Formato degli URL (es. /il-mio-articolo)
+```
+
+> Ogni modifica a `_config.yml` forza una rebuild completa del sito su GitHub Pages.
+
+### `_data/settings.yml`
+
+Controlla l'aspetto e il comportamento del sito senza toccare l'HTML. È il "pannello di controllo" del tema.
+
+```yaml
+# Commenti Disqus (false = disabilitati)
+disqus:
+  comments: false
+  disqus_shortname: 'il-tuo-shortname'
+
+# Google Analytics
+google-ID: 'G-XXXXXXXXXX'
+
+# Voci del menu di navigazione
+menu:
+- {name: 'About',    url: 'about'}
+- {name: 'Contatti', url: 'contact'}
+- {name: 'Blog',     url: 'sample-posts'}
+
+# Social media (icone Font Awesome)
+social:
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/simonestrizzolo'}
+- {icon: 'envelope', link: 'mailto:simone.strizzolo@gmail.com'}
+- {icon: 'github',   link: 'https://github.com/simonestrizzolo'}
+
+# Testi personalizzabili
+post_date_prefix: 'Scritto il'
+related_posts:    'Potrebbe interessarti anche...'
+```
+
+---
+
+## Scrivere contenuti
+
+### Post del blog
+
+I post vanno nella cartella `_posts/`. Il nome del file deve seguire obbligatoriamente questa convenzione:
+
+```
+YYYY-MM-DD-titolo-del-post.md
+```
+
+Esempi:
+```
+_posts/2026-05-17-il-mio-primo-articolo.md
+_posts/2026-06-01-riflessioni-sul-design.md
+_posts/2026-06-15-guida-a-jekyll.md
+```
+
+> Post con data futura non vengono pubblicati finché quella data non arriva — utile per programmare le uscite.
+
+**Struttura minima di un post:**
+
+```markdown
 ---
 layout: post
-title: "Example Post"
+title: "Il titolo del mio articolo"
+author: "Simone Strizzolo"
+categories: tech
+tags: [jekyll, blog, tutorial]
+image: nome-immagine.jpg
+---
+
+Introduzione: un paragrafo che cattura l'attenzione del lettore.
+
+## Prima sezione
+
+Contenuto della sezione...
+
+## Seconda sezione
+
+Altro contenuto...
+```
+
+### Pagine statiche
+
+Le pagine statiche vanno nella cartella `pages/`. A differenza dei post non hanno una data e non compaiono nel feed del blog, ma possono apparire nel menu di navigazione.
+
+**Struttura di una pagina:**
+
+```markdown
+---
+layout: page
+title: "Chi sono"
+permalink: /about
+---
+
+Ciao! Sono Simone, sviluppatore e appassionato di tecnologia...
+```
+
+Per aggiungere la pagina al menu, modifica `_data/settings.yml`:
+
+```yaml
+menu:
+- {name: 'Chi sono', url: 'about'}
+```
+
+Il valore `url` corrisponde al `permalink` senza lo slash iniziale.
+
+### Immagini
+
+Salva le immagini in `assets/img/` e referenziale nel front matter del post con solo il nome del file:
+
+```yaml
+image: mia-foto.jpg
+```
+
+L'immagine verrà usata come header del post e come anteprima nei link condivisi sui social.
+
+**Consigli:**
+- Usa immagini orizzontali (landscape), idealmente con proporzioni 16:9
+- Comprimi le immagini prima di caricarle (strumenti: [Squoosh](https://squoosh.app/), [TinyPNG](https://tinypng.com/))
+- Nomi file senza spazi o caratteri speciali (usa `-` al posto degli spazi)
+
+---
+
+## Front matter: la guida completa
+
+Il front matter è il blocco YAML tra i `---` all'inizio di ogni file. Jekyll lo usa per determinare come renderizzare il contenuto.
+
+```yaml
+---
+layout: post          # Obbligatorio: post | page | home | category
+title: "Titolo"       # Obbligatorio: titolo del post o della pagina
+author: "Nome"        # Nome dell'autore (compare sotto il titolo)
+categories: tech      # Categoria: usata per organizzare e filtrare i post
+tags: [tag1, tag2]    # Tag: usati per i "post correlati" a fondo pagina
+image: foto.jpg       # Immagine header (file in assets/img/)
+permalink: /url       # URL personalizzato (opzionale, di default è il titolo)
 ---
 ```
 
-Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
+| Campo | Obbligatorio | Descrizione |
+|-------|:---:|---|
+| `layout` | Sì | Template da usare |
+| `title` | Sì | Titolo visualizzato |
+| `author` | No | Nome autore |
+| `categories` | No | Categoria del post |
+| `tags` | No | Parole chiave per i post correlati |
+| `image` | No | Immagine di copertina |
+| `permalink` | No | URL personalizzato |
 
-Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [documentation page](https://lenpaul.github.io/Millennial/pages/documentation.html).
-
-In addition to the two main layout options above, there are also custom layouts that have been created for the [home page](https://lenpaul.github.io/Millennial/) and the [contacts page](https://lenpaul.github.io/Millennial/pages/contact.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` file in the root directory for what the code looks like.
-
-### YAML Front Block Matter
-
-The recommended YAML front block is:
-
-```
 ---
-layout:
-title:
-author:
-categories:
-tags: []
-image:
+
+## Layout disponibili
+
+| Layout | Usato per | Caratteristiche |
+|--------|-----------|-----------------|
+| `post` | Articoli del blog | Header immagine, data, autore, condivisione social, post correlati, commenti |
+| `page` | Pagine statiche | Layout pulito senza metadati del blog |
+| `home` | Homepage | Mostra i post in anteprima con paginazione |
+| `category` | Pagine categoria | Lista dei post filtrati per categoria |
+
 ---
+
+## Funzionalità opzionali
+
+### Commenti con Disqus
+
+1. Crea un account su [disqus.com](https://disqus.com/) e registra il tuo sito
+2. Ottieni il tuo `shortname`
+3. Modifica `_data/settings.yml`:
+
+```yaml
+disqus:
+  comments: true
+  disqus_shortname: 'il-tuo-shortname'
 ```
-
-`layout` specifies which layout to use, `title` is the page or post title, `categories` can be used to better organize your posts, `tags` are used when generating related posts based on the topic of the post, and `image` specifies which images to use. Have a look at some posts in the `_posts` directory to see how these variables are set.
-
-## Features
-
-### Design Considerations
-
-Millennial was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).
-
-### Disqus
-
-Millennial supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_data/settings.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
 
 ### Google Analytics
 
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `settings.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/). Note: If you are not using Google Analytics, please change `google-ID` to an empty string.
+1. Crea una proprietà su [Google Analytics](https://analytics.google.com/)
+2. Ottieni il tuo ID (formato `G-XXXXXXXXXX`)
+3. Modifica `_data/settings.yml`:
 
-### RSS Feeds
+```yaml
+google-ID: 'G-XXXXXXXXXX'
+```
 
-Atom is supported by default through [jekyll-feed](https://github.com/jekyll/jekyll-feed). With jekyll-feed, you can set configuration variables such as 'title', 'description', and 'author', in the `_config.yml` file.
+### Social media
 
-RSS 2.0 is also supported through [RSS auto-discovery](http://www.rssboard.org/rss-autodiscovery). The `rss-feed.xml` file (based on the template found at [jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds)) that the feed path points to when using RSS 2.0 is automatically generated based on the appropriate configuration variables found in `_data/settings.yml`.
+Le icone social sono gestite tramite [Font Awesome](https://fontawesome.com/). Qualsiasi icona disponibile in Font Awesome 4 può essere usata.
 
-To use RSS 2.0, ensure the following is done:
+```yaml
+social:
+- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/...'}
+- {icon: 'github',    link: 'https://github.com/...'}
+- {icon: 'twitter',   link: 'https://twitter.com/...'}
+- {icon: 'envelope',  link: 'mailto:tua@email.com'}
+- {icon: 'rss-square', link: 'feed.xml'}
+```
 
-* Uncomment the last two lines in the `_config.yml` file.
+### Formule matematiche (MathJax)
 
-* In `_data/settings.yml`, under 'social', comment out the rss-square that points to `feed.xml`, and uncomment the rss-square that points to `rss-feed.xml`.
+Il tema supporta LaTeX tramite MathJax. Scrivi le formule direttamente nei post:
 
-* In `_includes/head.html`, comment out `{% feed_meta %}` and uncomment the line under the RSS 2.0 comment.
+```markdown
+Inline: $E = mc^2$
 
-### Social Media Icons
+Blocco:
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+```
 
-All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `settings.yml` file in the `_data` folder.
+### Syntax highlighting
 
-### MathJax
+I blocchi di codice vengono colorati automaticamente. Specifica il linguaggio dopo i tre backtick:
 
-Millennial comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1).
+````markdown
+```python
+def saluta(nome):
+    return f"Ciao, {nome}!"
+```
 
-### Syntax Highlighting
+```javascript
+const saluta = nome => `Ciao, ${nome}!`;
+```
 
-Millennial provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
+```bash
+jekyll serve --livereload
+```
+````
 
-### Markdown
+Linguaggi supportati: Python, JavaScript, Ruby, Go, Rust, SQL, HTML, CSS, Bash, e [molti altri](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers).
 
-As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory as well as the `README.md` file.
+---
 
-## Everything Else
+## Anteprima locale
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Per vedere il sito in locale prima di pubblicare:
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+**Prerequisiti:** Ruby e Bundler installati sul sistema.
 
-## Contributing
+```bash
+# Prima volta: installa le dipendenze
+bundle install
 
-If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/LeNPaul/Millennial/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+# Avvia il server locale
+bundle exec jekyll serve
 
-Millennial has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
+# Con ricaricamento automatico
+bundle exec jekyll serve --livereload
+```
 
-## Questions?
+Il sito sarà disponibile su `http://localhost:4000`.
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+> Su Windows, se incontri problemi con Jekyll, considera di usare [WSL](https://docs.microsoft.com/it-it/windows/wsl/) (Windows Subsystem for Linux).
 
-## Credits
+---
 
-### Creator
+## Flusso di lavoro
 
-#### Paul Le
+**Pubblicare un nuovo post:**
 
-* [www.lenpaul.com](http://lenpaul.com)
+```bash
+# 1. Crea il file del post
+# File: _posts/2026-05-17-il-mio-articolo.md
 
-* [Twitter](https://twitter.com/paululele)
+# 2. Aggiungi eventuali immagini in assets/img/
 
-* [GitHub](https://github.com/LeNPaul)
+# 3. Fai push su GitHub
+git add .
+git commit -m "Nuovo post: il mio articolo"
+git push
 
-### Contributors
+# 4. Aspetta ~1 minuto e il sito si aggiorna automaticamente
+```
 
-* [b-morawiec](https://github.com/b-morawiec)
+**Modificare la configurazione:**
 
-* [JainVikas](https://github.com/JainVikas)
+```bash
+# Modifica _config.yml o _data/settings.yml
+git add _config.yml _data/settings.yml
+git commit -m "Aggiornata configurazione sito"
+git push
+```
 
-* [mschaeffner](https://github.com/mschaeffner)
+**Verificare lo stato della build:**  
+Vai su `github.com/simonestrizzolo/simonestrizzolo.github.io` → tab **Actions** per vedere se la build è andata a buon fine.
 
-* [cfe316](https://github.com/cfe316)
+---
 
-* [JeremyGonzales](https://github.com/JeremyGonzales)
+## Markdown: riferimento rapido
 
-### Icons + Demo Images
+```markdown
+# Titolo H1
+## Titolo H2
+### Titolo H3
 
-* [Death to Stock](https://deathtothestockphoto.com/)
+**grassetto**   *corsivo*   ~~barrato~~
 
-* [Font Awesome](http://fontawesome.io/)
+- Lista non ordinata
+- Secondo elemento
+  - Elemento annidato
 
-### Other
+1. Lista ordinata
+2. Secondo elemento
 
-* [Jekyll](https://jekyllrb.com/)
+[testo del link](https://esempio.com)
 
-* [Free Code Camp](https://www.freecodecamp.org)
+![alt text](assets/img/immagine.jpg)
 
-* [Khan Academy](https://www.khanacademy.org/)
+> Citazione o blockquote
 
-## License
+---   (linea orizzontale)
 
-Open sourced under the [MIT license](https://github.com/LeNPaul/Millennial/blob/gh-pages/LICENSE.md).
+`codice inline`
+
+| Colonna 1 | Colonna 2 |
+|-----------|-----------|
+| Cella 1   | Cella 2   |
+```
+
+---
+
+## Licenza
+
+Il tema Millennial è distribuito sotto licenza [MIT](LICENSE.md). I contenuti del sito appartengono a Simone Strizzolo.
