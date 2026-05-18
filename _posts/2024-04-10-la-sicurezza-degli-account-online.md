@@ -2,8 +2,8 @@
 layout: post
 title: "La sicurezza degli account online"
 author: "Simone Strizzolo"
-categories: documentation
-tags: [documentation,sample]
+categories: articles
+tags: [security]
 image: sicurezza-passkey.jpg
 ---
 
