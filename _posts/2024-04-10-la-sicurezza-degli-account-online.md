@@ -141,8 +141,8 @@ Ora che ho un sistema sicuro e sempre funzionante per accedere ai miei quattro s
 
 # Sitografia
 
-- [Passkeys vs. 2FA: Why Passkeys are More Secure than Regular 2FA (](https://www.corbado.com/blog/passkeys-vs-2fa-security)[corbado.com](http://corbado.com/)[)](https://www.corbado.com/blog/passkeys-vs-2fa-security)
-
-- [The Bitwarden Blog | Bitwarden](https://bitwarden.com/blog/)
+- [Are passkeys considered a form of two-factor authentication?](https://www.corbado.com/blog/psd2-passkeys/are-passkeys-two-factor-authentication)
 
 - [All Things Secured - YouTube](https://www.youtube.com/@AllThingsSecured)
+
+
