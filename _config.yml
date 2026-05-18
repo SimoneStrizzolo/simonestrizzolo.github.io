@@ -10,7 +10,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Pubblicazioni Strizzolo"
+title:		           "Strizzolo"
 description:	       "Un sito minimale per i miei post e blog di lavoro e non"
 author:              "Simone Strizzolo"
 
