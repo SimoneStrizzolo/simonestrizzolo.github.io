@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Articles
-category: articles
+title: Tech
+category: tech
 permalink: /articles
 ---

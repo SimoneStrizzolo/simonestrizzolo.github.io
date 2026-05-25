@@ -2,7 +2,7 @@
 layout: post
 title: "La sicurezza degli account online"
 author: "Simone Strizzolo"
-categories: articles
+categories: tech
 tags: [security]
 image: sicurezza-passkey.jpg
 ---
@@ -144,5 +144,3 @@ Ora che ho un sistema sicuro e sempre funzionante per accedere ai miei quattro s
 - [Are passkeys considered a form of two-factor authentication?](https://www.corbado.com/blog/psd2-passkeys/are-passkeys-two-factor-authentication)
 
 - [All Things Secured - YouTube](https://www.youtube.com/@AllThingsSecured)
-
-
