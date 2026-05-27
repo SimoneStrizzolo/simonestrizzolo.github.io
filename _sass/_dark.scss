@@ -81,4 +81,8 @@
     color: white;
   }
 
+  img.invertible {
+    filter: invert(1);
+  }
+
 }
