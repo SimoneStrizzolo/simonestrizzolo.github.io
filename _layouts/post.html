@@ -18,9 +18,13 @@ layout: default
     {{ content }}
   </article>
   <div style="margin:2rem 0; text-align:center;">
-    <a href="https://gemini.google.com/share?prompt=Riassumimi questo articolo: {{ site.url }}{{ page.url }}" target="_blank" style="display:inline-block; padding:10px 20px; background:#4285f4; color:white; border-radius:6px; text-decoration:none; font-size:0.9rem;">
-      Chiedi a Gemini
+    <button onclick="navigator.clipboard.writeText(document.querySelector('article').innerText).then(function(){ this.innerText='✓ Copiato!'; }.bind(this))" style="padding:10px 20px; background:#555; color:white; border:none; border-radius:6px; font-size:0.9rem; cursor:pointer; margin-right:8px;">
+      Copia testo
+    </button>
+    <a href="https://chatgpt.com/" target="_blank" style="display:inline-block; padding:10px 20px; background:#10a37f; color:white; border-radius:6px; text-decoration:none; font-size:0.9rem;">
+      Apri ChatGPT
     </a>
+    <p style="margin-top:0.75rem; font-size:0.8rem; color:#888;">Copia il testo, aprì ChatGPT e incolla con <strong>Ctrl+V</strong> — poi chiedi il riassunto!</p>
   </div>
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
