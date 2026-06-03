@@ -7,12 +7,17 @@ tags: [yugioh]
 image: yugioh.jpg
 ---
 
-Lista Deck
-========================================
+Tutti i deck dal 2002 al 2008, ossia dall'alba del gioco fino all'inizio dell'era Synchro!
 
-Tutti i deck dal 2002 al 2008.
-Pro
-========================================
+> I deck sono molto vecchi: noi giocatori li ricordiamo con affetto perché li usavamo da bambini, ma sono oggettivamente difficili da giocare. Consiglio di usarli **pescando due carte per turno**.
+
+Lista deck:
+- **Pro**: personalizzati e testati. Ci vuole un po' di esperienza.
+- **Structure**: deck ufficiali usciti in Italia. Pronti all'uso.
+- **Starter**: deck ufficiali usciti in Italia e dedicati ad un personaggio dell'anime. Per neotifi.
+- **Work in progress**: ancora da ottimizzare e testare.
+
+# Pro
 
 Personalizzati e testati. Ci vuole un po' di esperienza.
 
@@ -38,8 +43,7 @@ Lista fusioni: [cliccare qui](/assets/img/yugioh/HERO.png).
 
 [<img src="/assets/img/yugioh/Six-Samurai.png">](https://duelingnexus.com/editor/8a29d7eff1fd8cea5cb3328d6ca366ab)
 
-Structure
-========================================
+# Structure
 
 Deck ufficiali usciti in Italia. Pronti all'uso.
 
@@ -93,8 +97,7 @@ Deck ufficiali usciti in Italia. Pronti all'uso.
 
 [<img src="/assets/img/yugioh/Monarch.png">](https://duelingnexus.com/editor/c631dca13280cd8e54c7adbcab04ce99)
 
-Starter
-=======================================
+# Starter
 
 Deck ufficiali usciti in Italia e dedicati ad un personaggio dell'anime. Per neotifi.
 
@@ -134,8 +137,7 @@ Deck ufficiali usciti in Italia e dedicati ad un personaggio dell'anime. Per neo
 
 [<img src="/assets/img/yugioh/Expressroid.png">](https://duelingnexus.com/editor/a38721fa2f0f1914504ddb3b03d2f6cb)
 
-Work in Progress
-=======================================
+# Work in Progress
 
 Da ottimizzare e testare.
 
