@@ -7,6 +7,13 @@ tags: [claude, tech, powerbi]
 image: claudepbi.jpg
 ---
 
+<style>
+article p, article li {
+  text-align: justify;
+  text-align-last: left;
+}
+</style>
+
 # Licenze necessarie
 
 - Claude Pro, Max, Team o Enterprise.
