@@ -83,3 +83,39 @@ Push to `main` branch → GitHub Actions automatically runs `jekyll build` and p
 - **Images:** Compress before adding (`squoosh.app`, `tinypng.com`); keep names simple (no spaces, no special chars)
 - **Markdown:** Full CommonMark + Jekyll-specific features (Liquid tags, syntax highlighting via Rouge)
 - **Testing:** No test suite—verify in browser at http://localhost:4000 before pushing
+
+## Interactive Maps & SVG Overlays (Experimental)
+
+**Goal:** Create interactive circuit maps with clickable curve annotations (e.g., for Imola post).
+
+**Approaches tested:**
+
+1. **PNG + JavaScript calibrator** (simplest)
+   - Use PNG image + JavaScript click handler to get pixel coordinates
+   - Map coordinates to SVG viewBox
+   - Pros: simple, works with any image
+   - Cons: requires manual coordinate calibration for each curve
+
+2. **SVG vettorization + embedded points**
+   - Convert PNG → SVG using online service (Vectorizer.io) or Potrace
+   - Embed SVG directly in HTML + add `<circle>` elements as interactive points
+   - Use JavaScript for hover tooltips
+   - Pros: vettoriale, scalable, clean
+   - Cons: SVG vettorization quality varies; services like Vectorizer.io may produce overly complex files (1.4MB+)
+
+3. **Potrace (command-line)**
+   - `potrace.exe imola-original-layout.png -s -O 1.5 -o imola-original-layout.svg`
+   - Produces cleaner, simpler SVG than online services
+   - Good for circuit diagrams where you want simplified forms
+
+**Key coordinates (Imola 1953-1972 layout, SVG 1875×1110):**
+- Tamburello: ~1149, 207
+- Rivazza: ~1205, 518
+- Acque Minerali: ~947, 490
+- Piratella: ~687, 640
+- Tosa: ~335, 640
+
+**Tools & Resources:**
+- Vectorizer.io: online PNG→SVG (free, limited quality)
+- Potrace: command-line PNG→SVG (better quality for simplified shapes)
+- Inkscape: manual SVG editing and bitmap tracing (Path → Trace Bitmap)
