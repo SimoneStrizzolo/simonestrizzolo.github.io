@@ -49,5 +49,3 @@ Per lavorare solo con Power BI è sufficiente installare il bundle specifico, no
 ## MCP per Power BI
 
 L'MCP è installabile [microsoft/powerbi-modeling-mcp](https://github.com/microsoft/powerbi-modeling-mcp) sia tramite Node.js che tramite estensione Visual Studio Code . Il plugin contiene già le istruzioni per installarlo via Node.js quindi non c'è nulla da fare.
-
-> :warning: C'è un bug nel plugin: nel file `marketplace.json` sostituire `"type": "local"` con `"type": "stdio"`.
