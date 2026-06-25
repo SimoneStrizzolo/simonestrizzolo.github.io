@@ -19,16 +19,16 @@ Quello che volevo fare, quindi, era costruirmi un piccolo algoritmo per ottimizz
 
 # Problema matematico
 
-Dato un insieme $\mathcal N$ di numeri interi e un target $i$, calcolare $f(i)$: il numero minimo di operazioni (+, *, ^) per ottenerlo da $\mathcal N$.
+Dato un insieme $\mathcal N$ di numeri interi positivi (contenente l'$1$) e un target $i$, calcolare $f(i)$: il numero minimo di operazioni (+, *, ^) per ottenerlo da $\mathcal N$.
 
 # Risoluzione algoritmica
 
 **Caso base:** Se $i\in\mathcal N$, allora $f(i) = 0$
 
-**Caso 1 - Divisione per potenza:** Se $\exists n\in\mathcal N$ tale che $n|i$:
+**Caso 1 - Divisione per potenza:** Se $\exists n\in\mathcal N$ tale che $n$ divide $i$:
 
 - Calcola $\tilde f_n(i)=1+f(i/n^p)+f(p)$
-- dove $p$ è il massimo intero tale che $n^p|i$.
+- dove $p$ è il massimo intero tale che $n^p$ divide $i$.
 
 **Caso 2 - Moltiplicazione costruita:** Per ogni $n\in\mathcal N$:
 
@@ -39,7 +39,7 @@ Dato un insieme $\mathcal N$ di numeri interi e un target $i$, calcolare $f(i)$:
 
 ## Dimostrazione
 
-Non ho più le forze per dimostrare che questo algoritmo risolve effettivamente il problema, ma ho fatto un due prove e funziona bene! La complessità computazionale dovrebbe essere $O(i\times|\mathcal N|\,)$.
+Non ho più le forze per dimostrare che questo algoritmo risolve effettivamente il problema, ma ho fatto un due prove e funziona bene! La complessità computazionale dovrebbe essere $O(i\times\text{card}(\mathcal N)\,)$.
 
 ## Risultati
 
