@@ -15,7 +15,9 @@ E' chiaro che per costruire tali numeri c'è bisogno di **ottimizzare al massimo
 
 Quello che volevo fare, quindi, era costruirmi un piccolo algoritmo per ottimizzare al meglio il mio gioco.
 
-![Beltmatic](/assets/img/betlmatic.jpg)
+<div style="max-width:100%; overflow-x:auto;">
+  <img src="/assets/img/betlmatic.jpg" alt="Beltmatic" style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto;">
+</div>
 
 # Problema matematico
 
