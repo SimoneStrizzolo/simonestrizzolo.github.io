@@ -71,7 +71,12 @@ Qui le mappe che ho ottenuto.
   </div>
 </div>
 
+## Bug?
+
+Le board sopra hanno ancora dei pattern che non mi piacciono molto: la prima per esempio a tutte le foreste a destra, la seconda ha tre pecore tutte vicine al centro mentre la terza è ottima ma ha troppi 6 e 9 attaccati a sinistra. Probabilmente, per scrivere il codice, non ho passato le specifiche a Claude in maniera perfettissima (eheh). In tutti e tre i casi, credo, ci sia un errore nel modo con cui Claude divide la mappa nelle 3 fette.
+
 ## Prossimi passi
+
 Una mappa bilanciata non è detto sia "fair": la fase iniziale di gioco, in cui i vari player scelgono dove insidiarsi, è estremamente delicata e c'è il rischio che anche una mappa equilibrata provochi scompensi verso i giocatori che scelgono per ultimi. L'autore dell'articolo ne parla: vedrò se approfondire anche io!
 
 ## Codice usato
