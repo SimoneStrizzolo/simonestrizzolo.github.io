@@ -23,13 +23,13 @@ Le metriche in questione:
   <img src="/assets/img/catan/catan-slices-diagram.svg" alt="Le tre linee immaginarie che dividono la board in sei fette" style="width:100%; max-width:800px;">
 </div>
 
-- **Resource distribution on the island**: per ogni linea, si calcola quante volte compare ciascuna risorsa a sinistra e a destra, e se ne prende il quadrato della differenza. Si ripete per tutte e tre le linee: più basso il numero, meglio è;
+- **Resource distribution on the island**: serve a distribuire le tessere delle varie risorse. Per ogni linea, si calcola quante volte compare ciascuna risorsa a sinistra e a destra, e se ne prende il quadrato della differenza. Si ripete per tutte e tre le linee: più basso il numero, meglio è;
 
 - **Resource clustering**: ogni volta che due tessere della stessa risorsa sono adiacenti, si aggiungono 5 punti di penalità. Anche qui, più basso è meglio;
 
-- **Probability distribution per resource**: è la probabilità che, tirando i dadi, esca proprio quella risorsa. Dipende sia dalla frequenza di uscita dei numeri sia da quante tessere di quella risorsa sono presenti sulla board;
+- **Probability distribution per resource**: serve a uniformare i numeri associati alle varie risorse. E' la probabilità che, tirando i dadi, esca proprio quella risorsa. Dipende sia dalla frequenza di uscita dei numeri sia da quante tessere di quella risorsa sono presenti sulla board. Più la probabilità è uniforme, meglio è;
 
-- **Probability distribution della board**: assime al successivo, sono probabilmente i KPI più interessanti, perché garantiscono che i numeri sulla board siano distribuiti in modo uniforme. È concettualmente identico alla precedente, ma applicato ai numeri lungo le tre linee;
+- **Probability distribution della board**: assieme al successivo, sono probabilmente i KPI più interessanti, perché garantiscono che i numeri sulla board siano distribuiti in modo uniforme. È concettualmente identico alla precedente, ma applicato ai numeri a sinistra e a destra delle tre linee. Più la probabilità a destra e a sinistra è uniforme, meglio è (vuol dire che i numeri sono ben distribuiti nella plancia);
 
 - **Number clustering**: assegna 5 punti di penalità ogni volta che due tessere adiacenti hanno lo stesso numero, per evitare che numeri "buoni" si concentrino tutti nella stessa zona.
 
@@ -71,9 +71,12 @@ Qui le mappe che ho ottenuto.
   </div>
 </div>
 
+## Prossimi passi
+Una mappa bilanciata non è detto sia "fair": la fase iniziale di gioco, in cui i vari player scelgono dove insidiarsi, è estremamente delicata e c'è il rischio che anche una mappa equilibrata provochi scompensi verso i giocatori che scelgono per ultimi. L'autore dell'articolo ne parla: vedrò se approfondire anche io!
+
 ## Codice usato
 
-Qui il codice che mi ha generato Claude. È un po' slop ma pace. Ho appena resettato il pc quindi ho deciso di farlo in PowerShell.
+Qui il codice che mi ha generato Claude. È un po' slop ma pace. Ho appena resettato il pc quindi l'ho fatto in PowerShell.
 
 ```powershell
 param(
