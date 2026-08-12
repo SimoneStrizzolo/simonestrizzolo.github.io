@@ -37,12 +37,12 @@ Qui un paio di esempi di plancia ben bilanciata e mal bilanciata:
 
 <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:16px;">
   <div style="text-align:center;">
-    <img src="/assets/img/catan/catan-board-4p-top.svg" alt="Board Catan 4 giocatori ben bilanciata" style="width:100%">
-    <br><small>Board ben bilanciata</small>
+    <img src="/assets/img/catan/catan-board-4p-top.svg" alt="Board Catan 4 giocatori mal bilanciata" style="width:100%">
+    <br><small>Board mal bilanciata</small>
   </div>
   <div style="text-align:center;">
-    <img src="/assets/img/catan/catan-board-4p-bad.svg" alt="Board Catan 4 giocatori mal bilanciata" style="width:100%">
-    <br><small>Board mal bilanciata</small>
+    <img src="/assets/img/catan/catan-board-4p-bad.svg" alt="Board Catan 4 giocatori ben bilanciata" style="width:100%">
+    <br><small>Board ben bilanciata</small>
   </div>
 </div>
 
@@ -55,14 +55,14 @@ Qui le mappe che ho ottenuto.
 <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:16px;">
   <div style="text-align:center;">
     <img src="/assets/img/catan/catan-board-6p-rank1.svg" alt="Migliore board Catan a 6 giocatori" style="width:100%">
-    <br><small>1° posto</small>
+    <br><small>1° posto (CIBI 0.017)</small>
   </div>
   <div style="text-align:center;">
     <img src="/assets/img/catan/catan-board-6p-rank2.svg" alt="Seconda miglior board Catan a 6 giocatori" style="width:100%">
-    <br><small>2° posto</small>
+    <br><small>2° posto (CIBI 0.019)</small>
   </div>
   <div style="text-align:center;">
     <img src="/assets/img/catan/catan-board-6p-rank3.svg" alt="Terza miglior board Catan a 6 giocatori" style="width:100%">
-    <br><small>3° posto</small>
+    <br><small>3° posto (CIBI 0.019)</small>
   </div>
 </div>
