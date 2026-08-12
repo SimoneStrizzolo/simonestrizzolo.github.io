@@ -19,6 +19,10 @@ Le metriche in questione:
 
 - si divide la mappa di Catan in 6 fette, usando tre linee immaginarie;
 
+<div style="text-align:center; margin: 16px 0;">
+  <img src="/assets/img/catan/catan-slices-diagram.svg" alt="Le tre linee immaginarie che dividono la board in sei fette" style="width:100%; max-width:800px;">
+</div>
+
 - **Resource distribution on the island**: per ogni linea, si calcola quante volte compare ciascuna risorsa a sinistra e a destra, e se ne prende il quadrato della differenza. Si ripete per tutte e tre le linee: più basso il numero, meglio è;
 
 - **Resource clustering**: ogni volta che due tessere della stessa risorsa sono adiacenti, si aggiungono 5 punti di penalità. Anche qui, più basso è meglio;
