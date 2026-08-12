@@ -1,0 +1,172 @@
+<svg viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!--
+    Template board Catan 4 giocatori (19 hex, righe 3-4-5-4-3), ricostruito da imm1.png.
+    Geometria: esagoni "pointy-top" (punta in alto/basso, lati verticali piatti a sx/dx) —
+    e' l'orientamento giusto per righe di hex che si toccano lungo un bordo netto senza
+    sovrapposizioni (le punte sx/dx NON funzionano per righe orizzontali: non hanno un
+    bordo verticale da condividere col vicino).
+
+    Parametri:
+      r (circumraggio hex)         = 50
+      hexWidth  (= r*sqrt(3))      = 86.60   <- passo orizzontale tra hex della stessa riga
+      hexHeight (= 2*r)            = 100
+      passo verticale tra righe    = 1.5 * r = 75
+      centro board (cx0,cy0)       = (340, 340)
+      centerRow (indice riga centrale) = 2
+
+    Formula centro hex (row, col) dentro una riga di lunghezza L:
+      x = cx0 + (col - (L-1)/2) * hexWidth
+      y = cy0 + (row - centerRow) * 1.5 * r
+
+    Vertici hex relativi al centro (cx,cy), r=50, hexWidth/2=43.30, r/2=25:
+      alto:            (cx,        cy-50)
+      alto-destra:     (cx+43.30,  cy-25)
+      basso-destra:    (cx+43.30,  cy+25)
+      basso:           (cx,        cy+50)
+      basso-sinistra:  (cx-43.30,  cy+25)
+      alto-sinistra:   (cx-43.30,  cy-25)
+
+    Per la board a 6 giocatori (righe 3-4-5-6-5-4-3, centerRow=3) si riusa la stessa
+    formula: basta aggiungere le righe 5 e 6 e ricalcolare i centri.
+  -->
+  <defs>
+    <style>
+      .tile { stroke: #2c2c2c; stroke-width: 2; }
+      .token { fill: #F7F1DE; stroke: #2c2c2c; stroke-width: 1.5; }
+      .token-num { font-weight: 700; font-size: 22px; text-anchor: middle; }
+      .token-num.hot { fill: #B3231C; }
+      .token-num.cold { fill: #1a1a1a; }
+      .pip { r: 1.8; }
+      .pip.hot { fill: #B3231C; }
+      .pip.cold { fill: #1a1a1a; }
+    </style>
+  </defs>
+
+  <!-- Oceano -->
+  <circle cx="340" cy="340" r="320" fill="#6EC6E8" />
+
+  <!-- ============== HEX (righe 3-4-5-4-3) ============== -->
+  <g class="hexes">
+
+    <!-- Row 0 -->
+    <g class="hex" data-row="0" data-col="0" data-resource="Desert">
+      <polygon class="tile" points="253.40,140.00 296.70,165.00 296.70,215.00 253.40,240.00 210.10,215.00 210.10,165.00" fill="#EFE4B0" />
+    </g>
+    <g class="hex" data-row="0" data-col="1" data-resource="Wheat" data-number="9">
+      <polygon class="tile" points="340.00,140.00 383.30,165.00 383.30,215.00 340.00,240.00 296.70,215.00 296.70,165.00" fill="#F2C94C" />
+      <circle class="token" cx="340.00" cy="190.00" r="22" />
+      <text class="token-num cold" x="340.00" y="198.00">9</text>
+      <circle class="pip cold" cx="329.50" cy="203.00" /><circle class="pip cold" cx="336.50" cy="203.00" /><circle class="pip cold" cx="343.50" cy="203.00" /><circle class="pip cold" cx="350.50" cy="203.00" />
+    </g>
+    <g class="hex" data-row="0" data-col="2" data-resource="Brick" data-number="4">
+      <polygon class="tile" points="426.60,140.00 469.90,165.00 469.90,215.00 426.60,240.00 383.30,215.00 383.30,165.00" fill="#C0392B" />
+      <circle class="token" cx="426.60" cy="190.00" r="22" />
+      <text class="token-num cold" x="426.60" y="198.00">4</text>
+      <circle class="pip cold" cx="419.60" cy="203.00" /><circle class="pip cold" cx="426.60" cy="203.00" /><circle class="pip cold" cx="433.60" cy="203.00" />
+    </g>
+
+    <!-- Row 1 -->
+    <g class="hex" data-row="1" data-col="0" data-resource="Forest" data-number="11">
+      <polygon class="tile" points="210.10,215.00 253.40,240.00 253.40,290.00 210.10,315.00 166.80,290.00 166.80,240.00" fill="#2E5339" />
+      <circle class="token" cx="210.10" cy="265.00" r="22" />
+      <text class="token-num cold" x="210.10" y="273.00">11</text>
+      <circle class="pip cold" cx="206.60" cy="278.00" /><circle class="pip cold" cx="213.60" cy="278.00" />
+    </g>
+    <g class="hex" data-row="1" data-col="1" data-resource="Ore" data-number="12">
+      <polygon class="tile" points="296.70,215.00 340.00,240.00 340.00,290.00 296.70,315.00 253.40,290.00 253.40,240.00" fill="#ACACA6" />
+      <circle class="token" cx="296.70" cy="265.00" r="22" />
+      <text class="token-num cold" x="296.70" y="273.00">12</text>
+      <circle class="pip cold" cx="296.70" cy="278.00" />
+    </g>
+    <g class="hex" data-row="1" data-col="2" data-resource="Brick" data-number="8">
+      <polygon class="tile" points="383.30,215.00 426.60,240.00 426.60,290.00 383.30,315.00 340.00,290.00 340.00,240.00" fill="#C0392B" />
+      <circle class="token" cx="383.30" cy="265.00" r="22" />
+      <text class="token-num hot" x="383.30" y="273.00">8</text>
+      <circle class="pip hot" cx="369.30" cy="278.00" /><circle class="pip hot" cx="376.30" cy="278.00" /><circle class="pip hot" cx="383.30" cy="278.00" /><circle class="pip hot" cx="390.30" cy="278.00" /><circle class="pip hot" cx="397.30" cy="278.00" />
+    </g>
+    <g class="hex" data-row="1" data-col="3" data-resource="Brick" data-number="5">
+      <polygon class="tile" points="469.90,215.00 513.20,240.00 513.20,290.00 469.90,315.00 426.60,290.00 426.60,240.00" fill="#C0392B" />
+      <circle class="token" cx="469.90" cy="265.00" r="22" />
+      <text class="token-num cold" x="469.90" y="273.00">5</text>
+      <circle class="pip cold" cx="459.40" cy="278.00" /><circle class="pip cold" cx="466.40" cy="278.00" /><circle class="pip cold" cx="473.40" cy="278.00" /><circle class="pip cold" cx="480.40" cy="278.00" />
+    </g>
+
+    <!-- Row 2 -->
+    <g class="hex" data-row="2" data-col="0" data-resource="Forest" data-number="2">
+      <polygon class="tile" points="166.80,290.00 210.10,315.00 210.10,365.00 166.80,390.00 123.50,365.00 123.50,315.00" fill="#2E5339" />
+      <circle class="token" cx="166.80" cy="340.00" r="22" />
+      <text class="token-num cold" x="166.80" y="348.00">2</text>
+      <circle class="pip cold" cx="166.80" cy="353.00" />
+    </g>
+    <g class="hex" data-row="2" data-col="1" data-resource="Wheat" data-number="8">
+      <polygon class="tile" points="253.40,290.00 296.70,315.00 296.70,365.00 253.40,390.00 210.10,365.00 210.10,315.00" fill="#F2C94C" />
+      <circle class="token" cx="253.40" cy="340.00" r="22" />
+      <text class="token-num hot" x="253.40" y="348.00">8</text>
+      <circle class="pip hot" cx="239.40" cy="353.00" /><circle class="pip hot" cx="246.40" cy="353.00" /><circle class="pip hot" cx="253.40" cy="353.00" /><circle class="pip hot" cx="260.40" cy="353.00" /><circle class="pip hot" cx="267.40" cy="353.00" />
+    </g>
+    <g class="hex" data-row="2" data-col="2" data-resource="Ore" data-number="10">
+      <polygon class="tile" points="340.00,290.00 383.30,315.00 383.30,365.00 340.00,390.00 296.70,365.00 296.70,315.00" fill="#ACACA6" />
+      <circle class="token" cx="340.00" cy="340.00" r="22" />
+      <text class="token-num cold" x="340.00" y="348.00">10</text>
+      <circle class="pip cold" cx="333.00" cy="353.00" /><circle class="pip cold" cx="340.00" cy="353.00" /><circle class="pip cold" cx="347.00" cy="353.00" />
+    </g>
+    <g class="hex" data-row="2" data-col="3" data-resource="Sheep" data-number="5">
+      <polygon class="tile" points="426.60,290.00 469.90,315.00 469.90,365.00 426.60,390.00 383.30,365.00 383.30,315.00" fill="#8FCB4E" />
+      <circle class="token" cx="426.60" cy="340.00" r="22" />
+      <text class="token-num cold" x="426.60" y="348.00">5</text>
+      <circle class="pip cold" cx="416.10" cy="353.00" /><circle class="pip cold" cx="423.10" cy="353.00" /><circle class="pip cold" cx="430.10" cy="353.00" /><circle class="pip cold" cx="437.10" cy="353.00" />
+    </g>
+    <g class="hex" data-row="2" data-col="4" data-resource="Sheep" data-number="4">
+      <polygon class="tile" points="513.20,290.00 556.50,315.00 556.50,365.00 513.20,390.00 469.90,365.00 469.90,315.00" fill="#8FCB4E" />
+      <circle class="token" cx="513.20" cy="340.00" r="22" />
+      <text class="token-num cold" x="513.20" y="348.00">4</text>
+      <circle class="pip cold" cx="506.20" cy="353.00" /><circle class="pip cold" cx="513.20" cy="353.00" /><circle class="pip cold" cx="520.20" cy="353.00" />
+    </g>
+
+    <!-- Row 3 -->
+    <g class="hex" data-row="3" data-col="0" data-resource="Forest" data-number="3">
+      <polygon class="tile" points="210.10,365.00 253.40,390.00 253.40,440.00 210.10,465.00 166.80,440.00 166.80,390.00" fill="#2E5339" />
+      <circle class="token" cx="210.10" cy="415.00" r="22" />
+      <text class="token-num cold" x="210.10" y="423.00">3</text>
+      <circle class="pip cold" cx="206.60" cy="428.00" /><circle class="pip cold" cx="213.60" cy="428.00" />
+    </g>
+    <g class="hex" data-row="3" data-col="1" data-resource="Forest" data-number="3">
+      <polygon class="tile" points="296.70,365.00 340.00,390.00 340.00,440.00 296.70,465.00 253.40,440.00 253.40,390.00" fill="#2E5339" />
+      <circle class="token" cx="296.70" cy="415.00" r="22" />
+      <text class="token-num cold" x="296.70" y="423.00">3</text>
+      <circle class="pip cold" cx="293.20" cy="428.00" /><circle class="pip cold" cx="300.20" cy="428.00" />
+    </g>
+    <g class="hex" data-row="3" data-col="2" data-resource="Wheat" data-number="9">
+      <polygon class="tile" points="383.30,365.00 426.60,390.00 426.60,440.00 383.30,465.00 340.00,440.00 340.00,390.00" fill="#F2C94C" />
+      <circle class="token" cx="383.30" cy="415.00" r="22" />
+      <text class="token-num cold" x="383.30" y="423.00">9</text>
+      <circle class="pip cold" cx="372.80" cy="428.00" /><circle class="pip cold" cx="379.80" cy="428.00" /><circle class="pip cold" cx="386.80" cy="428.00" /><circle class="pip cold" cx="393.80" cy="428.00" />
+    </g>
+    <g class="hex" data-row="3" data-col="3" data-resource="Wheat" data-number="6">
+      <polygon class="tile" points="469.90,365.00 513.20,390.00 513.20,440.00 469.90,465.00 426.60,440.00 426.60,390.00" fill="#F2C94C" />
+      <circle class="token" cx="469.90" cy="415.00" r="22" />
+      <text class="token-num hot" x="469.90" y="423.00">6</text>
+      <circle class="pip hot" cx="455.90" cy="428.00" /><circle class="pip hot" cx="462.90" cy="428.00" /><circle class="pip hot" cx="469.90" cy="428.00" /><circle class="pip hot" cx="476.90" cy="428.00" /><circle class="pip hot" cx="483.90" cy="428.00" />
+    </g>
+
+    <!-- Row 4 -->
+    <g class="hex" data-row="4" data-col="0" data-resource="Ore" data-number="11">
+      <polygon class="tile" points="253.40,440.00 296.70,465.00 296.70,515.00 253.40,540.00 210.10,515.00 210.10,465.00" fill="#ACACA6" />
+      <circle class="token" cx="253.40" cy="490.00" r="22" />
+      <text class="token-num cold" x="253.40" y="498.00">11</text>
+      <circle class="pip cold" cx="249.90" cy="503.00" /><circle class="pip cold" cx="256.90" cy="503.00" />
+    </g>
+    <g class="hex" data-row="4" data-col="1" data-resource="Sheep" data-number="6">
+      <polygon class="tile" points="340.00,440.00 383.30,465.00 383.30,515.00 340.00,540.00 296.70,515.00 296.70,465.00" fill="#8FCB4E" />
+      <circle class="token" cx="340.00" cy="490.00" r="22" />
+      <text class="token-num hot" x="340.00" y="498.00">6</text>
+      <circle class="pip hot" cx="326.00" cy="503.00" /><circle class="pip hot" cx="333.00" cy="503.00" /><circle class="pip hot" cx="340.00" cy="503.00" /><circle class="pip hot" cx="347.00" cy="503.00" /><circle class="pip hot" cx="354.00" cy="503.00" />
+    </g>
+    <g class="hex" data-row="4" data-col="2" data-resource="Sheep" data-number="10">
+      <polygon class="tile" points="426.60,440.00 469.90,465.00 469.90,515.00 426.60,540.00 383.30,515.00 383.30,465.00" fill="#8FCB4E" />
+      <circle class="token" cx="426.60" cy="490.00" r="22" />
+      <text class="token-num cold" x="426.60" y="498.00">10</text>
+      <circle class="pip cold" cx="419.60" cy="503.00" /><circle class="pip cold" cx="426.60" cy="503.00" /><circle class="pip cold" cx="433.60" cy="503.00" />
+    </g>
+  </g>
+</svg>
