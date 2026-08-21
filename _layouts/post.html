@@ -15,7 +15,7 @@ layout: default
     </div>
   {% endif %}
   <div style="margin:1rem 0; text-align:center;">
-    <button onclick="navigator.clipboard.writeText('Fammi il riassunto di:\n\n' + document.querySelector('article').innerText).then(function(){ this.innerText='✓ Copiato!'; }.bind(this))" style="padding:10px 20px; background:#555; color:white; border:none; border-radius:6px; font-size:0.9rem; cursor:pointer; margin-right:8px;">Copia testo</button>
+    <button onclick="navigator.clipboard.writeText('Fammi un riassunto in 10 righe di:\n\n' + document.querySelector('article').innerText).then(function(){ this.innerText='✓ Copiato!'; }.bind(this))" style="padding:10px 20px; background:#555; color:white; border:none; border-radius:6px; font-size:0.9rem; cursor:pointer; margin-right:8px;">Copia testo</button>
     <a href="https://chatgpt.com/" target="_blank" style="padding:10px 20px; background:#10a37f; color:white; border-radius:6px; text-decoration:none; font-size:0.9rem;">Apri ChatGPT</a>
     <p style="margin-top:0.5rem; font-size:0.8rem; color:#888;">Copia, incolla su ChatGPT con Ctrl+V e chiedi il riassunto.</p>
   </div>
