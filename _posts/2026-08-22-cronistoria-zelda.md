@@ -4,14 +4,12 @@ title: "Una cronistoria di The Legend of Zelda"
 author: "Simone Strizzolo"
 categories: nerd
 tags: [videogiochi, nerd]
-image: zelda/zelda-the-legend-of.jpg
+image: zelda-timeline.jpg
 ---
 
 # Contesto
 
-Da bambino la saga di Zelda l'ho sempre guardata da fuori senza mai giocarla per bene, e col tempo mi sono un po' perso tra Hyrule, Termina, Triforce e i vari Ganon/Ganondorf/Calamity Ganon. Ho quindi deciso di mettere ordine e ripercorrere l'intera serie principale con piattaforma, trama esplicita di come va a finire e personaggi/antagonisti coinvolti.
-
-Invece del semplice ordine di uscita, ho seguito la **timeline ufficiale in-universe** pubblicata da Nintendo in *Hyrule Historia* (2011): dopo *Ocarina of Time* la storia si dirama in tre rami paralleli, che riconvergono soltanto con *Breath of the Wild*.
+Ho iniziato a giocare a Zelda con Breath Of The Wild per Switch, e volevo fare un po' di ordine sulla storia dei vari giochi. Ho quindi deciso di fare questo mini-articolo (argomento trito e ritrito) ricreando la timeline ufficiale con data di uscita, trama e conseguenze. [Qui](https://www.finalround.it/monografie/139/hyrule-historia-come-orientarsi-tra-le-timeline-di-zelda) una sitografia.
 
 <div class="zelda-timeline">
 
@@ -291,7 +289,3 @@ Secoli dopo l'ultimo evento di ciascun ramo, le tre linee temporali confluiscono
   .branch-downfall .zelda-meta { color: #e3a869; }
 }
 </style>
-
-# Conclusione
-
-Vedere la serie organizzata secondo la timeline ufficiale, invece del semplice ordine di uscita, fa capire meglio perché certi dettagli (la Guerra dei Sigilli in A Link to the Past, il mondo sommerso di Wind Waker, i "due" Ganon di Ocarina of Time) siano lì apposta: sono le cicatrici lasciate dai tre destini diversi di un singolo bivio. La formula di base resta stabile (Link, una Zelda, un Ganon/Ganondorf sotto varie forme), ma il modo in cui i giochi si incastrano tra loro è molto più intricato di quanto sembri giocandoli uno alla volta.
