@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Una cronistoria di The Legend of Zelda"
+title: "La timeline di Zelda"
 author: "Simone Strizzolo"
 categories: nerd
-tags: [videogiochi, nerd]
+tags: [videogiochi, nerd, zelda]
 image: zelda-timeline.jpg
 ---
 
@@ -48,7 +48,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
   <p class="branch-desc">Link torna nella propria epoca da bambino, senza i ricordi del futuro che ha impedito.</p>
   <div class="zelda-timeline">
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-majoras-mask.jpg" alt="Majora's Mask" style="width:100%; max-width:400px;">
@@ -59,7 +59,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-twilight-princess.jpg" alt="Twilight Princess" style="width:100%; max-width:400px;">
@@ -70,7 +70,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  </div>
+</div>
 </div>
 
 <div class="zelda-branch branch-adult">
@@ -78,7 +78,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
   <p class="branch-desc">Link resta adulto nel futuro che ha salvato, che però finisce per andare avanti senza il suo eroe.</p>
   <div class="zelda-timeline">
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-wind-waker.jpg" alt="The Wind Waker" style="width:100%; max-width:400px;">
@@ -89,7 +89,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  </div>
+</div>
 </div>
 
 <div class="zelda-branch branch-downfall">
@@ -97,7 +97,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
   <p class="branch-desc">Un ramo "what if": Ganondorf riesce a sconfiggere Link in Ocarina of Time e recupera la Triforza del Potere.</p>
   <div class="zelda-timeline">
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-a-link-to-the-past.jpg" alt="A Link to the Past" style="width:100%; max-width:400px;">
@@ -108,7 +108,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-the-legend-of.jpg" alt="The Legend of Zelda" style="width:100%; max-width:400px;">
@@ -119,7 +119,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  <div class="zelda-entry">
+<div class="zelda-entry">
     <div class="zelda-dot"></div>
     <div class="zelda-card">
       <img src="/assets/img/zelda/zelda-the-adventure-of-link.jpg" alt="Zelda II: The Adventure of Link" style="width:100%; max-width:400px;">
@@ -130,7 +130,7 @@ Dopo Ocarina of Time, Nintendo ha ufficialmente diviso la storia in tre linee te
     </div>
   </div>
 
-  </div>
+</div>
 </div>
 
 </div>

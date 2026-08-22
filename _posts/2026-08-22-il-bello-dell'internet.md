@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Il Lato Chiaro dell'internet"
+title: "Il bello dell'internet"
 author: "Simone Strizzolo"
 categories: tech
 tags: [tech]
