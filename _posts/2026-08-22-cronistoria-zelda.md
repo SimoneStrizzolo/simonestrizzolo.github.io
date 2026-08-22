@@ -227,17 +227,6 @@ Secoli dopo l'ultimo evento di ciascun ramo, le tre linee temporali confluiscono
   margin: 24px 0;
 }
 
-@media (min-width: 900px) {
-  .zelda-branches {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-  }
-
-  .zelda-branch img {
-    max-width: 100% !important;
-  }
-}
-
 .zelda-branch {
   border-top: 3px solid #4a7c59;
   padding-top: 12px;
