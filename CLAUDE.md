@@ -70,6 +70,11 @@ bundle exec jekyll build
 - `disqus.comments`, `google-ID` — optional integrations
 - `pagination.next_page`, `pagination.previous_page` — paging labels
 
+## Git Workflow
+
+- When merging a feature branch (`feat/...`) into `main`, always **squash merge** (`git merge --squash`), not a regular merge — keeps `main` history to one commit per feature.
+- Don't delete the feature branch after merging until the user explicitly confirms.
+
 ## GitHub Pages Deployment
 
 Push to `main` branch → GitHub Actions automatically runs `jekyll build` and publishes to `gh-pages` branch. Check build status and logs at GitHub repo → Actions tab.
