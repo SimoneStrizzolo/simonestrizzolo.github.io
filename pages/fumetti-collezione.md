@@ -14,8 +14,8 @@ permalink: /fumetti/collezione
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
-{% assign gruppi = site.data.fumetti | where_exp: "s", "s.formato != 'spillato' and s.focus != 'thanos'" %}
-{% assign spillati = site.data.fumetti | where_exp: "s", "s.formato == 'spillato' and s.focus != 'thanos'" %}
+{% assign gruppi = site.data.fumetti | where_exp: "s", "s.formato != 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
+{% assign spillati = site.data.fumetti | where_exp: "s", "s.formato == 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
 {% assign thanos = site.data.fumetti | where_exp: "s", "s.focus == 'thanos'" %}
 
 <p><a href="/fumetti/personaggi">→ Vai alle checklist per personaggio</a></p>
@@ -39,6 +39,8 @@ permalink: /fumetti/collezione
 </div>
 
 ## Thanos
+
+E' il mio personaggio preferito. Ho quasi tutto di lui.
 
 {% include fumetti-sezione.html storie=thanos %}
 
