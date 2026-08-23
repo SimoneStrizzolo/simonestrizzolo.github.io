@@ -38,6 +38,23 @@ Ultron:
     id: rage-of-ultron
     descrizione: "Ultron si fonde con Hank Pym."
 
+Thanos:
+  - titolo: "Prima apparizione (Iron Man #55)"
+    id: thanos-pt1
+    descrizione: "Debutto di Thanos, creato da Starlin."
+  - titolo: "La Guerra di Thanos (1973)"
+    link: https://www.ebay.it/itm/127975475219
+    descrizione: "La prima prova di conquista dell'universo, con il cubo cosmico."
+  - titolo: "The Thanos Quest (1990)"
+    id: thanos-quest
+    descrizione: "Thanos raccoglie le Gemme dell'Infinito."
+  - titolo: "The Infinity Gauntlet (1991)"
+    id: guanto-infinito
+    descrizione: "Thanos annienta metà dell'universo."
+  - titolo: "Thanos Vince (2018)"
+    id: thanos-vince
+    descrizione: "Thanos deve confrontarsi con una versione futura di se stesso che ha conquistato tutto."
+
 X-men:
   - titolo: "L'Era di Apocalisse"
     id: xmen-era-apocalisse
@@ -77,11 +94,4 @@ Silver Surfer:
     id: silver-surfer-requiem
     descrizione: "Il canto del cigno di Norrin Radd."
 
-Thanos:
-  - titolo: "Prima apparizione (Iron Man #55)"
-    id: thanos-pt1
-    descrizione: "Debutto di Thanos, creato da Starlin."
-  - titolo: "The Thanos Quest"
-    descrizione: "Thanos raccoglie le Gemme dell'Infinito."
-  - titolo: "The Infinity Gauntlet"
-    descrizione: "Thanos annienta metà dell'universo."
+

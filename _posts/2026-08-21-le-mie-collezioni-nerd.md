@@ -7,8 +7,8 @@ tags: [marvel, nerd]
 image: marvel-comics/marvel-collezione.jpg
 ---
 
-Da un po' di tempo catalogo le cose che colleziono: cosa possiedo, di cosa parla ogni pezzo e come si collegano tra loro. L'idea è tenere qui i link alle varie collezioni, mano a mano che le metto in ordine.
+- Ho iniziato a catalogare le cose che collezioni, in modo da avere un compendio digitale sempre pronto all'uso.
 
-Per ora c'è solo quella dei fumetti Marvel: cinque storie, tra cui l'arrivo di Galactus sulla Terra, la prima apparizione di Thanos e l'Era di Apocalisse.
+- Al momento ho censito solamente i fumetti Marvel.
 
-[→ Guarda la collezione di fumetti Marvel, navigabile e con checklist per personaggio](/fumetti/collezione)
+[Collezione Marvel](/fumetti/collezione)
