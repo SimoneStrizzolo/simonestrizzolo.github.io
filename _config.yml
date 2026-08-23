@@ -9,6 +9,12 @@ highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+# CLAUDE.md is AI-agent-only documentation, not site content. GitHub Pages'
+# safe-mode gem set (jekyll-optional-front-matter, jekyll-readme-index) turns
+# every root .md file into a page and runs it through Liquid, so unescaped
+# Liquid-like syntax in code examples (e.g. "{% if ... %}") breaks the build.
+exclude:             [CLAUDE.md]
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Strizzolo"
 description:	       "A minimal site for my work and non-work posts and blogs."
