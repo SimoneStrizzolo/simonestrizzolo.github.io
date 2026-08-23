@@ -1,0 +1,43 @@
+<div class="fumetti-grid">
+{% for storia in include.storie %}
+  <a class="fumetti-icon" href="#{{ storia.id }}" title="{{ storia.titolo }}">
+    <img src="{{ storia.immagini.first.src }}" alt="{{ storia.immagini.first.alt }}">
+  </a>
+{% endfor %}
+</div>
+
+{% for storia in include.storie %}
+  <div class="fumetti-panel" id="{{ storia.id }}">
+    <p><a href="#fumetti-grid" class="fumetti-close">✕ Chiudi</a></p>
+    <h3 style="margin-top:0;">{{ storia.titolo }}</h3>
+
+    <div style="display:flex; flex-wrap:wrap; align-items:stretch; gap:8px;">
+      {% for img in storia.immagini %}
+        <img src="{{ img.src }}" alt="{{ img.alt }}" style="height:280px; width:auto; max-width:200px; object-fit:contain; flex:0 1 auto;">
+      {% endfor %}
+    </div>
+
+    <p><strong>Anno:</strong> {{ storia.anno }} &middot; <strong>Edizione:</strong> {{ storia.edizione }}</p>
+    <p><strong>Fumetti:</strong> {{ storia.fumetti }}</p>
+    <p><strong>Autori:</strong> {{ storia.autori | join: ", " }}</p>
+    <p><strong>Personaggi:</strong>
+      {% for p in storia.personaggi %}
+        <a href="/fumetti/personaggi#{{ p | slugify }}">{{ p }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+    <p>{{ storia.trama }}</p>
+
+    {% if storia.collegate.size > 0 %}
+    <p><strong>Storie collegate:</strong>
+      {% for cid in storia.collegate %}
+        {% assign collegata = site.data.fumetti | where: "id", cid | first %}
+        {% if collegata %}
+          <a href="#{{ collegata.id }}">{{ collegata.titolo }}</a>{% unless forloop.last %}, {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    <p><a href="{{ storia.link }}">Link edizione</a></p>
+  </div>
+{% endfor %}

@@ -89,6 +89,30 @@ Push to `main` branch → GitHub Actions automatically runs `jekyll build` and p
 - **Markdown:** Full CommonMark + Jekyll-specific features (Liquid tags, syntax highlighting via Rouge)
 - **Testing:** No test suite—verify in browser at http://localhost:4000 before pushing
 
+## Local Setup on Windows
+
+- Use **Ruby+Devkit** from rubyinstaller.org, not the Microsoft Store Ruby — the Store version lacks the MSYS2 toolchain needed to compile native gem extensions (`bundle install` fails on gems like `bigdecimal`).
+- Do not add a `kramdown:` / `math_engine:` key to `_config.yml` unless it's a real kramdown math engine gem name — an invalid value (e.g. `nil` as a literal string) breaks local builds on newer kramdown even though GitHub Pages' older pinned kramdown tolerates it silently.
+
+## Low-Visibility Collection Pages Pattern
+
+For content that shouldn't clutter the main menu (e.g. `/fumetti/collezione`, `/fumetti/personaggi`): keep data in `_data/*.yml`, render via `pages/*.md` with Liquid loops, and never add the page to `_data/settings.yml` menu — link to it only from a post or another page. Example: the Marvel comics companion (`_data/fumetti.yml`, `_data/storie-canoniche.yml`), reachable only from the "Le mie collezioni nerd" post.
+
+## CSS-only Expand/Collapse (`:target`) Pattern
+
+For a grid of items where clicking one should reveal its details without JS and without the clicked item jumping around (bad on mobile): don't use `<details>`/`flex-basis:100%` (the opened item reflows to fill its row, so the tap target moves and users don't know where to tap to close it). Instead:
+- Icons are plain `<a href="#{{ item.id }}">` in a static grid that never changes size/position.
+- Each item's full content lives in a `.panel` (`display:none` by default) placed once, elsewhere in the page, with the matching `id`.
+- `.panel:target { display:block; }` shows the right one — and since a URL can only have one fragment, at most one panel is ever open (no extra logic needed).
+- Give the panel a visible "✕ Chiudi" link back to a stable anchor (e.g. the grid container's id) — this is the *only* way to close on mobile, since tapping outside doesn't clear `:target`.
+- Set `scroll-margin-top` on the panel to match any fixed/sticky header height, otherwise the header covers the top of the panel (and the close link) when the browser scrolls to it.
+- Bonus: cross-links between items (e.g. "storie collegate") are just `<a href="#other-id">` — switching the fragment automatically closes the old panel and opens the new one.
+- Example: `pages/fumetti-collezione.md`.
+
+## Liquid Gotcha: Hyphenated Data Keys
+
+A YAML key with a hyphen (e.g. `link-mu:`) cannot be accessed as `{{ item.link-mu }}` — Liquid parses `-` as subtraction. Use bracket notation: `{{ item["link-mu"] }}` / `{% if item["link-mu"] %}`.
+
 ## Interactive Maps & SVG Overlays (Experimental)
 
 **Goal:** Create interactive circuit maps with clickable curve annotations (e.g., for Imola post).

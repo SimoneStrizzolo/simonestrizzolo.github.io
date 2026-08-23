@@ -1,0 +1,554 @@
+- id: f4-arrivo-galactus
+  titolo: "Fantastici Quattro: l'Arrivo di Galactus"
+  personaggi: [Fantastici 4, Galactus, Silver Surfer]
+  anno: 1966
+  edizione: Marvel Must Have
+  fumetti: "Fantastic Four (1961) 48-50, 120-123, 242-244"
+  autori: [Stan Lee, Jack Kirby, John Buscema, John Byrne]
+  link: "https://www.panini.it/shp_ita_it/fantastici-quattro-l-arrivo-di-galactus-mmust125isbn-it08.html"
+  trama: >
+    Sono contenute tre storie. La prima è quella in cui Galactus fa il proprio
+    primo arrivo sulla Terra con il suo araldo Silver Surfer. Se ne va quando
+    l'Osservatore riesce a portare ai Fantastici 4 il Nullificatore Cosmico.
+    In cambio, Silver Surfer non è più l'araldo. Nella seconda storia Galactus
+    ritorna e riottiene Silver Surfer. Nella terza, Galactus rischia la morte
+    ma i Fantastici 4 lo salvano. Lui riconoscente, promette che non attaccherà
+    più la Terra.
+  immagini:
+    - src: /assets/img/marvel-comics/f4-galactus.png
+      alt: "Fantastici Quattro: l'Arrivo di Galactus"
+    - src: /assets/img/marvel-comics/f4-galactus-copertina.png
+      alt: "Fantastici Quattro: l'Arrivo di Galactus - copertina"
+  collegate: [thanos-pt1]
+
+- id: thanos-pt1
+  titolo: "Thanos pt. 1"
+  personaggi: [Drax il Distruttore, Iron Man, Thanos]
+  anno: 1973
+  edizione: Marvel Mix
+  formato: spillato
+  fumetti: "Thanos Vol.1 (2003), Iron Man 55 (1973)"
+  autori: [Jim Starlin, Mike Friedrich]
+  link: "https://www.comicsbox.it/albo/MAR_MIX_053"
+  trama: >
+    È la prima apparizione di Thanos. Mentore, padre di Thanos e abitante di
+    Titano, si rende conto della follia del figlio e assieme a Kronos crea
+    Drax il Distruttore per sconfiggerlo. Quest'ultimo chiede aiuto ad Iron
+    Man della Terra.
+  immagini:
+    - src: /assets/img/marvel-comics/ironman55.png
+      alt: "Iron Man 55 - copertina"
+    - src: /assets/img/marvel-comics/ironman55-thanos.png
+      alt: "Iron Man 55 - prima apparizione di Thanos"
+  collegate: [f4-arrivo-galactus, kang-ultimo-nemico]
+
+- id: secret-wars
+  titolo: "Marvel Super Heroes Secret Wars"
+  personaggi: [Avengers, X-men, Fantastici 4, Spider-Man, Hulk, Doctor Destino, Magneto]
+  anno: 1984
+  edizione: Marvel Must Have
+  fumetti: "Marvel Super Heroes Secret Wars (1984) #1-12"
+  autori: [Jim Shooter, Mike Zeck, Bob Layton]
+  link: "https://www.panini.it/shp_ita_it/marvel-super-heroes-secret-wars-mmust072isbn-it08.html"
+  trama: >
+    Il Beyonder, entità cosmica onnipotente, rapisce i più grandi eroi e
+    villain della Terra e li trasporta su Battleworld, un pianeta artificiale
+    creato assemblando pezzi di mondi diversi, promettendo di realizzare ogni
+    desiderio a chi vincerà la guerra. Doctor Destino emerge come minaccia
+    centrale: costruisce una macchina che gli permette di sottrarre il potere
+    del Beyonder stesso, diventando quasi onnipotente, finché Klaw non lo
+    convince a usare i poteri rubati fino a farli implodere, permettendo al
+    Beyonder di riprenderseli. Gli eroi tornano sulla Terra, ma la vicenda
+    lascia in eredità il nuovo costume nero di Spider-Man, un simbionte
+    alieno che darà presto origine a Venom.
+  immagini:
+    - src: /assets/img/marvel-comics/secret-wars.jpg
+      alt: "Marvel Super Heroes Secret Wars - copertina"
+  collegate: [amazing-spider-man-252]
+
+- id: amazing-spider-man-252
+  titolo: "Marvel Replica Edition: Amazing Spider-Man 252"
+  personaggi: [Spider-Man, J. Jonah Jameson, Dr. Curt Connors, Black Cat]
+  anno: 1984
+  edizione: Marvel Replica Edition
+  formato: spillato
+  fumetti: "The Amazing Spider-Man #252"
+  autori: [Roger Stern, Ron Frenz, Klaus Janson]
+  link: "https://www.panini.it/shp_ita_it/marvel-replica-edition-amazing-spider-man-252-mfacs008isbn-it08.html"
+  trama: >
+    Dopo la sua misteriosa scomparsa insieme a decine di altri eroi terrestri
+    durante Secret Wars, Spider-Man ricompare a Central Park indossando per
+    la prima volta la sua nuova tuta nera, un costume organico capace di
+    modellarsi e persino di trasformarsi in abiti civili. Riportato a casa
+    il Dr. Connors, Peter Parker scopre che il nuovo costume risponde
+    telepaticamente alla sua volontà, in modo sempre più inquietante,
+    gettando le basi per la futura scoperta della sua vera natura aliena,
+    destinata a diventare Venom.
+  immagini:
+    - src: /assets/img/marvel-comics/amazing-spider-man-252.jpg
+      alt: "Marvel Replica Edition: Amazing Spider-Man 252 - copertina"
+  collegate: [secret-wars]
+
+- id: daredevil-rinascita
+  titolo: "Daredevil: Rinascita"
+  personaggi: [Daredevil, Kingpin, Karen Page, Foggy Nelson, Ben Urich]
+  anno: 1986
+  edizione: Marvel Must Have
+  fumetti: "Daredevil (1964) #227-233"
+  autori: [Frank Miller, David Mazzucchelli]
+  link: "https://www.panini.it/shp_ita_it/daredevil-rinascita-mmust033isbn-it08.html"
+  trama: >
+    Karen Page, ormai tossicodipendente, vende il segreto dell'identità di
+    Daredevil per una dose, e l'informazione finisce nelle mani del
+    Kingpin. Wilson Fisk usa il suo potere criminale per demolire
+    sistematicamente Matt Murdock: lo fa radiare dall'ordine degli
+    avvocati con accuse fabbricate, lo rovina finanziariamente e lo priva
+    degli affetti, tra cui l'amicizia con Foggy Nelson. Precipitato nella
+    follia e nella miseria, Matt tocca il fondo prima di risalire grazie
+    all'aiuto di Ben Urich, arrivando a una resa dei conti finale con il
+    Kingpin che segna la rinascita del personaggio.
+  immagini:
+    - src: /assets/img/marvel-comics/daredevil-rinascita.jpg
+      alt: "Daredevil: Rinascita - copertina"
+  collegate: []
+
+- id: punisher-zona-di-guerra
+  titolo: "Punisher: Zona di Guerra"
+  personaggi: [Punisher]
+  anno: 1992
+  edizione: Marvel Must Have
+  fumetti: "Punisher War Zone (1992) #1-6"
+  autori: [Chuck Dixon, John Romita Jr., Klaus Janson]
+  link: "https://www.panini.it/shp_ita_it/punisher-zona-di-guerra-mmust091isbn-it08.html"
+  trama: >
+    Frank Castle si infiltra nella famiglia mafiosa dei Carbone, guidata
+    dai fratelli Julius e Sal, fingendosi un parente per eliminarla
+    dall'interno dopo la rottura con il suo alleato Micro. Scoperto dai
+    Carbone, Castle viene catturato e condannato a morte, ma riesce a
+    salvarsi grazie all'intervento del vecchio alleato Mitraglia, un
+    mercenario dal pesante arsenale. Lo scontro finale si trasforma in un
+    massacro totale contro l'intera organizzazione, che viene annientata
+    senza superstiti di rilievo.
+  immagini:
+    - src: /assets/img/marvel-comics/punisher-zona-di-guerra.jpg
+      alt: "Punisher: Zona di Guerra - copertina"
+  collegate: []
+
+- id: xmen-era-apocalisse
+  titolo: "X-men L'era di Apocalisse"
+  personaggi: [X-men, Apocalisse, Legione, Magneto, Gambit, Ciclope]
+  anno: 1995
+  edizione: Marvel Masterseries
+  fumetti: >
+    Uncanny X-Men (1981) #320/321, X-Men (1991) #40/41, Cable (1993) #20,
+    X-Men Alpha (1994) #1, Generation Next (1995) #1, Astonishing X-Men
+    (1995) #1, Gambit and the X-Ternals (1995) #1, Weapon X (1995) #1,
+    Factor X (1995) #1, X-Man (1995) #1, X-Calibre (1995) #1, Amazing
+    X-Men (1995) #1 e materiale da X-Men (1991) #38/39, Uncanny X-Men
+    (1981) #319
+  autori: [Andy Kubert, Jeph Loeb, Mark Waid, Steve Epting]
+  link: "https://www.panini.it/shp_ita_it/marvel-masterseries-x-men-l-era-di-apocalisse-1-mmser013isbn-it08.html"
+  trama: >
+    Parte 1 di un'era in cui il figlio di Xavier, Legione, impazzisce e lo
+    uccide nel passato. Gli X-men vengono fondati da Magneto in suo onore, ma
+    il mondo viene conquistato da Apocalisse. Qui il mondo è una distopia: tra
+    i cattivi infatti c'è Ciclope (ancora innamorato di Jean). Jean e
+    Wolverine sono innamorati, Gambit si è separato dagli X-men ma è ancora
+    innamorato di Rogue, ma quest'ultima ha un figlio (Charles) da Magneto. La
+    storia viene movimentata quando Alfiere ricorda cosa è successo e cerca
+    di convincere Magneto a cambiare la linea temporale.
+  immagini:
+    - src: /assets/img/marvel-comics/xmen-era-apocalisse1.png
+      alt: "X-men L'era di Apocalisse - copertina"
+  collegate: []
+
+- id: spiderman-blu
+  titolo: "Spider-Man Blu"
+  personaggi: [Spider-Man, Mary Jane, Gwen Stacy]
+  anno: 2002
+  edizione: Marvel Must Have
+  fumetti: "Spider-Man: Blue (2002) #1-6"
+  autori: [Jeph Loeb, Tim Sale]
+  link: "https://www.panini.it/shp_ita_it/spider-man-blu-mmust083isbn-it08.html"
+  trama: >
+    Peter Parker registra per Mary Jane il ricordo del suo primo amore, Gwen
+    Stacy, tra l'ingresso di MJ nella sua vita e la rivalità con Harry
+    Osborn. La storia si chiude con la morte di Gwen, gettata dal Golden
+    Gate dal Green Goblin e uccisa dallo scatto della sua stessa tela
+    mentre Spider-Man tenta di salvarla.
+  immagini:
+    - src: /assets/img/marvel-comics/spiderman-blu.png
+      alt: "Spider-Man Blu - copertina"
+  collegate: []
+
+- id: avengers-divisi
+  titolo: "Avengers Divisi"
+  personaggi: [Avengers, Scarlett Witch]
+  anno: 2004
+  edizione: Marvel Must Have
+  fumetti: "Avengers (1963) #500/503, Avengers Finale (2005) #1"
+  autori: [Brian Michael Bendis, David Finch]
+  link: "https://www.panini.it/shp_ita_it/avengers-divisi-mmust002isbn-it08.html"
+  trama: >
+    Tappa del famoso rilancio degli Avengers da parte di Bendis. Dopo gli
+    eventi di House of M, Scarlett continua nella sua pazzia e attacca i
+    Vendicatori. Muoiono parecchi personaggi ma alla fine la sconfiggono.
+    Alla fine dell'evento gli Avengers si dividono.
+  immagini:
+    - src: /assets/img/marvel-comics/avengers-divisi.png
+      alt: "Avengers Divisi"
+  collegate: []
+
+- id: civil-war
+  titolo: "Civil War"
+  personaggi: [Iron Man, Captain America, Spider-Man, Mister Fantastic, Nuovi Vendicatori]
+  anno: 2006
+  edizione: Marvel Graphic Novel
+  fumetti: "Civil War (2006) #1-7"
+  autori: [Mark Millar, Steve McNiven]
+  link: "https://www.panini.it/shp_ita_it/civil-war-mgrev004isbnr2-it08.html"
+  trama: >
+    Un disastro provocato dai New Warriors a Stamford, che causa la morte di
+    centinaia di civili, spinge il governo americano a varare l'Atto di
+    Registrazione dei Superumani. Iron Man si schiera a favore della legge,
+    mentre Captain America guida la resistenza clandestina degli eroi
+    contrari al controllo statale. Goliath viene ucciso da Ragnarok, un
+    clone di Thor creato in segreto da Stark e Mister Fantastic, un evento
+    che spinge molti eroi, tra cui Spider-Man, a passare dalla parte di Cap.
+    Il conflitto culmina in una battaglia campale a New York al termine
+    della quale Captain America, consapevole dei danni causati agli
+    innocenti, si arrende e accetta l'arresto, lasciando Iron Man alla guida
+    di un'Iniziativa dei Cinquanta Stati.
+  immagini:
+    - src: /assets/img/marvel-comics/civil-war.jpg
+      alt: "Civil War - copertina"
+  collegate: []
+
+- id: annihilation
+  titolo: "Annihilation"
+  personaggi: [Nova, Annihilus, Thanos, Drax il Distruttore, Silver Surfer, Ronan l'Accusatore]
+  anno: 2006
+  edizione: Marvel Must Have
+  fumetti: "Annihilation (2006) #1-6"
+  autori: [Keith Giffen, Andrea Di Vito]
+  link: "https://www.panini.it/shp_ita_it/annihilation-mmust031isbn-it08.html"
+  trama: >
+    L'Annihilation Wave, l'armata di Annihilus proveniente dalla Zona
+    Negativa, devasta il Corpo Nova e distrugge Xandar: Richard Rider,
+    unico superstite, diventa Nova Prime e raduna un fronte comune con
+    Silver Surfer e Ronan l'Accusatore. Thanos si allea segretamente con
+    Annihilus per poi tradirlo, ma prima di riuscirci viene ucciso da Drax
+    il Distruttore. Liberato da Drax, Silver Surfer libera a sua volta
+    Galactus, che annienta gran parte dell'Annihilation Wave. Nello scontro
+    finale Nova uccide Annihilus, ponendo fine all'invasione.
+  immagini:
+    - src: /assets/img/marvel-comics/annihilation.jpg
+      alt: "Annihilation - copertina"
+  collegate: []
+
+- id: planet-hulk
+  titolo: "Planet Hulk"
+  personaggi: [Hulk]
+  anno: 2006
+  edizione: Marvel Must Have
+  fumetti: "Incredible Hulk (2000) #92-105"
+  autori: [Greg Pak, Carlo Pagulayan, Aaron Lopresti]
+  link: "https://www.panini.it/shp_ita_it/planet-hulk-mmust012isbn-it08.html"
+  trama: >
+    Dopo che gli Illuminati esiliano Hulk nello spazio per proteggere la Terra
+    dai suoi eccessi, la nave devia e lo fa schiantare sul pianeta Sakaar,
+    dove viene reso schiavo e costretto a combattere come gladiatore per il
+    Re Rosso. Hulk si allea con gli altri gladiatori nei Warbound e rovescia
+    il tiranno, diventando re di Sakaar e sposando Caiera, ex guardia del Re
+    Rosso. Il suo regno dura solo tre giorni: la nave che lo aveva portato lì
+    esplode, uccidendo migliaia di persone tra cui, crede lui, la moglie
+    incinta. Convinto che l'esplosione sia stata causata di proposito
+    dagli Illuminati che lo avevano esiliato, Hulk giura vendetta contro la
+    Terra, dando inizio a World War Hulk.
+  immagini:
+    - src: /assets/img/marvel-comics/planet-hulk.png
+      alt: "Planet Hulk - copertina"
+  collegate: []
+
+- id: silver-surfer-requiem
+  titolo: "Silver Surfer: Requiem"
+  personaggi: [Silver Surfer, Galactus, Shalla-Bal, Fantastici 4, Doctor Strange]
+  anno: 2007
+  edizione: Marvel Must Have
+  fumetti: "Silver Surfer: Requiem (2007) #1-4"
+  autori: [J. Michael Straczynski, Esad Ribic]
+  link: "https://www.panini.it/shp_ita_it/silver-surfer-requiem-mmust046isbn-it08.html"
+  trama: >
+    Norrin Radd scopre che il rivestimento argenteo che lo protegge nel
+    vuoto dello spazio si sta disgregando: gli restano solo trenta giorni di
+    vita. Prima di morire compie un ultimo viaggio per salutare gli amici
+    conosciuti nella sua lunga esistenza, tra cui i Fantastici Quattro e
+    Doctor Strange, e fa ritorno su Zenn-La per ritrovare il suo antico
+    amore Shalla-Bal. Nel finale Galactus, il suo antico padrone, gli
+    concede un ultimo desiderio: trasforma il corpo di Norrin Radd in una
+    stella che brillerà per l'eternità, diventando un faro ricordato in
+    tutto l'universo.
+  immagini:
+    - src: /assets/img/marvel-comics/silver-surfer-requiem.jpg
+      alt: "Silver Surfer: Requiem - copertina"
+  collegate: []
+
+- id: secret-invasion
+  titolo: "Secret Invasion"
+  personaggi: [Avengers, Nick Fury, Iron Man, Capitan America, Thor, Spider-Man, Skrull, Regina Veranke, Norman Osborn]
+  anno: 2008
+  edizione: Marvel Pocket
+  fumetti: "Secret Invasion (2008) #1-8"
+  autori: [Brian Michael Bendis, Leinil Francis Yu]
+  link: "https://www.panini.it/shp_ita_it/secret-invasion-mapok002isbn-it08.html"
+  trama: >
+    Da anni gli Skrull, alieni mutaforma capaci di ingannare persino i
+    telepati, si sono infiltrati tra gli eroi della Terra sostituendo
+    figure chiave delle squadre. La rivelazione arriva quando Elektra,
+    uccisa in combattimento, si scopre essere in realtà una Skrull: da
+    quel momento paranoia e sospetto dilagano tra Avengers, X-Men e
+    Fantastic Four mentre una flotta Skrull si prepara all'invasione
+    totale. Nello scontro finale è Norman Osborn, e non uno dei veri eroi,
+    a uccidere in diretta televisiva la Regina Skrull Veranke,
+    guadagnandosi lo status di salvatore della Terra e la nomina a capo
+    della sicurezza mondiale, dando inizio all'era di Dark Reign.
+  immagini:
+    - src: /assets/img/marvel-comics/secret-invasion.jpg
+      alt: "Secret Invasion - copertina"
+  collegate: []
+
+- id: spider-man-nuovi-modi-per-morire
+  titolo: "Spider-Man: Nuovi modi per morire"
+  personaggi: [Spider-Man, Norman Osborn, Eddie Brock, Mac Gargan, Martin Li]
+  anno: 2008
+  edizione: "Marvel Legendary Collection #1"
+  fumetti: "The Amazing Spider-Man (1963) #568-573"
+  autori: [Dan Slott, John Romita Jr., Klaus Janson]
+  link: "https://www.comicsbox.it/albo/MARVELLC_001"
+  trama: >
+    Norman Osborn, a capo dei Thunderbolts, costringe Mac Gargan (Venom) a
+    legarsi al siero del Goblin per creare un'arma letale contro Spider-Man
+    e gli eroi non registrati. Nel frattempo Eddie Brock, guarito dal tocco
+    di Martin Li/Mister Negative, si fonde con i resti del simbionte
+    corrotto e diventa Anti-Venom, capace di neutralizzare i poteri di
+    Spidey e purificare il veleno nelle vene di Gargan. Lo scontro finale
+    vede Anti-Venom e Spider-Man sconfiggere il mostruoso "Goblin Venom" in
+    cui si è trasformato Gargan, mentre Osborn resta libero di tramare
+    nell'ombra.
+  immagini:
+    - src: /assets/img/marvel-comics/spider-man-nuovi-modi-per-morire.jpg
+      alt: "Spider-Man: Nuovi modi per morire - copertina"
+  collegate: [amazing-spider-man-252]
+
+- id: spider-man-noir
+  titolo: "Spider-Man Noir"
+  personaggi: [Spider-Man, Ben Urich, Felicia Hardy, Norman Osborn, Kraven il Cacciatore, Avvoltoio]
+  anno: 2009
+  edizione: Marvel Must Have
+  fumetti: "Spider-Man Noir (2009) #1-4"
+  autori: [David Hine, Fabrice Sapolsky, Carmine Di Giandomenico]
+  link: "https://www.panini.it/shp_ita_it/spider-man-noir-mmust075isbn-it08.html"
+  trama: >
+    New York, inverno 1932: la Grande Depressione ha messo la città nelle
+    mani del boss criminale Norman Osborn, il "Goblin". Peter Parker,
+    giovane fotografo per il Daily Bugle, scopre che suo zio Ben, attivista
+    socialista, è stato ucciso su ordine di Osborn. Morso da un ragno
+    mistico durante un'indagine su un carico di antichità rubate, Peter
+    ottiene poteri sovrumani e, indossando l'uniforme da aviatore dello
+    zio, diventa Spider-Man per vendicarlo. Quando ha l'occasione di
+    eliminare Osborn scieglie di consegnarlo alla giustizia, ma il Goblin
+    viene ucciso da un Kraven il Cacciatore in agonia.
+  immagini:
+    - src: /assets/img/marvel-comics/spider-man-noir.jpg
+      alt: "Spider-Man Noir - copertina"
+  collegate: []
+
+- id: marvel-universe-23
+  titolo: "Marvel Universe 23"
+  anno: 2014
+  edizione: Marvel Universe (Panini)
+  formato: spillato
+  fumetti: "Marvel Universe (Panini) #23 - What If? Dark Reign (raccolta antologica)"
+  link: "https://comicsbox.it/albo/MRVUN_M_023"
+  trama: >
+    Albo antologico di storie "What If?" ambientate nell'era Dark Reign, con
+    scenari alternativi su Iron Man, Hulk, Thor, Hawkeye e Norman Osborn.
+  immagini:
+    - src: /assets/img/marvel-comics/marvel-universe-23.jpg
+      alt: "Marvel Universe 23 - copertina"
+  collegate: []
+
+- id: rage-of-ultron
+  titolo: "Rage of Ultron"
+  personaggi: [Ultron, Hank Pym, Avengers]
+  anno: 2015
+  edizione: Marvel Must Have
+  fumetti: "Avengers Rage Of Ultron (2015)"
+  autori: [Rick Remender, Jerome Opena, Pepe Larraz]
+  link: "https://www.panini.it/shp_ita_it/avengers-rage-of-ultron-mmust127isbn-it08.html"
+  trama: >
+    Ultron è stato recentemente sconfitto e spedito nello spazio. Si schianta su Titano dove riesce a prendere il controllo del pianeta. Con una tecnologia nuova di zecca invade la Terra e trasforma tutti gli abitanti in suoi schavi. Viene fermato da suo padre, Hank Pym, il quale si fonde con lui e viene spedito nello spazio.
+  immagini:
+    - src: /assets/img/marvel-comics/ultron-rage-of.png
+      alt: "Rage of Ultron - copertina"
+    - src: /assets/img/marvel-comics/ultron-rage-of-hank.png
+      alt: "Rage of Ultron - Ultron e Pink sono dio"
+  collegate: []
+
+- id: secret-wars-2015
+  titolo: "Secret Wars"
+  personaggi: [Doctor Destino, Mister Fantastic, Molecule Man, Doctor Strange, Miles Morales, Spider-Man, Thanos]
+  anno: 2015
+  edizione: Marvel Giant-Size Edition
+  fumetti: "Secret Wars (2015) #1-9"
+  autori: [Jonathan Hickman, Esad Ribić]
+  link: "https://www.panini.it/shp_ita_it/marvel-giant-size-edition-secret-wars-mmabs004isbn-it08.html"
+  trama: >
+    Le incursioni innescate dai misteriosi Beyonders provocano la
+    collisione distruttiva tra Terra-616 e l'universo Ultimate, portando
+    all'annullamento di entrambe le realtà. Il Dottor Destino, insieme a
+    Stephen Strange e al Molecule Man, sconfigge i Beyonders e assembla i
+    frammenti superstiti in un mondo a patchwork, Battleworld, di cui si
+    autoproclama dio sovrano assoluto. Quando Mister Fantastic, Miles
+    Morales e altri sopravvissuti emergono dai bozzoli in cui erano
+    rimasti in stasi, organizzano la resistenza contro il suo regno: nello
+    scontro finale il Molecule Man trasferisce il potere dei Beyonders a
+    Reed Richards, che sconfigge Destino e ricrea un nuovo universo Marvel
+    unificato.
+  immagini:
+    - src: /assets/img/marvel-comics/secret-wars-2015.jpg
+      alt: "Secret Wars (2015) - copertina"
+  collegate: []
+
+- id: civil-war-ii
+  titolo: "Civil War II"
+  personaggi: [Iron Man, Captain Marvel, War Machine, Hulk, Hawkeye, Miles Morales]
+  anno: 2016
+  edizione: Marvel Omnibus
+  fumetti: "Civil War II (2016) #0-8"
+  autori: [Brian Michael Bendis, David Marquez]
+  link: "https://www.panini.it/shp_ita_it/civil-war-ii-momcw001isbnr-it08.html"
+  trama: >
+    L'emergere di Ulysses Cain, un giovane Inumano capace di prevedere il
+    futuro, spacca in due il mondo dei supereroi: Captain Marvel vuole usare
+    le sue visioni per prevenire i disastri, Iron Man teme le conseguenze di
+    alterare il destino per intervenire preventivamente. Una visione porta
+    gli eroi a tendere un'imboscata a Thanos, in cui muore War Machine.
+    Quando Ulysses prevede che Bruce Banner tornerà a essere Hulk e ucciderà
+    gran parte degli Avengers, Hawkeye lo uccide con una freccia in un patto
+    stabilito tra i due. Il conflitto culmina in uno scontro diretto tra
+    Stark e Danvers, al termine del quale Stark cade in coma e il futuro
+    degli eroi resta diviso.
+  immagini:
+    - src: /assets/img/marvel-comics/civil-war-ii.jpg
+      alt: "Civil War II - copertina"
+  collegate: [civil-war]
+
+- id: infinity-wars
+  titolo: "Infinity Wars"
+  personaggi: [Gamora, Adam Warlock, Star-Lord, Doctor Strange, Thanos, Loki]
+  anno: 2018
+  edizione: Marvel Miniserie 210-221
+  formato: spillato
+  fumetti: "Infinity Wars Prime #1, Infinity Wars #1-6 e tie-in (raccolta completa)"
+  autori: [Gerry Duggan, Mike Deodato Jr.]
+  link: "https://www.panini.it/shp_ita_it/infinity-wars-1-mmmin210-it08.html"
+  trama: >
+    Dopo aver recuperato tutte le Gemme dell'Infinito, Gamora uccide Thanos
+    e assume l'identità di Requiem, decisa a rimodellare la realtà in modo
+    diverso da suo padre. Il tentativo va fuori controllo: metà
+    dell'universo viene "ripiegata" su se stessa, creando il Warp World, una
+    dimensione tascabile dentro la Gemma dell'Anima dove eroi e villain si
+    fondono in ibridi, sotto la minaccia dell'entità cosmica Devondra. La
+    crisi si risolve quando Adam Warlock copia le anime del Warp World
+    permettendo a Hulk di scaraventare Devondra nella realtà, distruggendo
+    il suo universo ma preservando il Warp World; Gamora viene infine
+    esiliata in cerca di redenzione.
+  immagini:
+    - src: /assets/img/marvel-comics/infinity-wars.jpg
+      alt: "Infinity Wars - copertina"
+  collegate: [thanos-pt1]
+
+- id: kang-ultimo-nemico
+  titolo: "Kang il Conquistatore: L'Ultimo Nemico Sono Io"
+  personaggi: [Kang]
+  anno: 2021
+  edizione: Marvel Collection
+  fumetti: "Kang the Conqueror (2021) #1/5"
+  autori: [Collin Kelly, Carlos Magno, Jackson Lanzing]
+  link: "https://www.panini.it/shp_ita_it/kang-il-conquistatore-l-ultimo-nemico-sono-io-mnowi187isbn-it08.html"
+  trama: >
+    È una storia sulle origini di Kang. È un loop temporale in cui affronterà
+    i vari se stesso: Immortus, Scarlet Centurion, Rama-tut, Iron Lad e il suo
+    lontano parente Destino.
+  immagini:
+    - src: /assets/img/marvel-comics/kang-lultimo-nemico.png
+      alt: "Kang il Conquistatore: L'Ultimo Nemico Sono Io"
+  collegate: [thanos-pt1]
+
+- id: axe-judgment-day
+  titolo: "A.X.E. Judgment Day"
+  personaggi: [Eternals, X-men, Avengers]
+  anno: 2022
+  edizione: Marvel Collection
+  fumetti: "A.X.E.: Judgment Day (2022) #1-6"
+  autori: [Kieron Gillen, Valerio Schiti]
+  link: "https://www.panini.it/shp_ita_it/a-x-e-judgment-day-mfrst135isbn-it08.html"
+  trama: >
+    Druig usa i mutanti come nemico comune per compattare gli Eterni,
+    lanciando assassini contro Krakoa. Il Celestiale Progenitore emerge e
+    giudica l'umanità: Emma Frost fallisce, tormentata dal ricordo degli
+    Hellions che non è riuscita a proteggere. Druig perde il ruolo di Primo
+    Eterno e, per vendetta, libera Uranos (prozio di Thanos, un Eterno
+    imprigionato per le sue atrocità), che uccide Magneto e numerosi mutanti
+    su Arakko. Alla fine gli Eterni fermano Uranos e si alleano con i
+    mutanti; Zuras riprende la guida degli Eterni.
+  immagini:
+    - src: /assets/img/marvel-comics/axe.png
+      alt: "A.X.E. Judgment Day - copertina"
+  collegate: []
+
+- id: doctor-strange-strange-vs-strange
+  titolo: "Doctor Strange 2: Strange vs Strange"
+  personaggi: [Doctor Strange, Clea, Umar]
+  anno: 2023
+  edizione: Panini Comics
+  fumetti: "Doctor Strange (2023) #6-10"
+  autori: [Jed MacKay, Pasqual Ferry]
+  link: "https://www.panini.it/shp_ita_it/doctor-strange-2-mnowi296isbn-it08.html"
+  trama: >
+    Il matrimonio tra Umar e Doctor Strange viene sconvolto dal ritorno di
+    Generale Strange, una versione dello Stregone Supremo forgiata da una
+    guerra di cinquemila anni combattuta per conto dei Vishanti, che l'ha
+    trasformato in un guerriero spietato. Il Generale rapisce il figlio non
+    ancora nato di Umar, rivelandosi responsabile dei rapimenti di anime
+    infantili che scuotono la Dimensione Oscura, per usarle come soldati
+    mistici. Stephen deve affrontare il suo io più oscuro per fermarlo e
+    salvare il bambino, riportando un fragile equilibrio nella Dimensione
+    Oscura.
+  immagini:
+    - src: /assets/img/marvel-comics/doctor-strange-2.jpg
+      alt: "Doctor Strange 2: Strange vs Strange - copertina"
+  collegate: []
+
+- id: blood-hunt
+  titolo: "Blood Hunt"
+  personaggi: [Blade, Avengers, Spider-Man, Doctor Strange]
+  anno: 2024
+  edizione: Panini Comics
+  formato: spillato
+  fumetti: "Blood Hunt (2024) #1-3"
+  autori: [Jed MacKay, Pepe Larraz]
+  link: "https://www.panini.it/shp_ita_it/blood-hunt-1-mblhu001-it08.html"
+  trama: >
+    Blade, posseduto dall'antico vampiro Varnae, oscura il sole e scatena i
+    vampiri sull'umanità. Thor viene ucciso dal Bloodcoven, Pantera Nera e
+    Doctor Strange vengono trasformati in vampiri. Scarlet Witch riesce a
+    liberare Blade strappandogli via Varnae e imprigionandolo, mentre
+    Doctor Destino dissolve l'oscurità sul pianeta. Come conseguenza i
+    vampiri diventano immuni alla luce del sole, e Destino si autoproclama
+    nuovo Stregone Supremo, dando inizio all'era "One World Under Doom".
+  immagini:
+    - src: /assets/img/marvel-comics/blood-hunt.jpg
+      alt: "Blood Hunt - copertina"
+  collegate: []

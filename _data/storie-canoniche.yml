@@ -1,0 +1,87 @@
+# Storie ritenute fondamentali per ogni personaggio (curate manualmente).
+# "id" corrisponde a un id in fumetti.yml quando la storia è posseduta.
+# Se non posseduta, si possono aggiungere "link" e/o "link-mu" (Marvel
+# Unlimited) come riferimento, in attesa di comprarla/leggerla.
+
+Kang:
+  - titolo: "Fantastic Four (1961) #19"
+    link: https://www.panini.it/shp_ita_it/kang-la-saga-del-conquistatore-del-passato-e-del-futuro-mmava022isbn-it08.html
+    link-mu: https://www.marvel.com/comics/issue/12994/fantastic_four_1961_19
+    descrizione: "Prima apparizione in assoluto, nella sua variante Rama-Tut."
+  - titolo: "The Avengers (1964) #8"
+    link: https://www.panini.it/shp_ita_it/kang-la-saga-del-conquistatore-del-passato-e-del-futuro-mmava022isbn-it08.html
+    link-mu: https://www.marvel.com/comics/issue/7332/avengers_1963_8
+    descrizione: "Prima apparizione come Kang."
+  - titolo: "Avengers Forever (1998)"
+    link: https://www.panini.it/shp_ita_it/avengers-forever-mmust060isbn-it08.html
+    link-mu: https://www.marvel.com/comics/issue/6946/avengers_forever_1998_1
+    descrizione: "Guerra tra le varianti temporali di Kang."
+  - titolo: "Kang Dynasty (1998)"
+    link: https://www.panini.it/shp_ita_it/avengers-di-busiek-4-mmhis017isbn-it08.html
+    link-mu: https://www.marvel.com/comics/guides/2296/kang-dynasty
+    descrizione: "Kang conquista la Terra."
+  - titolo: "Kang il Conquistatore: l'ultimo nemico sono io (2021)"
+    id: kang-ultimo-nemico
+    descrizione: "Le tante identità di Kang nel tempo."
+
+Ultron:
+  - titolo: "The Avengers (1963) #54-55"
+    descrizione: "La prima apparizione. E' stato creato da Hank Pym."
+    link-mu: https://www.marvel.com/comics/issue/7304/avengers_1963_54
+  - titolo: "Ultron Unlimited (1998)"
+    descrizione: "Ultron rade al suolo una nazione."
+    link: https://www.panini.it/shp_ita_it/avengers-ultron-unlimited-mmust057isbn-it08.html
+  - titolo: "Age of Ultron (2013)"
+    descrizione: "Ultron sconfigge gli Avengers e si nasconde nel futuro."
+    link: https://www.panini.it/shp_ita_it/age-of-ultron-mmust063isbn-it08.html
+  - titolo: "Rage of Ultron (2015)"
+    id: rage-of-ultron
+    descrizione: "Ultron si fonde con Hank Pym."
+
+X-men:
+  - titolo: "L'Era di Apocalisse"
+    id: xmen-era-apocalisse
+    descrizione: "Xavier muore, Apocalisse conquista il mondo."
+  - titolo: "Giorni di un Futuro Passato"
+    descrizione: "Futuro distopico, mutanti sterminati."
+  - titolo: "Dark Phoenix Saga"
+    descrizione: "Jean Grey corrotta dal potere Fenice."
+
+Fantastici 4:
+  - titolo: "L'Arrivo di Galactus (FF #48-50)"
+    id: f4-arrivo-galactus
+    descrizione: "Debutto di Galactus e Silver Surfer."
+  - titolo: "Galactus Trilogy sequel (FF #242-244)"
+    id: f4-arrivo-galactus
+    descrizione: "Galactus rischia la morte, i F4 lo salvano."
+  - titolo: "This Man, This Monster"
+    descrizione: "La Cosa affronta un doppelganger e si redime."
+  - titolo: "Unthinkable"
+    descrizione: "Il Dottor Destino tortura Sue Storm psicologicamente."
+
+Avengers:
+  - titolo: "Avengers Disassembled"
+    id: avengers-divisi
+    descrizione: "Scarlet Witch impazzisce e distrugge la squadra."
+  - titolo: "Kree-Skrull War"
+    descrizione: "Prima grande guerra cosmica Marvel."
+  - titolo: "Secret Wars (1984)"
+    id: secret-wars
+    descrizione: "Eroi e villain si scontrano su Battleworld."
+  - titolo: "Civil War (2006)"
+    id: civil-war
+    descrizione: "Iron Man e Captain America si scontrano sulla registrazione dei superumani."
+
+Silver Surfer:
+  - titolo: "Silver Surfer: Requiem (2007)"
+    id: silver-surfer-requiem
+    descrizione: "Il canto del cigno di Norrin Radd."
+
+Thanos:
+  - titolo: "Prima apparizione (Iron Man #55)"
+    id: thanos-pt1
+    descrizione: "Debutto di Thanos, creato da Starlin."
+  - titolo: "The Thanos Quest"
+    descrizione: "Thanos raccoglie le Gemme dell'Infinito."
+  - titolo: "The Infinity Gauntlet"
+    descrizione: "Thanos annienta metà dell'universo."

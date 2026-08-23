@@ -1,0 +1,8 @@
+# Spillati aggiunti come solo immagine + link (nessuna storia associata),
+# mostrati in coda alla sezione "Spillati" di pages/fumetti-collezione.md.
+- titolo: "L'Immortale Thor 1"
+  img: /assets/img/marvel-comics/immortale-thor-1.jpg
+  link: "https://www.panini.it/shp_ita_it/l-immortale-thor-1-mthor291isbnv1-it08.html"
+- titolo: "Fantastici Quattro 1"
+  img: /assets/img/marvel-comics/fantastici-quattro-1.jpg
+  link: "https://www.panini.it/shp_ita_it/fantastici-quattro-1-mfqua435isbnv1-it08.html"
