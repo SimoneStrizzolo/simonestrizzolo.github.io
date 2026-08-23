@@ -30,6 +30,7 @@
   fumetti: "Thanos Vol.1 (2003), Iron Man 55 (1973)"
   autori: [Jim Starlin, Mike Friedrich]
   link: "https://www.comicsbox.it/albo/MAR_MIX_053"
+  focus: thanos
   trama: >
     È la prima apparizione di Thanos. Mentore, padre di Thanos e abitante di
     Titano, si rende conto della follia del figlio e assieme a Kronos crea
@@ -40,7 +41,248 @@
       alt: "Iron Man 55 - copertina"
     - src: /assets/img/marvel-comics/ironman55-thanos.png
       alt: "Iron Man 55 - prima apparizione di Thanos"
-  collegate: [f4-arrivo-galactus, kang-ultimo-nemico]
+  collegate: [f4-arrivo-galactus, kang-ultimo-nemico, thanos-quest, thanos-ascesa]
+
+- id: thanos-quest
+  titolo: "Thanos Quest"
+  personaggi: [Thanos, Morte, Adam Warlock]
+  anno: 1990
+  edizione: Marvel Mega Hit
+  fumetti: "Thanos Quest (1990) #1-2"
+  autori: [Jim Starlin, Ron Lim, Josef Rubinstein]
+  link: "https://www.panini.it/shp_ita_it/thanos-quest-mmhit001isbn-it08.html"
+  focus: thanos
+  trama: >
+    Thanos, umiliato dalla sconfitta subita per mano di Adam Warlock, dà la
+    caccia agli Anziani dell'Universo per sottrarre loro le sei Gemme
+    dell'Infinito, eliminandoli o ingannandoli uno per uno. Riunite tutte le
+    gemme nel Guanto dell'Infinito, ottiene un potere pressoché assoluto e,
+    per dimostrare il proprio amore alla Morte personificata, cancella con
+    uno schiocco di dita metà dell'universo.
+  immagini:
+    - src: /assets/img/marvel-comics/thanos-quest.jpg
+      alt: "Thanos Quest - copertina"
+  collegate: [thanos-pt1, guanto-infinito]
+
+- id: guanto-infinito
+  titolo: "Il Guanto dell'Infinito"
+  personaggi: [Thanos, Adam Warlock, Nebula, Avengers, Fantastici 4, X-men]
+  anno: 1991
+  edizione: Marvel Must Have
+  fumetti: "Infinity Gauntlet (1991) #1-6"
+  autori: [Jim Starlin, George Pérez, Ron Lim]
+  link: "https://www.panini.it/shp_ita_it/il-guanto-dell-infinito-mmust011isbn-it08.html"
+  focus: thanos
+  trama: >
+    In possesso del Guanto completo, Thanos cancella metà dell'universo con
+    uno schiocco di dita. Gli eroi superstiti si alleano con Adam Warlock per
+    fermarlo, ma è Nebula, nipote di Thanos, a sottrargli il Guanto
+    approfittando di un momento di distrazione. Warlock la convince a
+    restituirlo e lo usa per annullare lo schiocco, riportando in vita le
+    vittime: Thanos, sconfitto e privato del suo scopo, si ritira, mentre
+    Warlock resta detentore del Guanto.
+  immagini:
+    - src: /assets/img/marvel-comics/guanto-infinito.jpg
+      alt: "Il Guanto dell'Infinito - copertina"
+  collegate: [thanos-quest, guerra-infinito-1]
+
+- id: guerra-infinito-1
+  titolo: "La Guerra dell'Infinito 1: Manovre Infernali"
+  personaggi: [Thanos, Adam Warlock, Magus]
+  anno: 1992
+  edizione: "Marvel: Le Battaglie del Secolo"
+  formato: spillato
+  fumetti: "Infinity War (1992) #1-3"
+  autori: [Jim Starlin, Ron Lim, Al Milgrom]
+  link: "https://www.comicsbox.it/albo/MBATSEC_023"
+  focus: thanos
+  trama: >
+    Il Magus, doppio malvagio generato quando Adam Warlock si è liberato del
+    proprio lato oscuro, scatena un esercito di sosia (doppelganger) che
+    sostituiscono gli eroi della Terra, incluso un doppio dello stesso
+    Thanos. Thanos rifiuta di allearsi col Magus e si unisce invece a Warlock
+    e ai Guardiani dell'Infinito per fermarlo, mentre sulla Terra gli eroi
+    respingono i propri sosia.
+  immagini:
+    - src: /assets/img/marvel-comics/guerra-infinito-1.jpg
+      alt: "La Guerra dell'Infinito 1 - copertina"
+  collegate: [guanto-infinito, guerra-infinito-2]
+
+- id: guerra-infinito-2
+  titolo: "La Guerra dell'Infinito 2: Il Coinvolgimento dell'Anima"
+  personaggi: [Thanos, Adam Warlock, Magus]
+  anno: 1992
+  edizione: "Marvel: Le Battaglie del Secolo"
+  formato: spillato
+  fumetti: "Infinity War (1992) #4-6"
+  autori: [Jim Starlin, Ron Lim, Al Milgrom]
+  link: "https://www.comicsbox.it/albo/MBATSEC_024"
+  focus: thanos
+  trama: >
+    Il Magus riesce a impossessarsi del Guanto dell'Infinito e diventa
+    onnipotente, tenendo prigioniero Warlock mentre Thanos e gli eroi
+    terrestri combattono i suoi sosia. Warlock si libera e affronta il Magus
+    per il controllo del Guanto: la battaglia si risolve con l'intervento di
+    un'entità fusa di Eternity e Infinity, che lo sconfigge definitivamente,
+    ristabilendo l'equilibrio cosmico.
+  immagini:
+    - src: /assets/img/marvel-comics/guerra-infinito-2.jpg
+      alt: "La Guerra dell'Infinito 2 - copertina"
+  collegate: [guerra-infinito-1]
+
+- id: thanos-ascesa
+  titolo: "Thanos: l'Ascesa di Thanos"
+  personaggi: [Thanos, Morte]
+  anno: 2013
+  edizione: Marvel Must Have
+  fumetti: "Thanos Rising (2013) #1-5"
+  autori: [Jason Aaron, Simone Bianchi]
+  link: "https://www.panini.it/shp_ita_it/thanos-l-ascesa-di-thanos-mmust006isbn-it08.html"
+  focus: thanos
+  trama: >
+    Nato su Titano da una madre che tenta di ucciderlo alla nascita per un
+    presagio sulla sua natura, il giovane Thanos cresce isolato finché non
+    diventa l'unico sopravvissuto a un incidente che uccide i suoi amici
+    d'infanzia. Una misteriosa ragazza, incarnazione di Morte, lo spinge a
+    nutrire la propria sete di violenza fino a fargli uccidere la madre, il
+    proprio capitano pirata e infine il figlio e la compagna: nasce così il
+    tiranno genocida ossessionato per sempre dall'amore di Morte.
+  immagini:
+    - src: /assets/img/marvel-comics/thanos-ascesa.jpg
+      alt: "Thanos: l'Ascesa di Thanos - copertina"
+  collegate: [thanos-pt1]
+
+- id: thanos-ritorna
+  titolo: "Thanos: Thanos Ritorna"
+  personaggi: [Thanos, Thane, Morte, Nebula]
+  anno: 2016
+  edizione: Marvel Must Have
+  fumetti: "Thanos (2016) #1-6"
+  autori: [Jeff Lemire, Mike Deodato Jr.]
+  link: "https://www.panini.it/shp_ita_it/thanos-thanos-ritorna-mmust055isbn-it08.html"
+  focus: thanos
+  trama: >
+    Malato e morente, Thanos viene braccato dal proprio figlio Thane,
+    segretamente manipolato da Lady Morte per farlo sconfiggere entro una
+    settimana. Thane recluta Nebula e il Campione, ma nasconde loro il vero
+    scopo del piano; nello scontro finale Thanos viene annientato da un solo
+    colpo del figlio, ormai trasformato dal potere della Forza Fenice. Morte
+    rivela di aver orchestrato tutto per amore del Titano, che però la
+    rinnega e riprende la propria esistenza come se nulla fosse accaduto.
+  immagini:
+    - src: /assets/img/marvel-comics/thanos-ritorna.jpg
+      alt: "Thanos: Thanos Ritorna - copertina"
+  collegate: []
+
+- id: thanos-vince
+  titolo: "Thanos Vince"
+  personaggi: [Thanos, Cosmic Ghost Rider, Silver Surfer, Hulk]
+  anno: 2018
+  edizione: Marvel Must Have
+  fumetti: "Thanos (2016) #13-17, Thanos Annual (2018) #1"
+  autori: [Donny Cates, Geoff Shaw]
+  link: "https://www.panini.it/shp_ita_it/thanos-vince-mmust085isbn-it08.html"
+  focus: thanos
+  trama: >
+    Un misterioso cavaliere fiammeggiante rapisce Thanos nel futuro e lo
+    mette di fronte alla propria versione anziana, il Re Thanos, che ha già
+    sterminato l'intero universo e tiene Hulk incatenato come animale da
+    compagnia. Il Thanos del presente scopre così il proprio destino e
+    affronta, al fianco del proprio io futuro, l'ultimo avversario rimasto:
+    Silver Surfer, impazzito e ossessionato dal brandire Mjolnir. Tornato
+    nella propria epoca, il giovane Thanos giura di seguire un cammino
+    diverso, nel tentativo di cancellare la linea temporale che genererebbe
+    il proprio io tirannico.
+  immagini:
+    - src: /assets/img/marvel-comics/thanos-vince.jpg
+      alt: "Thanos Vince - copertina"
+  collegate: [thanos-2]
+
+- id: thanos-2
+  titolo: "Thanos 2"
+  personaggi: [Thanos, Cosmic Ghost Rider]
+  anno: 2018
+  edizione: "Marvel Now! Collection"
+  fumetti: "Thanos (2016) #18, Thanos Annual (2018) #1"
+  autori: [Donny Cates, Geoff Shaw]
+  link: "https://www.panini.it/shp_ita_it/thanos-2-mnowc110isbn-it08.html"
+  focus: thanos
+  trama: >
+    Diretto seguito di Thanos Vince: dopo aver sconfitto insieme il Fallen
+    One, il Thanos del presente e il proprio io futuro si scontrano per il
+    possesso di Lady Morte. Il Thanos giovane ha la meglio, lasciando ferito
+    ma vivo il proprio io tirannico, prima di fare ritorno alla propria
+    epoca deciso a evitare quel destino.
+  immagini:
+    - src: /assets/img/marvel-comics/thanos-2.jpg
+      alt: "Thanos 2 - copertina"
+  collegate: [thanos-vince]
+
+- id: fratelli-infinito
+  titolo: "Thanos: i Fratelli dell'Infinito"
+  personaggi: [Thanos, Eros, Kang]
+  anno: 2018
+  edizione: Marvel Graphic Novel
+  fumetti: "Thanos: The Infinity Siblings (2018)"
+  autori: [Jim Starlin, Alan Davis]
+  link: "https://www.panini.it/shp_ita_it/thanos-i-fratelli-dell-infinito-mgnth007isbn-it08.html"
+  focus: thanos
+  trama: >
+    In un lontano futuro Thanos ha ormai raggiunto ogni suo scopo, ma una
+    distorsione temporale su Titano rivela una minaccia proveniente da una
+    linea temporale alternativa: una versione futura di se stesso,
+    onnipotente e folle. Costretto a un'alleanza forzata con il fratello
+    Eros e con l'aiuto di Kang il Conquistatore, sconfigge temporaneamente
+    il proprio alter ego corrotto, ma la distorsione temporale resta aperta.
+  immagini:
+    - src: /assets/img/marvel-comics/fratelli-infinito.jpg
+      alt: "Thanos: i Fratelli dell'Infinito - copertina"
+  collegate: [conflitto-infinito]
+
+- id: conflitto-infinito
+  titolo: "Thanos: il Conflitto dell'Infinito"
+  personaggi: [Thanos, Eros, Adam Warlock]
+  anno: 2018
+  edizione: Marvel Graphic Novel
+  fumetti: "Thanos: The Infinity Conflict (2018)"
+  autori: [Jim Starlin, Alan Davis]
+  link: "https://www.panini.it/shp_ita_it/thanos-il-conflitto-dell-infinito-mgnth008isbn-it08.html"
+  focus: thanos
+  trama: >
+    Sul pianeta Zelchia, la versione futura e corrotta di Thanos manipola il
+    proprio io più giovane trasformandolo in un burattino al servizio dei
+    propri piani di dominio assoluto. Solo Eros, un troll e un imprevisto
+    ritorno dalla morte si frappongono al suo cammino, ma è lo stesso
+    Thanos, dilaniato dalla scissione interiore, a diventare il principale
+    ostacolo al proprio futuro tirannico: la storia si chiude su uno scontro
+    ancora irrisolto tra le due incarnazioni del Titano.
+  immagini:
+    - src: /assets/img/marvel-comics/conflitto-infinito.jpg
+      alt: "Thanos: il Conflitto dell'Infinito - copertina"
+  collegate: [fratelli-infinito, finale-infinito]
+
+- id: finale-infinito
+  titolo: "Thanos: il Finale dell'Infinito"
+  personaggi: [Thanos, Eros, Adam Warlock, Kang]
+  anno: 2019
+  edizione: Marvel Graphic Novel
+  fumetti: "Thanos: The Infinity Ending (2019)"
+  autori: [Jim Starlin, Alan Davis, Mark Farmer]
+  link: "https://www.panini.it/shp_ita_it/thanos-il-finale-dell-infinito-mgnth009isbn-it08.html"
+  focus: thanos
+  trama: >
+    Nel lontano futuro Thanos è diventato l'essere più potente della realtà,
+    avendo sottratto il potere a Morte, Galactus e persino al Living
+    Tribunal, e decide di soggiogare anche il proprio io passato. Eros,
+    Adam Warlock e Pip il Troll intraprendono un viaggio nel tempo per
+    liberarlo, aiutati a sorpresa da Kang il Conquistatore e dallo stesso
+    Thanos presente, tenuto prigioniero dalla propria versione futura. Nel
+    finale è Thanos a sconfiggere Thanos, chiudendo in modo definitivo la
+    saga cosmica.
+  immagini:
+    - src: /assets/img/marvel-comics/finale-infinito.jpg
+      alt: "Thanos: il Finale dell'Infinito - copertina"
+  collegate: [conflitto-infinito]
 
 - id: secret-wars
   titolo: "Marvel Super Heroes Secret Wars"
@@ -467,7 +709,7 @@
   immagini:
     - src: /assets/img/marvel-comics/infinity-wars.jpg
       alt: "Infinity Wars - copertina"
-  collegate: [thanos-pt1]
+  collegate: [thanos-pt1, guanto-infinito]
 
 - id: kang-ultimo-nemico
   titolo: "Kang il Conquistatore: L'Ultimo Nemico Sono Io"

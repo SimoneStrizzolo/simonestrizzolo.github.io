@@ -14,8 +14,11 @@ permalink: /fumetti/collezione
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
-{% assign gruppi = site.data.fumetti | where_exp: "s", "s.formato != 'spillato'" %}
-{% assign spillati = site.data.fumetti | where_exp: "s", "s.formato == 'spillato'" %}
+{% assign gruppi = site.data.fumetti | where_exp: "s", "s.formato != 'spillato' and s.focus != 'thanos'" %}
+{% assign spillati = site.data.fumetti | where_exp: "s", "s.formato == 'spillato' and s.focus != 'thanos'" %}
+{% assign thanos = site.data.fumetti | where_exp: "s", "s.focus == 'thanos'" %}
+
+<p><a href="/fumetti/personaggi">→ Vai alle checklist per personaggio</a></p>
 
 <div id="fumetti-grid" markdown="1">
 
@@ -34,6 +37,10 @@ permalink: /fumetti/collezione
   </a>
 {% endfor %}
 </div>
+
+## Thanos
+
+{% include fumetti-sezione.html storie=thanos %}
 
 </div>
 
@@ -60,5 +67,3 @@ Ho sostanzialmente preso, per pura collezione, i numeri 1 di ogni serie.
   </a>
 {% endfor %}
 </div>
-
-<p><a href="/fumetti/personaggi">→ Vai alle checklist per personaggio</a></p>
