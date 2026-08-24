@@ -1,37 +1,37 @@
 ---
 layout: page
 title: La mia collezione Marvel
-permalink: /fumetti/collezione
+permalink: /marvel/collezione
 ---
 
 <style>
 .fumetti-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
 .fumetti-icon { display: block; }
-.fumetti-icon img { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 4px; transition: transform 0.15s ease; }
+.fumetti-icon img { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px; transition: transform 0.15s ease; }
 .fumetti-icon:hover img { transform: scale(1.05); }
 .fumetti-panel { display: none; border: 1px solid var(--border-color, #ccc); border-radius: 8px; padding: 1rem; margin-top: 1.5rem; scroll-margin-top: 72px; }
 .fumetti-panel:target { display: block; }
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
-{% assign gruppi = site.data.fumetti | where_exp: "s", "s.formato != 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
-{% assign spillati = site.data.fumetti | where_exp: "s", "s.formato == 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
-{% assign thanos = site.data.fumetti | where_exp: "s", "s.focus == 'thanos'" %}
+{% assign gruppi = site.data["marvel-comics"] | where_exp: "s", "s.formato != 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
+{% assign spillati = site.data["marvel-comics"] | where_exp: "s", "s.formato == 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
+{% assign thanos = site.data["marvel-comics"] | where_exp: "s", "s.focus == 'thanos'" %}
 
-<p><a href="/fumetti/personaggi">→ Vai alle checklist per personaggio</a></p>
+<p><a href="/marvel/personaggi">→ Vai alle checklist per personaggio</a></p>
 
 <div id="fumetti-grid" markdown="1">
 
 ## Volumi
 
-{% include fumetti-sezione.html storie=gruppi %}
+{% include marvel-sezione.html storie=gruppi %}
 
 ## Spillati
 
-{% include fumetti-sezione.html storie=spillati %}
+{% include marvel-sezione.html storie=spillati %}
 
 <div class="fumetti-grid">
-{% for s in site.data["spillati-solo-cover"] %}
+{% for s in site.data["marvel-spillati-solo-cover"] %}
   <a class="fumetti-icon" href="{{ s.link }}" target="_blank" rel="noopener" title="{{ s.titolo }}">
     <img src="{{ s.img }}" alt="{{ s.titolo }} - copertina">
   </a>
@@ -42,7 +42,7 @@ permalink: /fumetti/collezione
 
 E' il mio personaggio preferito. Ho quasi tutto di lui.
 
-{% include fumetti-sezione.html storie=thanos %}
+{% include marvel-sezione.html storie=thanos %}
 
 </div>
 
@@ -63,7 +63,7 @@ Le variant di Alex Ross con ogni personaggio Marvel (protagonista o antagonista)
 Ho sostanzialmente preso, per pura collezione, i numeri 1 di ogni serie.
 
 <div class="fumetti-grid">
-{% for u in site.data["ultimate-universe"] %}
+{% for u in site.data["marvel-ultimate-universe"] %}
   <a class="fumetti-icon" href="{{ u.link }}" target="_blank" rel="noopener" title="{{ u.titolo }}">
     <img src="{{ u.img }}" alt="{{ u.titolo }} - copertina">
   </a>

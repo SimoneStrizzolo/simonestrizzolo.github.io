@@ -1,0 +1,360 @@
+# TODO: aggiungere immagini in /assets/img/dc-comics/
+
+- id: watchmen-alan-moore-dave-gibbons
+  titolo: Watchmen
+  personaggi: ["Rorschach (Walter Kovacs)", "Ozymandias (Adrian Veidt)", "Dr. Manhattan (Jon Osterman)", "Nite Owl II (Dan Dreiberg)", "Silk Spectre II (Laurie Juspeczyk)", "il Comico (Edward Blake)"]
+  anno: 1986
+  edizione: DC Comics
+  fumetti: "Watchmen #1-12 (DC Comics, 1986-1987)"
+  autori: ["Alan Moore (testi)", "Dave Gibbons (disegni e colori)"]
+  link: ""
+  trama: >
+    Nella New York del 1985, in un'America dove i supereroi sono stati messi al
+    bando, l'omicidio del Comico spinge il paranoico vigilante Rorschach a
+    indagare, temendo un complotto contro i vecchi Minutemen. L'inchiesta
+    coinvolge Nite Owl, Silk Spectre e l'onnipotente Dr. Manhattan, mentre la
+    Guerra Fredda con l'URSS sembra sull'orlo del conflitto nucleare. Si scopre
+    che il vero antagonista è Ozymandias, l'ex eroe Adrian Veidt: per
+    scongiurare l'apocalisse atomica ha orchestrato l'assassinio del Comico e,
+    nel finale, fa detonare a New York una creatura simile a un calamaro
+    creata in laboratorio, uccidendo milioni di civili per simulare
+    un'invasione aliena e unire l'umanità contro un nemico comune. Rorschach,
+    che rifiuta di tacere sulla verità, viene ucciso da Dr. Manhattan per
+    proteggere il piano di Veidt, mentre Nite Owl e Silk Spectre scelgono, con
+    orrore, di accettare la menzogna in nome della pace mondiale. Il finale
+    resta volutamente ambiguo: il diario di Rorschach, spedito prima della sua
+    morte a un tabloid di estrema destra, giace nella pila delle lettere da
+    pubblicare, lasciando intendere che la verità su Ozymandias potrebbe
+    presto emergere e vanificare il suo sacrificio.
+  immagini:
+    - src: /assets/img/dc-comics/watchmen-alan-moore-dave-gibbons.jpg
+      alt: "Watchmen - copertina"
+  collegate: []
+
+- id: batman-il-ritorno-del-cavaliere-oscuro
+  titolo: "Batman: Il Ritorno del Cavaliere Oscuro"
+  personaggi: ["Batman / Bruce Wayne", "Carrie Kelley (nuova Robin)", "Joker", "Superman", "Due Facce (Harvey Dent)", "Commissario James Gordon", "Ellen Yindel", "I Mutanti"]
+  anno: 1986
+  edizione: "Play Press (collana storica) / poi ristampato da RW Lion nella collana \"Vertigo/DC Deluxe\" — edizione italiana integrale in volume unico"
+  fumetti: "Batman: The Dark Knight Returns #1-4 (DC Comics, 1986)"
+  autori: ["Frank Miller (testi e disegni)", "Klaus Janson (chine)", "Lynn Varley (colori)"]
+  link: ""
+  trama: >
+    A Gotham City, dieci anni dopo il suo ritiro, un Bruce Wayne cinquantenne
+    torna a indossare il mantello per affrontare l'escalation di violenza
+    della banda dei Mutanti e la rinata minaccia di Due Facce. Nel corso della
+    storia recluta come nuova Robin la giovane Carrie Kelley e si scontra di
+    nuovo con il suo storico nemico, il Joker, che nell'ultimo confronto si
+    spezza volontariamente il collo per incastrare Batman nella sua morte. Il
+    governo, allarmato dai metodi radicali del Cavaliere Oscuro, manda
+    Superman, ora agente federale, a fermarlo: nello scontro finale Batman usa
+    un'armatura potenziata ed è salvato solo da un espediente (finge la
+    propria morte per un infarto simulato) che gli permette di sopravvivere al
+    colpo del kryptonite. La vicenda si chiude con Bruce Wayne che scompare
+    ufficialmente ma continua in segreto a guidare, dai sotterranei sotto la
+    Batcaverna, un nuovo esercito di vigilanti reclutati tra gli ex Mutanti,
+    gettando le basi per una resistenza clandestina contro l'ordine costituito.
+  immagini:
+    - src: /assets/img/dc-comics/batman-il-ritorno-del-cavaliere-oscuro.jpg
+      alt: "Batman: Il Ritorno del Cavaliere Oscuro - copertina"
+  collegate: []
+
+- id: batman-the-killing-joke
+  titolo: "Batman: The Killing Joke"
+  personaggi: ["Batman", "Joker", "Barbara Gordon (Batgirl)", "Commissario James Gordon"]
+  anno: 1988
+  edizione: "Panini Comics, collana \"DC Comics\" / edizioni Absolute-DC Black Label (ed. italiane: Play Press 1997, Lion \"Absolute DC\"/\"DC classic\", Panini \"DC Black Label\")"
+  fumetti: "Batman: The Killing Joke (one-shot, DC Comics, 1988)"
+  autori: ["Alan Moore (testi)", "Brian Bolland (disegni)", "John Higgins (colori)"]
+  link: ""
+  trama: >
+    Il Joker evade da Arkham Asylum deciso a dimostrare a Batman che chiunque,
+    sotto la giusta dose di pressione, può impazzire come lui. Per farlo si
+    presenta a casa di Barbara Gordon e le spara a bruciapelo attraverso la
+    porta, paralizzandola alla colonna vertebrale, poi rapisce e tortura
+    psicologicamente il commissario Gordon rinchiudendolo in un luna park in
+    rovina, costringendolo a vedere foto della figlia nuda e sanguinante per
+    spezzarlo. Batman irrompe per salvare Gordon, che però resiste al piano
+    del Joker restando lucido e chiedendo che venga arrestato "secondo le
+    regole", dimostrando che la follia non è l'unico esito possibile al
+    dolore. Nel confronto finale Batman offre al Joker una sorta di tregua
+    umana, raccontandogli una barzelletta sulla pazzia condivisa, e il
+    fumetto si chiude in modo ambiguo con i due che ridono insieme sotto la
+    pioggia mentre arrivano le sirene della polizia. L'episodio rende
+    permanente la paralisi di Barbara Gordon, spingendola a reinventarsi come
+    Oracle, e resta il punto di riferimento canonico per l'origine
+    psicologica del Joker.
+  immagini:
+    - src: /assets/img/dc-comics/batman-the-killing-joke.jpg
+      alt: "Batman: The Killing Joke - copertina"
+  collegate: []
+
+- id: batman-anno-uno
+  titolo: "Batman: Anno Uno"
+  personaggi: ["Batman / Bruce Wayne", "James Gordon", "Carmine Falcone", "Selina Kyle / Catwoman", "Sarah Essen", "Commissario Gillian Loeb", "Detective Flass"]
+  anno: 1987
+  edizione: "RW Lion, collana \"DC Absolute\" / \"DC Deluxe\""
+  fumetti: "Batman (1940) #404-407"
+  autori: ["Frank Miller (testi)", "David Mazzucchelli (disegni)", "Richmond Lewis (colori)"]
+  link: ""
+  trama: >
+    Bruce Wayne torna a Gotham dopo anni di addestramento e affronta il suo
+    primo, disastroso tentativo da vigilante, capendo che serve un simbolo
+    capace di incutere vero terrore: nasce così Batman. In parallelo arriva
+    in città il tenente James Gordon, onesto in un corpo di polizia marcio,
+    subito messo alla prova dal boss criminale Carmine Falcone e dai
+    superiori corrotti, come il commissario Loeb e il detective Flass. Lo
+    scontro decisivo arriva quando la polizia, su ordine di Loeb, tende
+    un'imboscata armata a Batman durante una retata, e nel caos un cecchino
+    spara quasi uccidendo il neonato figlio di Gordon, un punto di rottura
+    che spinge Gordon a schierarsi apertamente con il vigilante contro la
+    corruzione interna. Batman sopravvive all'agguato e, con l'aiuto di
+    Gordon, riesce a smascherare pubblicamente i legami tra Falcone e i
+    vertici corrotti della polizia, avviando il risanamento del dipartimento.
+    La storia si chiude con Gordon promosso e alleato non ufficiale di
+    Batman, mentre un accenno finale al procuratore Harvey Dent anticipa i
+    futuri conflitti di Gotham (tra cui la nascita di Due Facce).
+  immagini:
+    - src: /assets/img/dc-comics/batman-anno-uno.jpg
+      alt: "Batman: Anno Uno - copertina"
+  collegate: []
+
+- id: joker-azzarello-bermejo
+  titolo: "Joker"
+  personaggi: ["Joker", "Jonny Frost", "Batman", "Killer Croc", "Harley Quinn", "Due Facce (Harvey Dent)", "Il Pinguino", "Enigmista"]
+  anno: 2008
+  edizione: "DC Comics - Graphic Novel"
+  fumetti: "Joker (2008), graphic novel originale in volume unico"
+  autori: ["Brian Azzarello (testi)", "Lee Bermejo (disegni)"]
+  link: ""
+  trama: >
+    Appena uscito da Arkham, il Joker si fa assumere come autista il piccolo
+    criminale Jonny Frost e, con l'aiuto di Killer Croc e Harley Quinn, inizia
+    una violenta campagna per riprendersi il controllo della malavita di
+    Gotham. Rapina una banca, costringe il Pinguino a investire il bottino e
+    scatena una scia di sangue contro i rivali che si sono spartiti il suo
+    territorio in sua assenza, in un conflitto che lo mette contro Due Facce
+    (Harvey Dent), disperato al punto da chiedere aiuto a Batman. Nello
+    scontro finale su un ponte, con Batman alle strette, il Joker spara a
+    Frost al mento sfigurandolo con un ghigno alla Glasgow: Frost precipita
+    nel fiume, comprendendo troppo tardi quanto fosse distruttivo il legame
+    con il suo capo. Il graphic novel si chiude proprio sulla probabile morte
+    di Frost, mentre il Joker resta libero e ancora al centro del sottobosco
+    criminale di Gotham, pronto a nuove derive nelle storie successive.
+  immagini:
+    - src: /assets/img/dc-comics/joker-azzarello-bermejo.jpg
+      alt: "Joker - copertina"
+  collegate: []
+
+- id: all-star-superman
+  titolo: All-Star Superman
+  personaggi: ["Superman / Clark Kent", "Lex Luthor", "Lois Lane", "Jimmy Olsen", "Solaris", "Bizarro", "Samson e Atlas", "Zibarro"]
+  anno: 2005
+  edizione: "DC Comics (raccolta in volume unico, ed. italiana Play Press/RW Lion)"
+  fumetti: "All-Star Superman #1-12 (2005-2008)"
+  autori: ["Grant Morrison (testi)", "Frank Quitely (disegni)"]
+  link: ""
+  trama: >
+    Lex Luthor orchestra un attentato durante il soccorso di una spedizione
+    solare, esponendo Superman a una overdose di radiazioni che ne sovraccarica
+    le cellule solari e ne decreta la morte certa nel giro di poche settimane.
+    Consapevole della fine imminente, Superman affronta una serie di ultime
+    imprese: rivela la sua identità a Lois Lane, affronta Bizarro e Parasite,
+    e scopre il pianeta-prigione di Zibarro. Il conflitto centrale culmina
+    contro Solaris, il tiranno-sole che ha avvelenato l'astro terrestre:
+    Superman vi si tuffa dentro per ripararlo dall'interno, sacrificando le
+    sue ultime energie vitali. L'atto lo uccide nel senso convenzionale, ma il
+    suo corpo si dissolve in energia pura fondendosi con il sole, lasciando
+    intendere che diventerà "immortale" custode della Terra. La storia si
+    chiude così non come una fine ma come un'apoteosi, preparando il mito di
+    un Superman eterno oltre la morte fisica.
+  immagini:
+    - src: /assets/img/dc-comics/all-star-superman.jpg
+      alt: "All-Star Superman - copertina"
+  collegate: []
+
+- id: kingdom-come
+  titolo: "Kingdom Come"
+  personaggi: ["Superman", "Batman", "Wonder Woman", "Magog", "Captain Marvel/Shazam (Billy Batson)", "Lex Luthor", "Spectre", "Norman McCay"]
+  anno: 1996
+  edizione: "Absolute DC (RW Lion)"
+  fumetti: "Kingdom Come #1-4 (DC Comics, maggio-agosto 1996)"
+  autori: ["Mark Waid (testi)", "Alex Ross (disegni/copertine)"]
+  link: ""
+  trama: >
+    In un futuro alternativo, una nuova generazione di metaumani violenti e
+    privi di ideali ha sostituito i classici supereroi: tra questi emerge
+    Magog, che uccide il Joker dopo una strage alla Daily Planet e viene
+    assolto e osannato dal pubblico, spingendo Superman al ritiro e Wonder
+    Woman all'esilio. Dieci anni dopo, un tentativo scoordinato di fermare
+    Parasite nel Kansas degenera quando Magog fa detonare accidentalmente
+    Captain Atom, irradiando il Midwest e uccidendo milioni di persone:
+    l'evento costringe Superman a tornare in azione per imporre ordine ai
+    metaumani, mentre Batman guida una fazione umana di resistenza e Lex
+    Luthor manipola Capitan Marvel/Billy Batson per scatenarlo contro
+    Superman. Il conflitto precipita quando le Nazioni Unite, terrorizzate,
+    autorizzano il lancio di tre testate nucleari sul campo di battaglia dove
+    si sono radunati centinaia di eroi e villain: Capitan Marvel, liberatosi
+    dal controllo di Luthor, si sacrifica facendo esplodere anticipatamente
+    l'ordigno per limitare la strage, morendo nell'atto. Sconvolto dalla
+    devastazione, Superman rinuncia alla vendetta e sceglie il dialogo invece
+    della sottomissione forzata dell'umanità, ottenendo che i superumani
+    vengano integrati sotto supervisione invece che epurati. La storia si
+    chiude con Batman che abbandona i metodi violenti, Wonder Woman impegnata
+    nella riabilitazione dei superstiti e i tre eroi riconciliati, aprendo la
+    strada a una nuova era di collaborazione tra umani e metaumani.
+  immagini:
+    - src: /assets/img/dc-comics/kingdom-come.jpg
+      alt: "Kingdom Come - copertina"
+  collegate: []
+
+- id: batman-hush
+  titolo: "Batman: Hush"
+  personaggi: ["Batman / Bruce Wayne", "Hush / Thomas Elliot", "Catwoman / Selina Kyle", "Il Joker", "Enigmista", "Ra's al Ghul", "Poison Ivy", "Superman", "Robin / Tim Drake", "Jason Todd", "Alfred Pennyworth", "Harvey Dent / Due Facce"]
+  anno: 2002
+  edizione: "Panini Comics – DC Library / DC Pocket Collection (edizione italiana; volume unico che raccoglie l'intera saga)"
+  fumetti: "Batman #608-619 (Batman Vol. 1, DC Comics, 2002-2003)"
+  autori: ["Jeph Loeb (testi)", "Jim Lee (disegni)", "Scott Williams (chine)"]
+  link: ""
+  trama: >
+    A Gotham City compare un misterioso nemico soprannominato Hush, che
+    manovra dall'ombra quasi tutta la galleria dei criminali di Batman - dal
+    Joker all'Enigmista, da Bane a Poison Ivy, che arriva a soggiogare
+    Superman stesso per scagliarlo contro Bruce Wayne. Le indagini di Batman
+    lo portano a scoprire che dietro la maschera si cela Thomas Elliot, suo
+    amico d'infanzia diventato chirurgo, ossessionato dal rancore per i Wayne
+    e deciso a distruggergli la vita. Nel corso della vicenda emerge anche il
+    presunto ritorno di Jason Todd, il secondo Robin creduto morto, la cui
+    identità viene infine smascherata come un inganno orchestrato da Hush con
+    la complicità di Clayface. Il confronto finale smaschera Elliot, che
+    viene sconfitto e consegnato alla giustizia, mentre Batman avvia una
+    relazione sentimentale con Catwoman, che ha scoperto la sua identità
+    segreta. La storia lascia aperto il filone della vera sorte di Jason
+    Todd, che porrà le basi per il suo ritorno come Red Hood negli anni
+    successivi.
+  immagini:
+    - src: /assets/img/dc-comics/batman-hush.jpg
+      alt: "Batman: Hush - copertina"
+  collegate: []
+
+- id: superman-red-son
+  titolo: "Superman: Red Son"
+  personaggi: ["Superman (Kal-El)", "Lex Luthor", "Wonder Woman", "Batman", "Brainiac", "Presidente Lex Luthor", "Stalin"]
+  anno: 2003
+  edizione: "DC Comics (miniserie in 3 numeri, ed. italiana RW Lion / Panini DC)"
+  fumetti: "Superman: Red Son #1-3 (DC Comics, 2003)"
+  autori: ["Mark Millar", "Dave Johnson", "Kilian Plunkett", "Andrew Robinson (inchiostri)", "Walden Wong (inchiostri)"]
+  link: ""
+  trama: >
+    In questa storia alternativa la capsula di Kal-El precipita non in Kansas
+    ma in una fattoria collettiva ucraina, così Superman cresce come il
+    campione dell'Unione Sovietica e diventa lo strumento politico di Stalin
+    per portare il comunismo su scala mondiale. Negli Stati Uniti, Lex Luthor
+    diventa il principale stratega della Casa Bianca e dedica la vita a
+    fermarlo, orchestrando complotti, cloni e persino la corruzione di Wonder
+    Woman e la morte di Batman (che qui è un dissidente ucciso in un
+    attentato contro il regime superumano di Superman). Dopo la morte di
+    Stalin, Superman stesso prende il potere e instaura una pace globale
+    imposta con mano di ferro, cancellando guerra e povertà ma anche libertà
+    e dissenso. Il colpo di scena finale rivela che l'intera vicenda è stata
+    orchestrata da Brainiac su scala cosmica e che lo stesso Luthor,
+    invecchiato, ha vinto la partita a lungo termine convincendo Superman a
+    farsi da parte volontariamente per permettere all'umanità di scegliere il
+    proprio destino. L'epilogo mostra un futuro lontanissimo in cui un
+    discendente/erede di Luthor somigliante a Superman getta le basi per la
+    nascita, migliaia di anni dopo, del "vero" universo DC che conosciamo.
+  immagini:
+    - src: /assets/img/dc-comics/superman-red-son.jpg
+      alt: "Superman: Red Son - copertina"
+  collegate: []
+
+- id: batman-vittoria-oscura
+  titolo: "Batman: Vittoria Oscura"
+  personaggi: ["Batman / Bruce Wayne", "Due Facce / Harvey Dent", "Sofia Falcone (il Boia/Hangman)", "Dick Grayson / Robin", "James Gordon", "Selina Kyle / Catwoman", "Enigmista"]
+  anno: 1999
+  edizione: "DC Comics"
+  fumetti: "Batman: Dark Victory #0-13 (1999-2000)"
+  autori: ["Jeph Loeb (testi)", "Tim Sale (disegni)"]
+  link: ""
+  trama: >
+    Seguito diretto di "Batman: Il Lungo Halloween", ambientato nel
+    terzo/quarto anno di attività di Batman, alle prese con una serie di
+    omicidi ai danni di poliziotti di Gotham firmati da un misterioso killer
+    chiamato il Boia (Hangman), mentre la mafia dei Falcone, ridotta a
+    brandelli, entra in guerra territoriale con il nuovo boss criminale Due
+    Facce, l'ex procuratore Harvey Dent ormai sfigurato e impazzito. Nel
+    finale si scopre che il Boia è Sofia Falcone, che non era mai stata
+    realmente paralizzata e ha ucciso sistematicamente gli agenti, onesti o
+    corrotti, che in passato avevano favorito la carriera di Dent: Due
+    Facce, scoprendo il tradimento, la affronta e la uccide a sua volta.
+    Sullo sfondo, il piccolo Dick Grayson perde i genitori in un omicidio di
+    mafia orchestrato dall'Enigmista e viene adottato da Bruce Wayne,
+    diventando il primo Robin. La storia chiude i conti con diversi villain
+    introdotti in "Batman: Anno Uno" e segna la fine dell'isolamento emotivo
+    di Batman, apparecchiando la nascita del Dinamico Duo e una nuova fase,
+    più matura, della sua guerra al crimine a Gotham.
+  immagini:
+    - src: /assets/img/dc-comics/batman-vittoria-oscura.jpg
+      alt: "Batman: Vittoria Oscura - copertina"
+  collegate: [batman-il-lungo-halloween, batman-anno-uno]
+
+- id: batman-il-lungo-halloween
+  titolo: "Batman: Il Lungo Halloween"
+  personaggi: ["Batman / Bruce Wayne", "Harvey Dent / Due Facce", "James Gordon", "Carmine Falcone", "Catwoman / Selina Kyle", "Holiday (il killer mascherato)"]
+  anno: 1996
+  edizione: "DC Comics (edizione italiana: RW Lion, collana DC Absolute)"
+  fumetti: "Batman: The Long Halloween #1-13 (ottobre 1996 - dicembre 1997)"
+  autori: ["Jeph Loeb (testi)", "Tim Sale (disegni)"]
+  link: ""
+  trama: >
+    A Gotham City un misterioso assassino soprannominato "Holiday" colpisce
+    solo nei giorni di festa, uccidendo con una pistola calibro 22 i membri
+    della famiglia criminale di Carmine Falcone: Batman, il commissario
+    Gordon e il procuratore Harvey Dent uniscono le forze per fermarlo prima
+    che la caccia li corrompa. Nel corso di un intero anno di indagini il
+    sospetto ricade su più personaggi, ma è proprio Harvey Dent, sfigurato
+    dall'acido e trasformato in Due Facce, a rivelarsi l'assassino che
+    completa la scia di omicidi, uccidendo lui stesso Carmine Falcone la
+    notte del Giorno dei Ringraziamenti. Il finale lascia però un'ombra:
+    emergono indizi che la moglie di Harvey, Gilda Dent, fosse la prima
+    Holiday e che Harvey abbia soltanto proseguito i suoi omicidi dopo la
+    propria caduta. Gordon arresta Due Facce, ma il caso resta volutamente
+    ambiguo su chi abbia davvero dato inizio ai delitti. La vicenda segna la
+    fine dell'incorruttibilità di Dent e getta le basi per la futura
+    escalation dei supercriminali di Gotham.
+  immagini:
+    - src: /assets/img/dc-comics/batman-il-lungo-halloween.jpg
+      alt: "Batman: Il Lungo Halloween - copertina"
+  collegate: [batman-vittoria-oscura, batman-anno-uno]
+
+- id: v-per-vendetta
+  titolo: "V per Vendetta"
+  personaggi: ["V", "Evey Hammond", "Eric Finch", "Adam Susan", "Delia Surridge"]
+  anno: 1982
+  edizione: "Rizzoli Lizard / Magic Press, \"V for Vendetta\" (Lion, collana Grandi Opere Vertigo, ed. italiana integrale)"
+  fumetti: "V for Vendetta (Warrior #1-26, 1982-1985, incompleto) + capitoli conclusivi pubblicati da DC Comics, V for Vendetta #1-10 (1988-1989)"
+  autori: ["Alan Moore (testi)", "David Lloyd (disegni)"]
+  link: ""
+  trama: >
+    In una Londra distopica governata dal regime fascista dei Norsefire, un
+    misterioso uomo mascherato da Guy Fawkes, V, conduce una campagna di
+    ribellione violenta contro il potere. V è un sopravvissuto agli
+    esperimenti del campo di concentramento di Larkhill, e la sua vendetta
+    consiste nell'eliminare uno per uno i responsabili della sua tortura, tra
+    cui la dottoressa Delia Surridge, mentre recluta e forma alla sua causa
+    anarchica la giovane Evey Hammond, salvata dalla polizia segreta.
+    L'antagonista centrale è il Cancelliere Adam Susan e l'intero apparato
+    totalitario di Norsefire, che V smaschera e smantella facendo esplodere
+    gli edifici simbolo del potere (Old Bailey, Downing Street) e diffondendo
+    il caos tra i vertici del regime. La svolta chiave è la morte di V
+    stesso, ucciso dall'ispettore Eric Finch dopo aver fatto detonare la
+    carica che distrugge la sede del governo: Evey, che nel frattempo ha
+    completato la sua trasformazione indossandone la maschera e l'identità,
+    ne raccoglie l'eredità. Il fumetto si chiude con il crollo del regime
+    Norsefire e Londra lasciata nell'anarchia, con Evey pronta a diventare la
+    nuova V per guidare la rinascita della città sulle ceneri del
+    totalitarismo.
+  immagini:
+    - src: /assets/img/dc-comics/v-per-vendetta.jpg
+      alt: "V per Vendetta - copertina"
+  collegate: []

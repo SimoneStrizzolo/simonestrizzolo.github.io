@@ -96,7 +96,7 @@ Push to `main` branch → GitHub Actions automatically runs `jekyll build` and p
 
 ## Low-Visibility Collection Pages Pattern
 
-For content that shouldn't clutter the main menu (e.g. `/fumetti/collezione`, `/fumetti/personaggi`): keep data in `_data/*.yml`, render via `pages/*.md` with Liquid loops, and never add the page to `_data/settings.yml` menu — link to it only from a post or another page. Example: the Marvel comics companion (`_data/fumetti.yml`, `_data/storie-canoniche.yml`), reachable only from the "Le mie collezioni nerd" post.
+For content that shouldn't clutter the main menu (e.g. `/marvel/collezione`, `/marvel/personaggi`, `/starwars/collezione`, `/dccomics/collezione`): keep data in `_data/*.yml`, render via `pages/*.md` with Liquid loops, and never add the page to `_data/settings.yml` menu — link to it only from a post or another page. Example: the Marvel comics companion (`_data/marvel-comics.yml`, `_data/marvel-storie-canoniche.yml`), reachable only from the "Le mie collezioni nerd" post. Naming convention: `_data/*.yml` files are prefixed by franchise (`marvel-*`, or standalone `starwars.yml`/`dc-comics.yml`) so a generic-sounding name never hides which collection it belongs to; the shared rendering logic lives in `_includes/collezione-sezione.html`, with a thin per-franchise wrapper include (e.g. `_includes/marvel-sezione.html`) supplying `personaggi_link`/`data_source`/`grid_id`.
 
 ## CSS-only Expand/Collapse (`:target`) Pattern
 
@@ -107,7 +107,7 @@ For a grid of items where clicking one should reveal its details without JS and 
 - Give the panel a visible "✕ Chiudi" link back to a stable anchor (e.g. the grid container's id) — this is the *only* way to close on mobile, since tapping outside doesn't clear `:target`.
 - Set `scroll-margin-top` on the panel to match any fixed/sticky header height, otherwise the header covers the top of the panel (and the close link) when the browser scrolls to it.
 - Bonus: cross-links between items (e.g. "storie collegate") are just `<a href="#other-id">` — switching the fragment automatically closes the old panel and opens the new one.
-- Example: `pages/fumetti-collezione.md`.
+- Example: `pages/marvel-collezione.md`.
 
 ## Liquid Gotcha: Hyphenated Data Keys
 

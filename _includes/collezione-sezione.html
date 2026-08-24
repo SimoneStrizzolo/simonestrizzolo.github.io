@@ -8,7 +8,7 @@
 
 {% for storia in include.storie %}
   <div class="fumetti-panel" id="{{ storia.id }}">
-    <p><a href="#fumetti-grid" class="fumetti-close">✕ Chiudi</a></p>
+    <p><a href="#{{ include.grid_id | default: 'fumetti-grid' }}" class="fumetti-close">✕ Chiudi</a></p>
     <h3 style="margin-top:0;">{{ storia.titolo }}</h3>
 
     <div style="display:flex; flex-wrap:wrap; align-items:stretch; gap:8px;">
@@ -18,11 +18,15 @@
     </div>
 
     <p><strong>Anno:</strong> {{ storia.anno }} &middot; <strong>Edizione:</strong> {{ storia.edizione }}</p>
-    <p><strong>Fumetti:</strong> {{ storia.fumetti }}</p>
+    {% if storia.fumetti %}<p><strong>Fumetti:</strong> {{ storia.fumetti }}</p>{% endif %}
     <p><strong>Autori:</strong> {{ storia.autori | join: ", " }}</p>
     <p><strong>Personaggi:</strong>
       {% for p in storia.personaggi %}
-        <a href="/fumetti/personaggi#{{ p | slugify }}">{{ p }}</a>{% unless forloop.last %}, {% endunless %}
+        {% if include.personaggi_link %}
+          <a href="{{ include.personaggi_link }}#{{ p | slugify }}">{{ p }}</a>{% unless forloop.last %}, {% endunless %}
+        {% else %}
+          {{ p }}{% unless forloop.last %}, {% endunless %}
+        {% endif %}
       {% endfor %}
     </p>
     <p>{{ storia.trama }}</p>
@@ -30,7 +34,7 @@
     {% if storia.collegate.size > 0 %}
     <p><strong>Storie collegate:</strong>
       {% for cid in storia.collegate %}
-        {% assign collegata = site.data.fumetti | where: "id", cid | first %}
+        {% assign collegata = site.data[include.data_source] | where: "id", cid | first %}
         {% if collegata %}
           <a href="#{{ collegata.id }}">{{ collegata.titolo }}</a>{% unless forloop.last %}, {% endunless %}
         {% endif %}
@@ -38,6 +42,6 @@
     </p>
     {% endif %}
 
-    <p><a href="{{ storia.link }}">Link edizione</a></p>
+    {% if storia.link %}<p><a href="{{ storia.link }}">Link edizione</a></p>{% endif %}
   </div>
 {% endfor %}

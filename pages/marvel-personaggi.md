@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Personaggi - Checklist storie
-permalink: /fumetti/personaggi
+permalink: /marvel/personaggi
 ---
 
-<p><a href="/fumetti/collezione">← Torna alla collezione</a></p>
+<p><a href="/marvel/collezione">← Torna alla collezione</a></p>
 
-{% for entry in site.data["storie-canoniche"] %}
+{% for entry in site.data["marvel-storie-canoniche"] %}
   {% assign nome = entry[0] %}
   {% assign storie = entry[1] %}
   <div id="{{ nome | slugify }}" style="margin-bottom:2rem;">
@@ -14,7 +14,7 @@ permalink: /fumetti/personaggi
     <ul>
       {% for s in storie %}
         {% if s.id %}
-          <li>✅ <a href="/fumetti/collezione#{{ s.id }}">{{ s.titolo }}</a> — {{ s.descrizione }}</li>
+          <li>✅ <a href="/marvel/collezione#{{ s.id }}">{{ s.titolo }}</a> — {{ s.descrizione }}</li>
         {% else %}
           <li>❌ {{ s.titolo }} <em>(non posseduta)</em> — {{ s.descrizione }}
             {% if s.link %}

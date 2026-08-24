@@ -9,6 +9,10 @@ image: marvel-comics/marvel-collezione.jpg
 
 - Ho iniziato a catalogare le cose che collezioni, in modo da avere un compendio digitale sempre pronto all'uso.
 
-- Al momento ho censito solamente i fumetti Marvel.
+- Per ora ho censito fumetti Marvel, fumetti DC e romanzi Star Wars.
 
-[Collezione Marvel](/fumetti/collezione)
+[Collezione Marvel](/marvel/collezione)
+
+[Collezione Star Wars](/starwars/collezione)
+
+[Collezione DC Comics](/dccomics/collezione)
