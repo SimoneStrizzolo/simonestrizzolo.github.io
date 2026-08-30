@@ -1,7 +1,10 @@
 <div class="fumetti-grid">
 {% for storia in include.storie %}
-  <a class="fumetti-icon" href="#{{ storia.id }}" title="{{ storia.titolo }}">
+  <a class="fumetti-icon" href="#{{ storia.id }}" title="{{ storia.titolo }}" style="position: relative;">
     <img src="{{ storia.immagini.first.src }}" alt="{{ storia.immagini.first.alt }}">
+    {% if storia.posseduto != nil %}
+      <span style="position: absolute; top: 4px; right: 4px; font-size: 1.1rem;" title="{% if storia.posseduto %}Già in collezione{% else %}Non ancora in collezione{% endif %}">{% if storia.posseduto %}✅{% else %}❌{% endif %}</span>
+    {% endif %}
   </a>
 {% endfor %}
 </div>
@@ -17,6 +20,9 @@
       {% endfor %}
     </div>
 
+    {% if storia.posseduto != nil %}
+      <p>{% if storia.posseduto %}✅ Ce l'ho già{% else %}❌ Non ce l'ho ancora{% endif %}</p>
+    {% endif %}
     <p><strong>Anno:</strong> {{ storia.anno }} &middot; <strong>Edizione:</strong> {{ storia.edizione }}</p>
     {% if storia.fumetti %}<p><strong>Fumetti:</strong> {{ storia.fumetti }}</p>{% endif %}
     <p><strong>Autori:</strong> {{ storia.autori | join: ", " }}</p>

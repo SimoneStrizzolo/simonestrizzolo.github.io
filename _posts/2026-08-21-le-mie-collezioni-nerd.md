@@ -16,3 +16,5 @@ image: marvel-comics/marvel-collezione.jpg
 [Collezione Star Wars](/starwars/collezione)
 
 [Collezione DC Comics](/dccomics/collezione)
+
+[I Must Have della Marvel](/marvel/must-have)
