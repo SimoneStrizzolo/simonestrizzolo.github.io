@@ -42,7 +42,7 @@
   edizione: Marvel Must Have
   fumetti: "X-Men (1991) 1-7"
   autori: [Chris Claremont, Jim Lee, John Byrne, Scott Lobdell]
-  posseduto: false
+  posseduto: true
   link: "https://www.panini.it/shp_ita_it/x-men-genesi-mutante-2-0-mmust020isbn-it08.html"
   immagini:
     - src: /assets/img/marvel-must-have/xmen-genesi-mutante-2-0.webp
