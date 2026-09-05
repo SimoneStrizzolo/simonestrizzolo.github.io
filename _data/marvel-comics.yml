@@ -354,6 +354,22 @@
       alt: "Daredevil: Rinascita - copertina"
   collegate: []
 
+- id: xmen-genesi-mutante-2-0
+  titolo: "X-men Genesi Mutante 2.0"
+  personaggi: [X-men, Magneto, Wolverine]
+  anno: 1991
+  edizione: Hachette Marvel X-Men
+  fumetti: >
+    X-Men (1991) #1-7
+  autori: [Chris Claremont, Jim Lee, John Birne, Scott Lobdell]
+  link: "https://www.hachette.it/comics/x-men-collezione-mutante-fumetti-marvel/"
+  trama: >
+    E' l'inizio della nuova testata 'X-Men', in parallelo ad Uncanny, seguita per i primi tre numeri da Claremont (ha seguito Uncanny per sedici anni) e poi da Birne. Il volume contiene due storie: la prima è sulla morte di Magneto (bellissima), la seconda sul recupero di un minerale simile all'adamantio ma più duttile (si vede che la penna non è più Claremont).
+  immagini:
+    - src: /assets/img/marvel-comics/xmen-genesi-mutante-2-0.jpg
+      alt: "X-men Genesi Mutante 2.0 - copertina"
+  collegate: []
+
 - id: punisher-zona-di-guerra
   titolo: "Punisher: Zona di Guerra"
   personaggi: [Punisher]
