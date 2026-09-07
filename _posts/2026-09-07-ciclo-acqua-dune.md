@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Il ciclo dell'acqua di Dune"
+author: "Simone Strizzolo"
+categories: nerd
+tags: [nerd, dune, libri]
+image: dune.jpg
+---
+
+# Consigli per la lettura
+
+Il numero di libri su Dune è veramente vasto: [Wikipedia](https://it.wikipedia.org/wiki/Ciclo_di_Dune). I primi quattro sono quelli che raccontano il *core* della storia e si concentrano sulla storia di Paul Atreides e suo filgio Leto II. Gli altri libri sono ambientati molto prima oppure molto dopo.
+
+# Sentiero Dorato
+
+Lo scopo dei libri core, e quindi dei due Atreides, è quello di seguire il Sentiero Dorato, ossia un cammino atto alla salvezza dell'umanità. Il cammino si basa su due principi:
+
+- creare un essere occulto alla prescienza, ossia un essere umano che non possa essere individuato dagli uomini che sono dotati della preveggenza. Questo permette di evitare l'instaurazione di dittature dove i sudditi non hanno il libero arbitrio;
+
+- far passare all'umanità millenni di sofferenza e di decadenza tecnologica affinché, alla morte di Leto II, l'uomo si ribelli e vada alla conquista di intere nuove galassie e sistemi (la grande **Dispersione**). Questo permette all'uomo di conquistare talmente tanti pianeti da essere incontrollabile da un unico regime; di fatto, rendendo impossibile per l'umanità estinguersi.
+
+# Ciclo dell'acqua in Arrakis
+
+Nei libri principali viene spiegato, a sprazzi, come fa ad esistere una sorta di biosfera in Arrakis, il pianeta desertico al centro di tutta la storia dell'universo di Dune.
+
+1. Tutto parte dalle **trote della sabbia** (i *piccoli creatori*), che isolano l'acqua del pianeta in sacche fertili nel sottosuolo, processandola in quella che viene chiamata massa pre-spezia.
+
+2. La reazione chimica della massa pre-spezia genera violente esplosioni. I pochi sopravvissuti a queste esplosioni diventano i **vermi delle sabbie**, gli Shai-Hulud venerati dai Fremen, mentre il prodotto stesso dell'esplosione è la **spezia** (melange).
+
+3. I vermi, muovendosi nel deserto, disseminano la spezia e si nutrono del **plancton della sabbia**; il loro apparato digestivo, nel farlo, rilascia *ossigeno* nell'atmosfera del pianeta.
+
+4. Il plancton della sabbia, a sua volta, si nutre della spezia dispersa dai vermi e cresce fino a trasformarsi proprio nei piccoli creatori, ossia le trote della sabbia, chiudendo così il cerchio.
+
+5. I Fremen, senza saperlo del tutto, minacciano ogni volta l'ecosistema sottraendo acqua al pianeta per i propri insediamenti.
