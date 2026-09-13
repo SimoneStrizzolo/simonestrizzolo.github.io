@@ -59,7 +59,7 @@
   edizione: Marvel Must Have
   fumetti: "Uncanny X-Men (1963) 129-137"
   autori: [Chris Claremont, John Byrne]
-  posseduto: false
+  posseduto: true
   link: "https://www.panini.it/shp_ita_it/x-men-la-saga-di-fenice-nera-mmust013isbn-it08.html"
   immagini:
     - src: /assets/img/marvel-must-have/xmen-saga-fenice-nera.jpg
