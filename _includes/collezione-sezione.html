@@ -9,6 +9,11 @@
     {% endif %}
   </a>
 {% endfor %}
+{% for item in include.extra_items %}
+  <a class="fumetti-icon" href="{{ item.link }}" target="_blank" rel="noopener" title="{{ item.titolo }}">
+    <img src="{{ item.img }}" alt="{{ item.titolo }} - copertina">
+  </a>
+{% endfor %}
 </div>
 
 {% for storia in include.storie %}

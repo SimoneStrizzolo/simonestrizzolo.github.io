@@ -28,10 +28,8 @@ permalink: /marvel/collezione
 
 ## Spillati
 
-{% include marvel-sezione.html storie=spillati %}
-
 {% assign spillati_solo_cover = site.data["marvel-cover-collezioni"] | where: "categoria", "spillati-solo-cover" %}
-{% include cover-grid.html items=spillati_solo_cover %}
+{% include marvel-sezione.html storie=spillati extra_items=spillati_solo_cover %}
 
 ## Thanos
 
