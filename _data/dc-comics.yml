@@ -28,7 +28,6 @@
     presto emergere e vanificare il suo sacrificio.
   immagini:
     - src: /assets/img/dc-comics/watchmen-alan-moore-dave-gibbons.jpg
-      alt: "Watchmen - copertina"
   collegate: []
 
 - id: batman-il-ritorno-del-cavaliere-oscuro
@@ -56,7 +55,6 @@
     gettando le basi per una resistenza clandestina contro l'ordine costituito.
   immagini:
     - src: /assets/img/dc-comics/batman-il-ritorno-del-cavaliere-oscuro.jpg
-      alt: "Batman: Il Ritorno del Cavaliere Oscuro - copertina"
   collegate: []
 
 - id: batman-the-killing-joke
@@ -86,7 +84,6 @@
     psicologica del Joker.
   immagini:
     - src: /assets/img/dc-comics/batman-the-killing-joke.jpg
-      alt: "Batman: The Killing Joke - copertina"
   collegate: []
 
 - id: batman-anno-uno
@@ -116,7 +113,6 @@
     futuri conflitti di Gotham (tra cui la nascita di Due Facce).
   immagini:
     - src: /assets/img/dc-comics/batman-anno-uno.jpg
-      alt: "Batman: Anno Uno - copertina"
   collegate: []
 
 - id: joker-azzarello-bermejo
@@ -143,7 +139,6 @@
     criminale di Gotham, pronto a nuove derive nelle storie successive.
   immagini:
     - src: /assets/img/dc-comics/joker-azzarello-bermejo.jpg
-      alt: "Joker - copertina"
   collegate: []
 
 - id: all-star-superman
@@ -170,7 +165,6 @@
     un Superman eterno oltre la morte fisica.
   immagini:
     - src: /assets/img/dc-comics/all-star-superman.jpg
-      alt: "All-Star Superman - copertina"
   collegate: []
 
 - id: kingdom-come
@@ -205,7 +199,6 @@
     strada a una nuova era di collaborazione tra umani e metaumani.
   immagini:
     - src: /assets/img/dc-comics/kingdom-come.jpg
-      alt: "Kingdom Come - copertina"
   collegate: []
 
 - id: batman-hush
@@ -234,7 +227,6 @@
     successivi.
   immagini:
     - src: /assets/img/dc-comics/batman-hush.jpg
-      alt: "Batman: Hush - copertina"
   collegate: []
 
 - id: superman-red-son
@@ -265,7 +257,6 @@
     nascita, migliaia di anni dopo, del "vero" universo DC che conosciamo.
   immagini:
     - src: /assets/img/dc-comics/superman-red-son.jpg
-      alt: "Superman: Red Son - copertina"
   collegate: []
 
 - id: batman-vittoria-oscura
@@ -295,7 +286,6 @@
     più matura, della sua guerra al crimine a Gotham.
   immagini:
     - src: /assets/img/dc-comics/batman-vittoria-oscura.jpg
-      alt: "Batman: Vittoria Oscura - copertina"
   collegate: [batman-il-lungo-halloween, batman-anno-uno]
 
 - id: batman-il-lungo-halloween
@@ -324,7 +314,6 @@
     escalation dei supercriminali di Gotham.
   immagini:
     - src: /assets/img/dc-comics/batman-il-lungo-halloween.jpg
-      alt: "Batman: Il Lungo Halloween - copertina"
   collegate: [batman-vittoria-oscura, batman-anno-uno]
 
 - id: v-per-vendetta
@@ -356,5 +345,4 @@
     totalitarismo.
   immagini:
     - src: /assets/img/dc-comics/v-per-vendetta.jpg
-      alt: "V per Vendetta - copertina"
   collegate: []

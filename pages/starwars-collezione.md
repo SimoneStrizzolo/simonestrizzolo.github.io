@@ -14,8 +14,10 @@ permalink: /starwars/collezione
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
-{% assign romanzi = site.data.starwars | where_exp: "s", "s.saga != 'alta-repubblica'" %}
-{% assign alta_repubblica = site.data.starwars | where_exp: "s", "s.saga == 'alta-repubblica'" %}
+{% assign romanzi = site.data.starwars | where_exp: "s", "s.saga != 'alta-repubblica'" | sort: "anno" %}
+{% assign alta_repubblica = site.data.starwars | where_exp: "s", "s.saga == 'alta-repubblica'" | sort: "anno" %}
+
+{% include collezioni-nav.html %}
 
 <div id="starwars-grid" markdown="1">
 

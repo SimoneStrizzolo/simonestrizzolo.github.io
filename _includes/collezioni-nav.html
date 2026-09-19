@@ -1,0 +1,10 @@
+{% assign collezioni_nerd = "/marvel/collezione|Collezione Marvel;/marvel/must-have|I Must Have della Marvel;/marvel/personaggi|Marvel - Checklist personaggi;/dccomics/collezione|Collezione DC Comics;/starwars/collezione|Collezione Star Wars" | split: ";" %}
+<p>
+  <a href="/le-mie-collezioni-nerd">← Tutte le mie collezioni</a>
+  {% for voce in collezioni_nerd %}
+    {% assign parti = voce | split: "|" %}
+    {% unless parti[0] == page.url %}
+       &middot; <a href="{{ parti[0] }}">{{ parti[1] }}</a>
+    {% endunless %}
+  {% endfor %}
+</p>

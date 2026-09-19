@@ -18,7 +18,6 @@
     - src: /assets/img/marvel-comics/f4-galactus.png
       alt: "Fantastici Quattro: l'Arrivo di Galactus"
     - src: /assets/img/marvel-comics/f4-galactus-copertina.png
-      alt: "Fantastici Quattro: l'Arrivo di Galactus - copertina"
   collegate: [thanos-pt1]
 
 - id: thanos-pt1
@@ -26,11 +25,11 @@
   personaggi: [Drax il Distruttore, Iron Man, Thanos]
   anno: 1973
   edizione: Marvel Mix
-  formato: spillato
+  spillato: true
   fumetti: "Thanos Vol.1 (2003), Iron Man 55 (1973)"
   autori: [Jim Starlin, Mike Friedrich]
   link: "https://www.comicsbox.it/albo/MAR_MIX_053"
-  focus: thanos
+  thanos: true
   trama: >
     È la prima apparizione di Thanos. Mentore, padre di Thanos e abitante di
     Titano, si rende conto della follia del figlio e assieme a Kronos crea
@@ -55,7 +54,6 @@
     Jean Grey ha il potere cosmico della Fenice. Purtroppo non riesce a controllarlo e si trasforma in Fenice Nera, uccidendo un intero pianeta. Alla fine si suicida.
   immagini:
     - src: /assets/img/marvel-comics/xmen-saga-di-fenice-nera.jpg
-      alt: "X-Men: La Saga di Fenice Nera - copertina"
 
 - id: secret-wars
   titolo: "Marvel Super Heroes Secret Wars"
@@ -78,7 +76,6 @@
     alieno che darà presto origine a Venom.
   immagini:
     - src: /assets/img/marvel-comics/secret-wars.jpg
-      alt: "Marvel Super Heroes Secret Wars - copertina"
   collegate: [amazing-spider-man-252]
 
 - id: amazing-spider-man-252
@@ -86,7 +83,7 @@
   personaggi: [Spider-Man, J. Jonah Jameson, Dr. Curt Connors, Black Cat]
   anno: 1984
   edizione: Marvel Replica Edition
-  formato: spillato
+  spillato: true
   fumetti: "The Amazing Spider-Man #252"
   autori: [Roger Stern, Ron Frenz, Klaus Janson]
   link: "https://www.panini.it/shp_ita_it/marvel-replica-edition-amazing-spider-man-252-mfacs008isbn-it08.html"
@@ -101,7 +98,6 @@
     destinata a diventare Venom.
   immagini:
     - src: /assets/img/marvel-comics/amazing-spider-man-252.jpg
-      alt: "Marvel Replica Edition: Amazing Spider-Man 252 - copertina"
   collegate: [secret-wars]
 
 - id: daredevil-rinascita
@@ -124,7 +120,6 @@
     Kingpin che segna la rinascita del personaggio.
   immagini:
     - src: /assets/img/marvel-comics/daredevil-rinascita.jpg
-      alt: "Daredevil: Rinascita - copertina"
   collegate: []
 
 - id: thanos-quest
@@ -135,7 +130,7 @@
   fumetti: "Thanos Quest (1990) #1-2"
   autori: [Jim Starlin, Ron Lim, Josef Rubinstein]
   link: "https://www.panini.it/shp_ita_it/thanos-quest-mmhit001isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Thanos, umiliato dalla sconfitta subita per mano di Adam Warlock, dà la
     caccia agli Anziani dell'Universo per sottrarre loro le sei Gemme
@@ -145,7 +140,6 @@
     uno schiocco di dita metà dell'universo.
   immagini:
     - src: /assets/img/marvel-comics/thanos-quest.jpg
-      alt: "Thanos Quest - copertina"
   collegate: [thanos-pt1, guanto-infinito]
 
 - id: guanto-infinito
@@ -156,7 +150,7 @@
   fumetti: "Infinity Gauntlet (1991) #1-6"
   autori: [Jim Starlin, George Pérez, Ron Lim]
   link: "https://www.panini.it/shp_ita_it/il-guanto-dell-infinito-mmust011isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     In possesso del Guanto completo, Thanos cancella metà dell'universo con
     uno schiocco di dita. Gli eroi superstiti si alleano con Adam Warlock per
@@ -167,7 +161,6 @@
     Warlock resta detentore del Guanto.
   immagini:
     - src: /assets/img/marvel-comics/guanto-infinito.jpg
-      alt: "Il Guanto dell'Infinito - copertina"
   collegate: [thanos-quest, guerra-infinito-1]
 
 - id: xmen-genesi-mutante-2-0
@@ -182,7 +175,6 @@
     E' l'inizio della nuova testata 'X-Men', in parallelo ad Uncanny, seguita per i primi tre numeri da Claremont (ha seguito Uncanny per sedici anni) e poi da Birne. Il volume contiene due storie: la prima è sulla morte di Magneto (bellissima), la seconda sul recupero di un minerale simile all'adamantio ma più duttile (si vede che la penna non è più Claremont).
   immagini:
     - src: /assets/img/marvel-comics/xmen-genesi-mutante-2-0.jpg
-      alt: "X-men Genesi Mutante 2.0 - copertina"
   collegate: []
 
 - id: guerra-infinito-1
@@ -190,11 +182,11 @@
   personaggi: [Thanos, Adam Warlock, Magus]
   anno: 1992
   edizione: "Marvel: Le Battaglie del Secolo"
-  formato: spillato
+  spillato: true
   fumetti: "Infinity War (1992) #1-3"
   autori: [Jim Starlin, Ron Lim, Al Milgrom]
   link: "https://www.comicsbox.it/albo/MBATSEC_023"
-  focus: thanos
+  thanos: true
   trama: >
     Il Magus, doppio malvagio generato quando Adam Warlock si è liberato del
     proprio lato oscuro, scatena un esercito di sosia (doppelganger) che
@@ -212,11 +204,11 @@
   personaggi: [Thanos, Adam Warlock, Magus]
   anno: 1992
   edizione: "Marvel: Le Battaglie del Secolo"
-  formato: spillato
+  spillato: true
   fumetti: "Infinity War (1992) #4-6"
   autori: [Jim Starlin, Ron Lim, Al Milgrom]
   link: "https://www.comicsbox.it/albo/MBATSEC_024"
-  focus: thanos
+  thanos: true
   trama: >
     Il Magus riesce a impossessarsi del Guanto dell'Infinito e diventa
     onnipotente, tenendo prigioniero Warlock mentre Thanos e gli eroi
@@ -248,7 +240,6 @@
     senza superstiti di rilievo.
   immagini:
     - src: /assets/img/marvel-comics/punisher-zona-di-guerra.jpg
-      alt: "Punisher: Zona di Guerra - copertina"
   collegate: []
 
 - id: xmen-era-apocalisse
@@ -276,7 +267,6 @@
     di convincere Magneto a cambiare la linea temporale.
   immagini:
     - src: /assets/img/marvel-comics/xmen-era-apocalisse1.png
-      alt: "X-men L'era di Apocalisse - copertina"
   collegate: []
 
 - id: spiderman-blu
@@ -295,7 +285,6 @@
     mentre Spider-Man tenta di salvarla.
   immagini:
     - src: /assets/img/marvel-comics/spiderman-blu.png
-      alt: "Spider-Man Blu - copertina"
   collegate: []
 
 - id: avengers-divisi
@@ -338,7 +327,6 @@
     di un'Iniziativa dei Cinquanta Stati.
   immagini:
     - src: /assets/img/marvel-comics/civil-war.jpg
-      alt: "Civil War - copertina"
   collegate: []
 
 - id: annihilation
@@ -360,7 +348,6 @@
     finale Nova uccide Annihilus, ponendo fine all'invasione.
   immagini:
     - src: /assets/img/marvel-comics/annihilation.jpg
-      alt: "Annihilation - copertina"
   collegate: []
 
 - id: planet-hulk
@@ -384,7 +371,6 @@
     Terra, dando inizio a World War Hulk.
   immagini:
     - src: /assets/img/marvel-comics/planet-hulk.png
-      alt: "Planet Hulk - copertina"
   collegate: []
 
 - id: silver-surfer-requiem
@@ -407,7 +393,6 @@
     tutto l'universo.
   immagini:
     - src: /assets/img/marvel-comics/silver-surfer-requiem.jpg
-      alt: "Silver Surfer: Requiem - copertina"
   collegate: []
 
 - id: secret-invasion
@@ -431,7 +416,6 @@
     della sicurezza mondiale, dando inizio all'era di Dark Reign.
   immagini:
     - src: /assets/img/marvel-comics/secret-invasion.jpg
-      alt: "Secret Invasion - copertina"
   collegate: []
 
 - id: spider-man-nuovi-modi-per-morire
@@ -454,7 +438,6 @@
     nell'ombra.
   immagini:
     - src: /assets/img/marvel-comics/spider-man-nuovi-modi-per-morire.jpg
-      alt: "Spider-Man: Nuovi modi per morire - copertina"
   collegate: [amazing-spider-man-252]
 
 - id: spider-man-noir
@@ -477,14 +460,13 @@
     viene ucciso da un Kraven il Cacciatore in agonia.
   immagini:
     - src: /assets/img/marvel-comics/spider-man-noir.jpg
-      alt: "Spider-Man Noir - copertina"
   collegate: []
 
 - id: marvel-universe-23
   titolo: "Marvel Universe 23"
   anno: 2014
   edizione: Marvel Universe (Panini)
-  formato: spillato
+  spillato: true
   fumetti: "Marvel Universe (Panini) #23 - What If? Dark Reign (raccolta antologica)"
   link: "https://comicsbox.it/albo/MRVUN_M_023"
   trama: >
@@ -492,7 +474,6 @@
     scenari alternativi su Iron Man, Hulk, Thor, Hawkeye e Norman Osborn.
   immagini:
     - src: /assets/img/marvel-comics/marvel-universe-23.jpg
-      alt: "Marvel Universe 23 - copertina"
   collegate: []
 
 - id: thanos-ascesa
@@ -503,7 +484,7 @@
   fumetti: "Thanos Rising (2013) #1-5"
   autori: [Jason Aaron, Simone Bianchi]
   link: "https://www.panini.it/shp_ita_it/thanos-l-ascesa-di-thanos-mmust006isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Nato su Titano da una madre che tenta di ucciderlo alla nascita per un
     presagio sulla sua natura, il giovane Thanos cresce isolato finché non
@@ -514,7 +495,6 @@
     tiranno genocida ossessionato per sempre dall'amore di Morte.
   immagini:
     - src: /assets/img/marvel-comics/thanos-ascesa.jpg
-      alt: "Thanos: l'Ascesa di Thanos - copertina"
   collegate: [thanos-pt1]
 
 - id: rage-of-ultron
@@ -529,7 +509,6 @@
     Ultron è stato recentemente sconfitto e spedito nello spazio. Si schianta su Titano dove riesce a prendere il controllo del pianeta. Con una tecnologia nuova di zecca invade la Terra e trasforma tutti gli abitanti in suoi schavi. Viene fermato da suo padre, Hank Pym, il quale si fonde con lui e viene spedito nello spazio.
   immagini:
     - src: /assets/img/marvel-comics/ultron-rage-of.png
-      alt: "Rage of Ultron - copertina"
     - src: /assets/img/marvel-comics/ultron-rage-of-hank.png
       alt: "Rage of Ultron - Ultron e Pink sono dio"
   collegate: []
@@ -567,7 +546,7 @@
   fumetti: "Thanos (2016) #1-6"
   autori: [Jeff Lemire, Mike Deodato Jr.]
   link: "https://www.panini.it/shp_ita_it/thanos-thanos-ritorna-mmust055isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Malato e morente, Thanos viene braccato dal proprio figlio Thane,
     segretamente manipolato da Lady Morte per farlo sconfiggere entro una
@@ -578,7 +557,6 @@
     rinnega e riprende la propria esistenza come se nulla fosse accaduto.
   immagini:
     - src: /assets/img/marvel-comics/thanos-ritorna.jpg
-      alt: "Thanos: Thanos Ritorna - copertina"
   collegate: []
 
 - id: civil-war-ii
@@ -602,7 +580,6 @@
     degli eroi resta diviso.
   immagini:
     - src: /assets/img/marvel-comics/civil-war-ii.jpg
-      alt: "Civil War II - copertina"
   collegate: [civil-war]
 
 - id: thanos-vince
@@ -613,7 +590,7 @@
   fumetti: "Thanos (2016) #13-17, Thanos Annual (2018) #1"
   autori: [Donny Cates, Geoff Shaw]
   link: "https://www.panini.it/shp_ita_it/thanos-vince-mmust085isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Un misterioso cavaliere fiammeggiante rapisce Thanos nel futuro e lo
     mette di fronte alla propria versione anziana, il Re Thanos, che ha già
@@ -626,7 +603,6 @@
     il proprio io tirannico.
   immagini:
     - src: /assets/img/marvel-comics/thanos-vince.jpg
-      alt: "Thanos Vince - copertina"
   collegate: [thanos-2]
 
 - id: thanos-2
@@ -637,7 +613,7 @@
   fumetti: "Thanos (2016) #18, Thanos Annual (2018) #1"
   autori: [Donny Cates, Geoff Shaw]
   link: "https://www.panini.it/shp_ita_it/thanos-2-mnowc110isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Diretto seguito di Thanos Vince: dopo aver sconfitto insieme il Fallen
     One, il Thanos del presente e il proprio io futuro si scontrano per il
@@ -657,7 +633,7 @@
   fumetti: "Thanos: The Infinity Siblings (2018)"
   autori: [Jim Starlin, Alan Davis]
   link: "https://www.panini.it/shp_ita_it/thanos-i-fratelli-dell-infinito-mgnth007isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     In un lontano futuro Thanos ha ormai raggiunto ogni suo scopo, ma una
     distorsione temporale su Titano rivela una minaccia proveniente da una
@@ -667,7 +643,6 @@
     il proprio alter ego corrotto, ma la distorsione temporale resta aperta.
   immagini:
     - src: /assets/img/marvel-comics/fratelli-infinito.jpg
-      alt: "Thanos: i Fratelli dell'Infinito - copertina"
   collegate: [conflitto-infinito]
 
 - id: conflitto-infinito
@@ -678,7 +653,7 @@
   fumetti: "Thanos: The Infinity Conflict (2018)"
   autori: [Jim Starlin, Alan Davis]
   link: "https://www.panini.it/shp_ita_it/thanos-il-conflitto-dell-infinito-mgnth008isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Sul pianeta Zelchia, la versione futura e corrotta di Thanos manipola il
     proprio io più giovane trasformandolo in un burattino al servizio dei
@@ -689,7 +664,6 @@
     ancora irrisolto tra le due incarnazioni del Titano.
   immagini:
     - src: /assets/img/marvel-comics/conflitto-infinito.jpg
-      alt: "Thanos: il Conflitto dell'Infinito - copertina"
   collegate: [fratelli-infinito, finale-infinito]
 
 - id: infinity-wars
@@ -697,7 +671,7 @@
   personaggi: [Gamora, Adam Warlock, Star-Lord, Doctor Strange, Thanos, Loki]
   anno: 2018
   edizione: Marvel Miniserie 210-221
-  formato: spillato
+  spillato: true
   fumetti: "Infinity Wars Prime #1, Infinity Wars #1-6 e tie-in (raccolta completa)"
   autori: [Gerry Duggan, Mike Deodato Jr.]
   link: "https://www.panini.it/shp_ita_it/infinity-wars-1-mmmin210-it08.html"
@@ -714,7 +688,6 @@
     esiliata in cerca di redenzione.
   immagini:
     - src: /assets/img/marvel-comics/infinity-wars.jpg
-      alt: "Infinity Wars - copertina"
   collegate: [thanos-pt1, guanto-infinito]
 
 - id: finale-infinito
@@ -725,7 +698,7 @@
   fumetti: "Thanos: The Infinity Ending (2019)"
   autori: [Jim Starlin, Alan Davis, Mark Farmer]
   link: "https://www.panini.it/shp_ita_it/thanos-il-finale-dell-infinito-mgnth009isbn-it08.html"
-  focus: thanos
+  thanos: true
   trama: >
     Nel lontano futuro Thanos è diventato l'essere più potente della realtà,
     avendo sottratto il potere a Morte, Galactus e persino al Living
@@ -737,7 +710,6 @@
     saga cosmica.
   immagini:
     - src: /assets/img/marvel-comics/finale-infinito.jpg
-      alt: "Thanos: il Finale dell'Infinito - copertina"
   collegate: [conflitto-infinito]
 
 - id: kang-ultimo-nemico
@@ -776,7 +748,6 @@
     mutanti; Zuras riprende la guida degli Eterni.
   immagini:
     - src: /assets/img/marvel-comics/axe.png
-      alt: "A.X.E. Judgment Day - copertina"
   collegate: []
 
 - id: doctor-strange-strange-vs-strange
@@ -799,7 +770,6 @@
     Oscura.
   immagini:
     - src: /assets/img/marvel-comics/doctor-strange-2.jpg
-      alt: "Doctor Strange 2: Strange vs Strange - copertina"
   collegate: []
 
 - id: blood-hunt
@@ -807,7 +777,7 @@
   personaggi: [Blade, Avengers, Spider-Man, Doctor Strange]
   anno: 2024
   edizione: Panini Comics
-  formato: spillato
+  spillato: true
   fumetti: "Blood Hunt (2024) #1-3"
   autori: [Jed MacKay, Pepe Larraz]
   link: "https://www.panini.it/shp_ita_it/blood-hunt-1-mblhu001-it08.html"
@@ -821,5 +791,4 @@
     nuovo Stregone Supremo, dando inizio all'era "One World Under Doom".
   immagini:
     - src: /assets/img/marvel-comics/blood-hunt.jpg
-      alt: "Blood Hunt - copertina"
   collegate: []

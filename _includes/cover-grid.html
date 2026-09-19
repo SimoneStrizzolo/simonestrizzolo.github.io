@@ -1,0 +1,7 @@
+<div class="fumetti-grid">
+{% for item in include.items %}
+  <a class="fumetti-icon" href="{{ item.link }}" target="_blank" rel="noopener" title="{{ item.titolo }}">
+    <img src="{{ item.img }}" alt="{{ item.titolo }} - copertina">
+  </a>
+{% endfor %}
+</div>

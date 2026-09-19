@@ -14,9 +14,11 @@ permalink: /marvel/collezione
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
-{% assign gruppi = site.data["marvel-comics"] | where_exp: "s", "s.formato != 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
-{% assign spillati = site.data["marvel-comics"] | where_exp: "s", "s.formato == 'spillato'" | where_exp: "s", "s.focus != 'thanos'" %}
-{% assign thanos = site.data["marvel-comics"] | where_exp: "s", "s.focus == 'thanos'" %}
+{% assign gruppi = site.data["marvel-comics"] | where_exp: "s", "s.spillato != true" | where_exp: "s", "s.thanos != true" | sort: "anno" %}
+{% assign spillati = site.data["marvel-comics"] | where_exp: "s", "s.spillato == true" | where_exp: "s", "s.thanos != true" | sort: "anno" %}
+{% assign thanos = site.data["marvel-comics"] | where_exp: "s", "s.thanos == true" | sort: "anno" %}
+
+{% include collezioni-nav.html %}
 
 <p><a href="/marvel/personaggi">→ Vai alle checklist per personaggio</a></p>
 
@@ -30,13 +32,8 @@ permalink: /marvel/collezione
 
 {% include marvel-sezione.html storie=spillati %}
 
-<div class="fumetti-grid">
-{% for s in site.data["marvel-spillati-solo-cover"] %}
-  <a class="fumetti-icon" href="{{ s.link }}" target="_blank" rel="noopener" title="{{ s.titolo }}">
-    <img src="{{ s.img }}" alt="{{ s.titolo }} - copertina">
-  </a>
-{% endfor %}
-</div>
+{% assign spillati_solo_cover = site.data["marvel-cover-collezioni"] | where: "categoria", "spillati-solo-cover" %}
+{% include cover-grid.html items=spillati_solo_cover %}
 
 ## Thanos
 
@@ -50,22 +47,12 @@ E' il mio personaggio preferito. Ho quasi tutto di lui.
 
 Le variant di Alex Ross con ogni personaggio Marvel (protagonista o antagonista). Ne esistono più di cento: io ho preso i tre Avengers principali (Thor, Iron Man, Cap) e i cattivi principali. Per ritenermi soddisfatto mancherebbero: Mister Fantastic (F4) e Wolverine (X-Men). Collezione completa qui: [collezione Timeless su alexrossart.com](https://www.alexrossart.com/collections/timeless/?type=Book).
 
-<div class="fumetti-grid">
-{% for t in site.data["marvel-timeless"] %}
-  <a class="fumetti-icon" href="https://www.alexrossart.com/collections/timeless/?type=Book" target="_blank" rel="noopener" title="{{ t.personaggio }}">
-    <img src="{{ t.img }}" alt="Timeless variant cover - {{ t.personaggio }}">
-  </a>
-{% endfor %}
-</div>
+{% assign timeless = site.data["marvel-cover-collezioni"] | where: "categoria", "timeless" %}
+{% include cover-grid.html items=timeless %}
 
 ## Nuovo Universo Ultimate
 
 Ho sostanzialmente preso, per pura collezione, i numeri 1 di ogni serie.
 
-<div class="fumetti-grid">
-{% for u in site.data["marvel-ultimate-universe"] %}
-  <a class="fumetti-icon" href="{{ u.link }}" target="_blank" rel="noopener" title="{{ u.titolo }}">
-    <img src="{{ u.img }}" alt="{{ u.titolo }} - copertina">
-  </a>
-{% endfor %}
-</div>
+{% assign ultimate_universe = site.data["marvel-cover-collezioni"] | where: "categoria", "ultimate-universe" %}
+{% include cover-grid.html items=ultimate_universe %}

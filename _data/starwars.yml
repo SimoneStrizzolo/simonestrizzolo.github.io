@@ -17,7 +17,6 @@
     Vader: il romanzo pone così le basi verso "Il Risveglio della Forza".
   immagini:
     - src: /assets/img/starwars/aftermath.jpg
-      alt: "Aftermath - copertina"
   collegate: [aftermath-debito-di-vita]
 
 - id: stelle-perdute
@@ -41,7 +40,6 @@
     rinunciato al proprio senso dell'onore.
   immagini:
     - src: /assets/img/starwars/stelle-perdute.jpg
-      alt: "Stelle Perdute - copertina"
   collegate: []
 
 - id: tarkin
@@ -65,7 +63,6 @@
     messo a capo della Morte Nera.
   immagini:
     - src: /assets/img/starwars/tarkin.jpg
-      alt: "Tarkin - copertina"
   collegate: [i-signori-dei-sith]
 
 - id: una-nuova-alba
@@ -88,7 +85,6 @@
     vista in Star Wars Rebels.
   immagini:
     - src: /assets/img/starwars/una-nuova-alba.jpg
-      alt: "Una Nuova Alba - copertina"
   collegate: [star-wars-ahsoka]
 
 - id: battlefront-la-compagnia-twilight
@@ -111,7 +107,6 @@
     della città, consolidando Namir come nuovo comandante.
   immagini:
     - src: /assets/img/starwars/battlefront-la-compagnia-twilight.jpg
-      alt: "Battlefront: la Compagnia Twilight - copertina"
   collegate: []
 
 - id: erede-dei-jedi
@@ -133,7 +128,6 @@
     generale.
   immagini:
     - src: /assets/img/starwars/erede-dei-jedi.jpg
-      alt: "L'Erede dei Jedi - copertina"
   collegate: []
 
 - id: i-signori-dei-sith
@@ -156,7 +150,6 @@
     legame di fiducia tra Palpatine e Vader.
   immagini:
     - src: /assets/img/starwars/i-signori-dei-sith.jpg
-      alt: "I Signori dei Sith - copertina"
   collegate: [tarkin]
 
 - id: lapprendista-del-lato-oscuro
@@ -177,7 +170,6 @@
     avendo toccato il lato oscuro e perso l'amore della sua vita.
   immagini:
     - src: /assets/img/starwars/lapprendista-del-lato-oscuro.jpg
-      alt: "L'Apprendista del Lato Oscuro - copertina"
   collegate: []
 
 - id: aftermath-debito-di-vita
@@ -199,7 +191,6 @@
     potere imperiale, gettando le basi per il futuro Primo Ordine.
   immagini:
     - src: /assets/img/starwars/aftermath-debito-di-vita.jpg
-      alt: "Aftermath: Debito di Vita - copertina"
   collegate: [aftermath, aftermath-la-fine-dellimpero]
 
 - id: aftermath-la-fine-dellimpero
@@ -221,7 +212,6 @@
     Ordine.
   immagini:
     - src: /assets/img/starwars/aftermath-la-fine-dellimpero.jpg
-      alt: "Aftermath: la Fine dell'Impero - copertina"
   collegate: [aftermath-debito-di-vita]
 
 - id: catalizzatore-un-romanzo-di-rogue-one
@@ -244,7 +234,6 @@
     Erso, gettando le basi degli eventi di "Rogue One".
   immagini:
     - src: /assets/img/starwars/catalizzatore-un-romanzo-di-rogue-one.jpg
-      alt: "Catalizzatore: un romanzo di Rogue One - copertina"
   collegate: []
 
 - id: leia-principessa-di-alderaan
@@ -266,7 +255,6 @@
     l'ultima prova, viene proclamata erede legittima al trono di Alderaan.
   immagini:
     - src: /assets/img/starwars/leia-principessa-di-alderaan.jpg
-      alt: "Leia, Principessa di Alderaan - copertina"
   collegate: [legami-di-sangue]
 
 - id: legami-di-sangue
@@ -289,7 +277,6 @@
     Forza".
   immagini:
     - src: /assets/img/starwars/legami-di-sangue.jpg
-      alt: "Legami di Sangue - copertina"
   collegate: [leia-principessa-di-alderaan]
 
 - id: star-wars-ahsoka
@@ -312,7 +299,6 @@
     contro l'Impero.
   immagini:
     - src: /assets/img/starwars/star-wars-ahsoka.jpg
-      alt: "Ahsoka - copertina"
   collegate: [una-nuova-alba]
 
 - id: thrawn
@@ -335,7 +321,6 @@
     promosso e avviato verso la sua rapida ascesa nella flotta imperiale.
   immagini:
     - src: /assets/img/starwars/thrawn.jpg
-      alt: "Thrawn - copertina"
   collegate: [thrawn-alleanze]
 
 - id: phasma
@@ -359,7 +344,6 @@
     reciproco nato dal comune pericolo condiviso.
   immagini:
     - src: /assets/img/starwars/phasma.jpg
-      alt: "Phasma - copertina"
   collegate: []
 
 - id: le-leggende-di-luke-skywalker
@@ -382,7 +366,6 @@
     personaggio in "Gli Ultimi Jedi".
   immagini:
     - src: /assets/img/starwars/le-leggende-di-luke-skywalker.jpg
-      alt: "Le Leggende di Luke Skywalker - copertina"
   collegate: []
 
 - id: star-wars-last-shot
@@ -406,7 +389,6 @@
     piccolo Ben.
   immagini:
     - src: /assets/img/starwars/last-shot.jpg
-      alt: "Last Shot - copertina"
   collegate: [legami-di-sangue]
 
 - id: thrawn-alleanze
@@ -429,7 +411,6 @@
     sospetto.
   immagini:
     - src: /assets/img/starwars/thrawn-alleanze.jpg
-      alt: "Thrawn: Alleanze - copertina"
   collegate: [thrawn, thrawn-tradimento]
 
 - id: thrawn-tradimento
@@ -452,7 +433,6 @@
     concludendo la prima trilogia canonica dedicata al Grand'Ammiraglio.
   immagini:
     - src: /assets/img/starwars/thrawn-tradimento.jpg
-      alt: "Thrawn: Tradimento - copertina"
   collegate: [thrawn-alleanze]
 
 - id: thrawn-ascendenza-insorge-il-caos
@@ -475,7 +455,6 @@
     interno la società chiss, gettando le basi per i libri successivi.
   immagini:
     - src: /assets/img/starwars/thrawn-ascendenza-insorge-il-caos.jpg
-      alt: "Thrawn: l'Ascendenza 1 - Insorge il Caos - copertina"
   collegate: [thrawn-ascendenza-il-bene-superiore]
 
 - id: thrawn-ascendenza-il-bene-superiore
@@ -499,7 +478,6 @@
     nel terzo volume.
   immagini:
     - src: /assets/img/starwars/thrawn-ascendenza-il-bene-superiore.jpg
-      alt: "Thrawn: l'Ascendenza 2 - Il Bene Superiore - copertina"
   collegate: [thrawn-ascendenza-insorge-il-caos, thrawn-ascendenza-3-guerra-minore]
 
 - id: thrawn-ascendenza-3-guerra-minore
@@ -521,7 +499,6 @@
     alleati, incluso Thrass, il fratello che perderà per sempre.
   immagini:
     - src: /assets/img/starwars/thrawn-ascendenza-il-male-minore.jpg
-      alt: "Thrawn: l'Ascendenza 3 - Guerra Minore - copertina"
   collegate: [thrawn-ascendenza-il-bene-superiore]
 
 - id: la-luce-dei-jedi
@@ -554,7 +531,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/la-luce-dei-jedi.jpg
-      alt: "La Luce dei Jedi - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [star-wars-alta-repubblica-nelloscurita, rising-storm-cavan-scott]
 
@@ -588,7 +564,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/una-prova-di-coraggio.jpg
-      alt: "Una Prova di Coraggio - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [sfidare-la-tempesta]
 
@@ -618,7 +593,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/star-wars-alta-repubblica-nelloscurita.jpg
-      alt: "Nell'Oscurità - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [la-luce-dei-jedi, rising-storm-cavan-scott]
 
@@ -651,7 +625,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/rising-storm-cavan-scott.jpg
-      alt: "Si Alza la Tempesta - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [la-luce-dei-jedi, fuori-dalle-ombre, la-stella-caduta]
 
@@ -684,7 +657,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/fuori-dalle-ombre.jpg
-      alt: "Fuori dalle Ombre - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [rising-storm-cavan-scott, la-stella-caduta]
 
@@ -714,7 +686,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/la-stella-caduta.jpg
-      alt: "La Stella Caduta - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [rising-storm-cavan-scott, fuori-dalle-ombre, occhio-delloscurita-mann]
 
@@ -750,7 +721,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/orizzonte-di-mezzanotte.jpg
-      alt: "Orizzonte di Mezzanotte - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: []
 
@@ -783,7 +753,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/star-wars-alta-repubblica-il-sentiero-dellinganno.jpg
-      alt: "Il Sentiero dell'Inganno - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [il-sentiero-della-vendetta]
 
@@ -817,7 +786,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/convergenza-zoraida-cordova.jpg
-      alt: "Convergenza - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [cataclisma-lydia-kang]
 
@@ -853,7 +821,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/la-battaglia-di-jedha.jpg
-      alt: "La Battaglia di Jedha - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: []
 
@@ -883,7 +850,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/cataclisma-lydia-kang.jpg
-      alt: "Cataclisma - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [il-sentiero-della-vendetta, convergenza-zoraida-cordova]
 
@@ -913,7 +879,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/il-sentiero-della-vendetta.jpg
-      alt: "Il Sentiero della Vendetta - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [star-wars-alta-repubblica-il-sentiero-dellinganno, cataclisma-lydia-kang]
 
@@ -945,7 +910,6 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/occhio-delloscurita-mann.jpg
-      alt: "L'Occhio dell'Oscurità - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [la-stella-caduta, sfidare-la-tempesta]
 
@@ -979,6 +943,5 @@
   saga: alta-repubblica
   immagini:
     - src: /assets/img/starwars/sfidare-la-tempesta.jpg
-      alt: "Sfidare la Tempesta - copertina"
     # TODO: aggiungere immagini in /assets/img/starwars/
   collegate: [occhio-delloscurita-mann, una-prova-di-coraggio]

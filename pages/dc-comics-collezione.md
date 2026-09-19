@@ -14,11 +14,13 @@ permalink: /dccomics/collezione
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
+{% include collezioni-nav.html %}
+
 <div id="dc-comics-grid" markdown="1">
 
 ## Fumetti
 
-{% assign dc_comics_storie = site.data["dc-comics"] %}
+{% assign dc_comics_storie = site.data["dc-comics"] | sort: "anno" %}
 {% include collezione-sezione.html storie=dc_comics_storie personaggi_link=nil data_source="dc-comics" grid_id="dc-comics-grid" %}
 
 </div>

@@ -14,11 +14,13 @@ permalink: /marvel/must-have
 .fumetti-close { display: inline-block; margin-bottom: 1rem; }
 </style>
 
+{% include collezioni-nav.html %}
+
 La collana Marvel Must Have contiene le migliori storie dagli anni '60 ad oggi. La collezione completa è disponibile qui: [comicsbox.it/serie/MARVELMUST](https://www.comicsbox.it/serie/MARVELMUST).
 
 Qui quelli che, a parere degli esperti, sono dei real must have: quelli spuntati li ho nella mia collezione.
 
-{% assign must_have_storie = site.data["marvel-must-have"] %}
+{% assign must_have_storie = site.data["marvel-must-have"] | sort: "anno" %}
 
 <div id="musthave-grid" markdown="1">
 

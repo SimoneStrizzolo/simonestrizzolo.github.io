@@ -1,7 +1,9 @@
 <div class="fumetti-grid">
 {% for storia in include.storie %}
+  {% assign cover_alt = storia.immagini.first.alt %}
+  {% unless cover_alt %}{% assign cover_alt = storia.titolo | append: " - copertina" %}{% endunless %}
   <a class="fumetti-icon" href="#{{ storia.id }}" title="{{ storia.titolo }}" style="position: relative;">
-    <img src="{{ storia.immagini.first.src }}" alt="{{ storia.immagini.first.alt }}">
+    <img src="{{ storia.immagini.first.src }}" alt="{{ cover_alt }}">
     {% if storia.posseduto != nil %}
       <span style="position: absolute; top: 4px; right: 4px; font-size: 1.1rem;" title="{% if storia.posseduto %}Già in collezione{% else %}Non ancora in collezione{% endif %}">{% if storia.posseduto %}✅{% else %}❌{% endif %}</span>
     {% endif %}
@@ -16,7 +18,9 @@
 
     <div style="display:flex; flex-wrap:wrap; align-items:stretch; gap:8px;">
       {% for img in storia.immagini %}
-        <img src="{{ img.src }}" alt="{{ img.alt }}" style="height:280px; width:auto; max-width:200px; object-fit:contain; flex:0 1 auto;">
+        {% assign img_alt = img.alt %}
+        {% unless img_alt %}{% assign img_alt = storia.titolo | append: " - copertina" %}{% endunless %}
+        <img src="{{ img.src }}" alt="{{ img_alt }}" style="height:280px; width:auto; max-width:200px; object-fit:contain; flex:0 1 auto;">
       {% endfor %}
     </div>
 
