@@ -20,8 +20,6 @@ permalink: /marvel/collezione
 
 {% include collezioni-nav.html %}
 
-<p><a href="/marvel/personaggi">→ Vai alle checklist per personaggio</a></p>
-
 <div id="fumetti-grid" markdown="1">
 
 ## Volumi

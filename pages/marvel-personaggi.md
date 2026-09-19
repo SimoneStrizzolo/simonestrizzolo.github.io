@@ -6,8 +6,6 @@ permalink: /marvel/personaggi
 
 {% include collezioni-nav.html %}
 
-<p><a href="/marvel/collezione">← Torna alla collezione</a></p>
-
 {% for entry in site.data["marvel-storie-canoniche"] %}
   {% assign nome = entry[0] %}
   {% assign storie = entry[1] %}
